@@ -13,6 +13,8 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Understanding Aquarium Algae](https://freshwaterguides.com/guides/aquarium-algae-guide/): How to diagnose the type and cause of algae before treating it.
 - [Freshwater Fish Compatibility](https://freshwaterguides.com/guides/freshwater-fish-compatibility/): How to evaluate temperament, water needs, and adult size before stocking.
 
+- [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
+
 ## About
 
 - [About Freshwater Guides](https://freshwaterguides.com/#about): Editorial standards and affiliated-business disclosure.
