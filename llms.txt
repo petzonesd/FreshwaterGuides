@@ -7,6 +7,9 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 ## Core guides
 
 - [How to Cycle a Freshwater Aquarium](https://freshwaterguides.com/guides/cycle-a-fish-tank/): The nitrogen cycle explained simply, how to test for it, and realistic timelines.
+- [Water Parameters and Testing Explained](https://freshwaterguides.com/guides/water-parameters-testing/): Every core parameter — pH, GH, KH, ammonia, nitrite, nitrate, chlorine/chloramine — with target ranges and test kit guidance.
+- [Aquarium Maintenance Schedule](https://freshwaterguides.com/guides/aquarium-maintenance-schedule/): A realistic daily, weekly, monthly, and quarterly freshwater tank maintenance routine.
+- [Betta Fish Care](https://freshwaterguides.com/fish/betta-fish-care/): Real tank size, heating, and water-quality-driven fin problems, past the bowl myth.
 - [Neocaridina Shrimp Care](https://freshwaterguides.com/shrimp/neocaridina-shrimp-care/): Water parameters, molting, tank mates, and common shrimp-keeping mistakes.
 - [Your First Planted Tank](https://freshwaterguides.com/aquascaping/beginner-planted-tank/): A realistic beginner plan for substrate, light, CO2, and plant selection.
 - [Beginner Freshwater Fish](https://freshwaterguides.com/fish/beginner-freshwater-fish/): Species that are genuinely beginner-appropriate, and why some "easy" fish aren't.
