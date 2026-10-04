@@ -15,6 +15,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Beginner Freshwater Fish](https://freshwaterguides.com/fish/beginner-freshwater-fish/): Species that are genuinely beginner-appropriate, and why some "easy" fish aren't.
 - [Understanding Aquarium Algae](https://freshwaterguides.com/guides/aquarium-algae-guide/): How to diagnose the type and cause of algae before treating it.
 - [Freshwater Fish Compatibility](https://freshwaterguides.com/guides/freshwater-fish-compatibility/): How to evaluate temperament, water needs, and adult size before stocking.
+- [Goldfish vs. Tropical Fish](https://freshwaterguides.com/guides/goldfish-vs-tropical-fish/): Why goldfish and most tropical fish can't share a tank — temperature, bioload, size, and lifespan compared.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
