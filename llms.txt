@@ -16,6 +16,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Understanding Aquarium Algae](https://freshwaterguides.com/guides/aquarium-algae-guide/): How to diagnose the type and cause of algae before treating it.
 - [Freshwater Fish Compatibility](https://freshwaterguides.com/guides/freshwater-fish-compatibility/): How to evaluate temperament, water needs, and adult size before stocking.
 - [Goldfish vs. Tropical Fish](https://freshwaterguides.com/guides/goldfish-vs-tropical-fish/): Why goldfish and most tropical fish can't share a tank — temperature, bioload, size, and lifespan compared.
+- [Aquarium Plant Fertilizer Guide](https://freshwaterguides.com/guides/aquarium-plant-fertilizing/): Diagnosing plant nutrient deficiencies by leaf symptom, plus liquid fertilizer, root tab, and EI dosing routines.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
