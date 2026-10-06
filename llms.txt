@@ -17,6 +17,8 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Freshwater Fish Compatibility](https://freshwaterguides.com/guides/freshwater-fish-compatibility/): How to evaluate temperament, water needs, and adult size before stocking.
 - [Goldfish vs. Tropical Fish](https://freshwaterguides.com/guides/goldfish-vs-tropical-fish/): Why goldfish and most tropical fish can't share a tank — temperature, bioload, size, and lifespan compared.
 - [Aquarium Plant Fertilizer Guide](https://freshwaterguides.com/guides/aquarium-plant-fertilizing/): Diagnosing plant nutrient deficiencies by leaf symptom, plus liquid fertilizer, root tab, and EI dosing routines.
+- [San Diego Tap Water and Your Aquarium](https://freshwaterguides.com/san-diego/tap-water/): Official city water-quality numbers for hardness, pH, TDS, and chloramine, and what they mean for local stocking choices.
+- [Aquarium and Fish Stores in San Diego](https://freshwaterguides.com/san-diego/aquarium-stores/): Who specializes in what, addresses and hours, local clubs, and buying online.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
