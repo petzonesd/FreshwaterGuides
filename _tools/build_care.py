@@ -120,6 +120,12 @@ def store_block():
 <div class="store-cards">{''.join(cards)}</div>
 </section>"""
 
+PH = json.load(open(os.path.join(ROOT, "care/photos.json")))
+
+def photo_url(slug, size="800x800"):
+    path = PH["items"].get(slug)
+    return PH["base"].format(size=size, path=path) if path else None
+
 def page_for(e, by_slug):
     path = f"/care/{e['slug']}/"
     title, desc = title_for(e), desc_for(e)
@@ -127,6 +133,8 @@ def page_for(e, by_slug):
           "author": {"@type": "Organization", "name": "Pet Zone SD Team"},
           "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": BASE + "/"},
           "datePublished": TODAY, "dateModified": TODAY, "mainEntityOfPage": BASE + path}
+    if photo_url(e["slug"]):
+        ld["image"] = [photo_url(e["slug"])]
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
         {"@type": "ListItem", "position": 2, "name": "Care Guides", "item": BASE + "/care/"},
@@ -137,6 +145,9 @@ def page_for(e, by_slug):
     out.append(f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(e["name"])}</p>')
     out.append(f'<h1>{E(e["name"])} Care Guide</h1>')
     out.append('<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · 2 min read</p>')
+    ph = photo_url(e["slug"])
+    if ph:
+        out.append(f'<figure class="care-photo"><img src="{ph}" alt="{E(e["name"])} at Pet Zone Tropical Fish in San Diego" width="400" height="400" loading="eager" onerror="this.parentNode.remove()"><figcaption>Photo: {E(PH["credit"])}</figcaption></figure>')
     out.append('<div class="article-body care-body">')
     if e["kind"] == "plant":
         lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level aquarium plant.</strong> {E(e['note'])}"
@@ -222,6 +233,8 @@ def main():
         d["temp"] = list(e["temp"]) if isinstance(e["temp"], tuple) else e["temp"]
         d["ph"] = list(e["ph"]) if isinstance(e["ph"], tuple) else e["ph"]
         d["tapfit"] = tap_fit(e)
+        if photo_url(e["slug"]):
+            d["photo"] = photo_url(e["slug"], "400x400")
         data.append(d)
     write("/care/data.json", json.dumps({"updated": TODAY, "stores": STORES, "items": data}, separators=(",", ":")))
 

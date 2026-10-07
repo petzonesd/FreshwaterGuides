@@ -165,6 +165,7 @@
       : ['Float the sealed bag in the tank for 15 to 20 minutes to match temperature.', 'Add a little tank water to the bag every 5 minutes for 15 to 30 minutes.', 'Net the fish into the tank and discard the bag water.', 'Dim the lights and wait a few hours before feeding. Test your water weekly.'];
     return h('div', { class: 'lbl sheet' }, [
       h('div', { class: 'lbl-head' }, [h('div', { class: 'lbl-brand', text: 'Pet Zone Tropical Fish · care sheet' }), r.price ? null : null]),
+      e.photo ? (function () { var im = h('img', { class: 'sh-photo', src: e.photo, alt: '' }); im.onerror = function () { im.remove(); }; return im; })() : null,
       h('div', { class: 'lbl-name sz-' + nameSize(r.name), text: r.name }),
       h('div', { class: 'lbl-sci', text: e.sci }),
       h('p', { class: 'sh-note', text: e.note }),

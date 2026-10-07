@@ -21,3 +21,5 @@
 .care-grid em{font-size:.8rem;color:var(--muted)}
 .care-grid span{font-size:.82rem;color:#35575d;margin-top:.2rem}
 .lede-line{font-size:1.08rem;max-width:62ch}
+.care-photo{margin:0 0 1.2rem;max-width:340px}.care-photo img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:10px;border:1px solid #d9e5e1;background:#e8f2ef}.care-photo figcaption{font-size:.8rem;color:#557177;margin-top:.3rem}
+@media(min-width:760px){.care-photo{float:right;margin:0 0 1rem 1.5rem;max-width:300px}}

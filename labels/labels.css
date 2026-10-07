@@ -57,6 +57,7 @@
 .lbl.large .lbl-foot{font-size:6.5pt;color:#557177;border-top:1px solid #d9e5e1;padding-top:.04in}
 
 .lbl.sheet{padding:.4in .4in .3in;display:flex;flex-direction:column;border-style:dashed;font-size:9pt}
+.lbl.sheet{position:relative}.lbl.sheet .sh-photo{position:absolute;top:.4in;right:.4in;width:1.15in;height:1.15in;object-fit:cover;border-radius:6px}.lbl.sheet:has(.sh-photo) .lbl-name,.lbl.sheet:has(.sh-photo) .lbl-sci,.lbl.sheet:has(.sh-photo) .sh-note{margin-right:1.3in}
 .lbl.sheet .lbl-name.sz-l{font-size:24pt}.lbl.sheet .lbl-name.sz-m{font-size:20pt}.lbl.sheet .lbl-name.sz-s{font-size:17pt}.lbl.sheet .lbl-name.sz-xs{font-size:14pt}
 .lbl.sheet .lbl-sci{font-size:10pt}
 .sh-note{margin:.08in 0;font-size:9pt;line-height:1.4}
