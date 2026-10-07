@@ -103,6 +103,17 @@ def crab(c, c2):
             f'<path d="M130,230 q-50,-10 -52,-62 q30,10 40,30Z M270,230 q50,-10 52,-62 q-30,10 -40,30Z" fill="{c2}"/>'
             f'<path d="M122,262 l-52,24 M128,282 l-40,38 M278,262 l52,24 M272,282 l40,38" stroke="{c}" stroke-width="9" stroke-linecap="round"/>'
             '<circle cx="172" cy="208" r="10" fill="#fff"/><circle cx="228" cy="208" r="10" fill="#fff"/><circle cx="172" cy="208" r="5" fill="#10343b"/><circle cx="228" cy="208" r="5" fill="#10343b"/>')
+def frog(c, c2):
+    return (f'<ellipse cx="200" cy="270" rx="86" ry="56" fill="{c}"/><ellipse cx="200" cy="290" rx="60" ry="30" fill="{c2}"/>'
+            f'<path d="M120,300 q-34,10 -48,44 q36,-4 62,-20Z M280,300 q34,10 48,44 q-36,-4 -62,-20Z" fill="{c}"/>'
+            f'<circle cx="168" cy="220" r="20" fill="{c}"/><circle cx="232" cy="220" r="20" fill="{c}"/>'
+            '<circle cx="168" cy="220" r="11" fill="#fff"/><circle cx="232" cy="220" r="11" fill="#fff"/><circle cx="170" cy="221" r="6" fill="#10343b"/><circle cx="234" cy="221" r="6" fill="#10343b"/>'
+            '<path d="M170,268 q30,16 60,0" stroke="#10343b" stroke-width="3" fill="none" stroke-linecap="round" opacity=".6"/>')
+def newt(c, c2):
+    return (f'<path d="M80,300 C120,250 170,280 220,260 C270,240 300,240 330,210" stroke="{c}" stroke-width="46" stroke-linecap="round" fill="none"/>'
+            f'<path d="M80,306 C120,262 170,290 220,272" stroke="{c2}" stroke-width="18" stroke-linecap="round" fill="none"/>'
+            f'<path d="M290,238 l-12,38 M240,258 l-8,38 M150,276 l-14,34" stroke="{c}" stroke-width="12" stroke-linecap="round"/>'
+            '<circle cx="338" cy="206" r="7" fill="#fff"/><circle cx="340" cy="206" r="4" fill="#10343b"/>')
 def plant(c, c2):
     o=[]
     for i,(x,a) in enumerate([(150,-24),(185,-10),(215,6),(245,20),(170,-38),(230,34)]):
@@ -111,7 +122,7 @@ def plant(c, c2):
     return "".join(o)
 def svg(slug, spec):
     shape, body, belly, mark, mc, fin = spec
-    inner = snail(body, belly) if shape=="snail" else crab(body, belly) if shape=="crab" else shrimp(body) if shape=="shrimp" else plant(body, belly) if shape=="plant" else fish(*spec)
+    inner = frog(body, belly) if shape=="frog" else newt(body, belly) if shape=="newt" else snail(body, belly) if shape=="snail" else crab(body, belly) if shape=="crab" else shrimp(body) if shape=="shrimp" else plant(body, belly) if shape=="plant" else fish(*spec)
     bubbles = '<g fill="none" stroke="#fff" stroke-width="3" opacity=".7"><circle cx="330" cy="90" r="9"/><circle cx="350" cy="60" r="6"/><circle cx="318" cy="52" r="4"/></g>'
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img"><title>Illustration</title>'
             '<defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe9ee"/><stop offset="1" stop-color="#5fb4c4"/></linearGradient></defs>'
@@ -132,6 +143,8 @@ def auto(e):
     mk = marks[(hv >> 9) % len(marks)]
     if e["kind"] == "plant":
         return ("plant", hexc(0.30+((hv>>3)%12)/100, .62, .50), hexc(0.27+((hv>>5)%10)/100, .55, .62), "none", "", "")
+    if e["kind"] == "amphibian":
+        return (("newt" if "newt" in e["name"].lower() else "frog"), ("#e8602c" if "fire" in e["name"].lower() else hexc(0.28+(hv%8)/100, .55, .62)), "#f6b13a" if "fire" in e["name"].lower() else hexc(0.2, .3, .92), "none", "", "")
     if e["kind"] == "invert":
         nm = e["name"].lower()
         shp = "snail" if "snail" in nm else "crab" if "crab" in nm or "crayfish" in nm else "shrimp"

@@ -2,6 +2,19 @@
 from care_data import A, P
 
 MORE_ANIMALS = [
+ A("african-dwarf-frog","African Dwarf Frog","Hymenochirus boettgeri","amphibian","Pipidae","Central Africa","2 in",(72,82),(6.5,7.8),5,"Peaceful, poor eyesight","Groups of 2+","All levels","Beginner","Carnivore: frozen bloodworms, brine shrimp, sinking frog pellets","5 years",
+  "A small, fully aquatic frog that needs a lid with an air gap because it surfaces to breathe. Its eyesight is poor, so it often loses out on food to fast tankmates.",
+  ["Use a lid with a small air gap and no open edges.","Feed sinking foods or target-feed with a pipette.","Do not mix with large or fast fish; keep calm tankmates."],aka=["adf","african dwarf frogs","african dwarf frog blonde","dwarf zaire platinum african dwarf frog","dwarf aquatic frog","zaire dwarf frog"]),
+ A("fire-belly-newt","Fire Belly Newt","Cynops orientalis","amphibian","Salamandridae","Eastern China","3.5 in",(60,72),(6.5,7.5),10,"Peaceful","Groups of 2-3","Water and land","Intermediate","Carnivore: frozen bloodworms, blackworms, sinking carnivore pellets","10-15 years",
+  "A hardy, mostly aquatic newt with a bright orange belly that likes cool water. Provide a land area and a very secure lid, and wash your hands before and after handling anything in the tank.",
+  ["Keep it cool; avoid temperatures above the low 70s.","Provide a land area or floating perch and a tight lid.","Wash hands before and after touching the tank; its skin has mild toxins."],aka=["fire belly newts","chinese fire belly newt","cynops","firebelly newt","fire-bellied newt"]),
+ A("paddletail-newt","Paddletail Newt","Pachytriton labiatus","amphibian","Salamandridae","Southern China","6 in",(55,68),(6.5,7.5),20,"Peaceful, shy","Small groups","Water and bottom","Intermediate","Carnivore: frozen bloodworms, blackworms, earthworms, sinking pellets","15-20 years",
+  "A large, mostly aquatic newt that needs cool, well-oxygenated water and plenty of hiding spots. It struggles in warm tanks, so a chiller or a cool room matters.",
+  ["Keep it cool, ideally under 70°F.","Provide caves and hiding spots.","Use a tight lid and strong filtration."],aka=["paddletail newts","paddle tail newt","pachytriton","paddletail"]),
+ A("spanish-ribbed-newt","Spanish Ribbed Newt","Pleurodeles waltl","amphibian","Salamandridae","Spain, Portugal and Morocco","9 in",(60,74),(6.5,8.0),30,"Peaceful but eats small tankmates","Solitary or pairs","Water and bottom","Intermediate","Carnivore: frozen bloodworms, earthworms, sinking pellets","15-20 years",
+  "A large, hardy, mostly aquatic newt that is easy to feed. When threatened it can push its ribs through its skin, so handle as little as possible and keep it away from small fish and shrimp.",
+  ["Keep it cool; avoid warm rooms.","Do not keep with small fish or shrimp.","Use a tight lid and some land or a floating perch."],aka=["spanish ribbed newts","leucistic spanish ribbed newt","juvenile spanish ribbed newt","pleurodeles waltl","ribbed newt"]),
+
  A("shovelnose-catfish","Shovelnose Catfish","Pseudoplatystoma and Sorubim species","fish","Pimelodidae","South America","24-40 in",(72,82),(6.0,7.5),300,"Predatory","Solitary","Bottom to mid","Advanced","Carnivore: frozen fish, shrimp, pellets","15+ years",
   "Tiger shovelnose and related catfish are sold small but grow into very large predators. They eat any fish that fits in their mouths and need a huge tank.",
   ["Needs a very large tank.","Do not keep with smaller fish."],aka=["tiger shovelnose catfish","tiger shovel nose catfish","tiger shovelnose","redtail catfish","redtail tiger shovelnose hybrid catfish","lima shovel nosed catfish","sorubim lima","spotted hybrid tiger shovel nose catfish","redtail catfish phractocephalus hemioliopterus","phractocephalus","merodontotus tigrinus","sun catfish","gulper catfish"]),

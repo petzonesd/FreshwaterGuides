@@ -63,7 +63,7 @@
     var tbody = $('review').querySelector('tbody');
     var sel = h('select', { 'aria-label': 'Care guide for ' + parsed.raw });
     sel.appendChild(h('option', { value: '-1', text: '— skip this one —' }));
-    var groups = { fish: 'Fish', invert: 'Shrimp and snails', plant: 'Plants' };
+    var groups = { fish: 'Fish', invert: 'Shrimp, snails and crabs', amphibian: 'Frogs and newts', plant: 'Plants' };
     Object.keys(groups).forEach(function (k) {
       var og = h('optgroup', { label: groups[k] });
       ITEMS.forEach(function (e, i) { if (e.kind === k) og.appendChild(h('option', { value: String(i), text: e.name })); });
@@ -160,6 +160,8 @@
     stats(e).forEach(function (kv) { tbl.appendChild(h('tr', null, [h('th', { text: kv[0] }), h('td', { text: fix(kv[1]) })])); });
     var steps = e.kind === 'plant'
       ? ['Rinse the plant and remove any plastic pot or rockwool.', 'Trim dead or damaged leaves and roots.', 'Plant the roots in substrate, or attach epiphytes to wood or rock. Do not bury the rhizome.', 'Give it a few weeks to settle; some leaves may melt and regrow.']
+      : e.kind === 'amphibian'
+      ? ['Keep the bag out of bright light on the way home.', 'Float the sealed bag for 15 minutes, then add small amounts of tank water over 30 minutes.', 'Gently net the animal into the tank. Do not pour the bag water in.', 'Wash your hands before and after handling anything in the tank, and keep the lid secure.']
       : e.kind === 'invert'
       ? ['Keep the bag out of bright light on the way home.', 'Float the sealed bag for 15 minutes, then drip tank water into a container with the animal for 45 to 60 minutes.', 'Net it into the tank and discard the bag water.', 'Never use copper-based medications.']
       : ['Float the sealed bag in the tank for 15 to 20 minutes to match temperature.', 'Add a little tank water to the bag every 5 minutes for 15 to 30 minutes.', 'Net the fish into the tank and discard the bag water.', 'Dim the lights and wait a few hours before feeding. Test your water weekly.'];

@@ -154,7 +154,7 @@ def page_for(e, by_slug):
     if e["kind"] == "plant":
         lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level aquarium plant.</strong> {E(e['note'])}"
     else:
-        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level {'freshwater fish' if e['kind']=='fish' else 'freshwater invertebrate'} that needs at least {e['tank']} gallons and {E(temp_s(e))}.</strong> {E(e['note'])}"
+        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level {'freshwater fish' if e['kind']=='fish' else 'freshwater amphibian' if e['kind']=='amphibian' else 'freshwater invertebrate'} that needs at least {e['tank']} gallons and {E(temp_s(e))}.</strong> {E(e['note'])}"
     out.append(f"<p>{lead}</p>")
     out.append('<h2>Care facts at a glance</h2>')
     rows = "".join(f"<tr><th scope=\"row\">{E(k)}</th><td>{E(v)}</td></tr>" for k, v in facts_rows(e))
@@ -191,10 +191,10 @@ def index_page(by_slug):
            '<p class="breadcrumb"><a href="/">Home</a> / Care Guides</p>',
            '<h1>Aquarium Care Guides</h1>',
            f'<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · {len(by_slug)} guides</p>',
-           '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
+           '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails, frogs, newts and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
            '<label class="care-search"><span>Search the guides</span><input id="care-q" type="search" placeholder="Try neon, betta, java fern…" autocomplete="off"></label>',
            '<p id="care-none" class="care-none" hidden>No guides match that search yet. Ask us in store and we will add it.</p>']
-    groups = [("fish", "Fish"), ("invert", "Shrimp and snails"), ("plant", "Plants")]
+    groups = [("fish", "Fish"), ("invert", "Shrimp, snails and crabs"), ("amphibian", "Frogs and newts"), ("plant", "Plants")]
     for kind, label in groups:
         items = sorted([e for e in by_slug.values() if e["kind"] == kind], key=lambda x: x["name"])
         if not items:
