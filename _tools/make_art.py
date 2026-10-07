@@ -93,6 +93,16 @@ def shrimp(c):
             '<circle cx="288" cy="196" r="9" fill="#fff"/><circle cx="290" cy="196" r="5" fill="#10343b"/>'
             '<path d="M300,190 Q345,150 372,118 M300,200 Q355,185 380,160" stroke="#10343b" stroke-width="2" fill="none" opacity=".6"/>'
             '<path d="M170,200 q-15,45 5,80 M200,200 q-8,45 12,78 M230,205 q0,40 15,66" stroke="%s" stroke-width="6" stroke-linecap="round" fill="none"/>') % (c, c)
+def snail(c, c2):
+    return (f'<path d="M110,300 Q120,268 170,268 L290,268 Q330,268 335,292 Q336,306 300,306 L120,306Z" fill="{c2}"/>'
+            f'<path d="M318,272 q18,-34 30,-58 M328,276 q26,-24 46,-40" stroke="{c2}" stroke-width="6" stroke-linecap="round" fill="none"/>'
+            '<circle cx="349" cy="214" r="6" fill="#10343b"/><circle cx="375" cy="236" r="6" fill="#10343b"/>'
+            f'<circle cx="205" cy="225" r="70" fill="{c}"/><circle cx="205" cy="225" r="46" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="6"/><circle cx="205" cy="225" r="22" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="6"/>')
+def crab(c, c2):
+    return (f'<ellipse cx="200" cy="250" rx="82" ry="52" fill="{c}"/>'
+            f'<path d="M130,230 q-50,-10 -52,-62 q30,10 40,30Z M270,230 q50,-10 52,-62 q-30,10 -40,30Z" fill="{c2}"/>'
+            f'<path d="M122,262 l-52,24 M128,282 l-40,38 M278,262 l52,24 M272,282 l40,38" stroke="{c}" stroke-width="9" stroke-linecap="round"/>'
+            '<circle cx="172" cy="208" r="10" fill="#fff"/><circle cx="228" cy="208" r="10" fill="#fff"/><circle cx="172" cy="208" r="5" fill="#10343b"/><circle cx="228" cy="208" r="5" fill="#10343b"/>')
 def plant(c, c2):
     o=[]
     for i,(x,a) in enumerate([(150,-24),(185,-10),(215,6),(245,20),(170,-38),(230,34)]):
@@ -101,7 +111,7 @@ def plant(c, c2):
     return "".join(o)
 def svg(slug, spec):
     shape, body, belly, mark, mc, fin = spec
-    inner = shrimp(body) if shape=="shrimp" else plant(body, belly) if shape=="plant" else fish(*spec)
+    inner = snail(body, belly) if shape=="snail" else crab(body, belly) if shape=="crab" else shrimp(body) if shape=="shrimp" else plant(body, belly) if shape=="plant" else fish(*spec)
     bubbles = '<g fill="none" stroke="#fff" stroke-width="3" opacity=".7"><circle cx="330" cy="90" r="9"/><circle cx="350" cy="60" r="6"/><circle cx="318" cy="52" r="4"/></g>'
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img"><title>Illustration</title>'
             '<defs><linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe9ee"/><stop offset="1" stop-color="#5fb4c4"/></linearGradient></defs>'
@@ -109,6 +119,28 @@ def svg(slug, spec):
             '<path d="M0,372 Q60,350 120,372 T240,372 T400,360 V400 H0Z" fill="#d9c9a2"/>'
             '<path d="M30,372 q-10,-55 6,-90 M52,372 q10,-50 -4,-80" stroke="#3f9a6a" stroke-width="7" stroke-linecap="round" fill="none"/>'
             + bubbles + inner + '</svg>')
+import sys, hashlib, colorsys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from care_data import ALL
+SHAPE = {"Cichlidae":"deep","Loricariidae":"pleco","Callichthyidae":"cory","Cobitidae":"long","Botiidae":"long","Balitoridae":"long","Characidae":"tetra","Alestidae":"tetra","Danionidae":"tetra","Cyprinidae":"tetra","Tetraodontidae":"puffer","Osteoglossidae":"arowana","Osphronemidae":"deep","Poeciliidae":"guppy","Serrasalmidae":"deep","Mochokidae":"pleco","Pimelodidae":"long","Doradidae":"pleco","Notopteridae":"arowana","Polypteridae":"eel","Lepisosteidae":"arowana","Datnioididae":"deep","Aplocheilidae":"tetra","Melanotaeniidae":"tetra","Lebiasinidae":"tiny","Adrianichthyidae":"tiny","Gyrinocheilidae":"long","Mormyridae":"long","Aspredinidae":"pleco","Gasteropelecidae":"deep"}
+def hexc(h, sat, val):
+    r,g,b = colorsys.hsv_to_rgb(h, sat, val); return "#%02x%02x%02x" % (int(r*255),int(g*255),int(b*255))
+def auto(e):
+    hv = int(hashlib.md5(e["slug"].encode()).hexdigest()[:6], 16)
+    h1 = (hv % 360) / 360.0
+    marks = ["none","stripe","bands","spots","half","stripe2"]
+    mk = marks[(hv >> 9) % len(marks)]
+    if e["kind"] == "plant":
+        return ("plant", hexc(0.30+((hv>>3)%12)/100, .62, .50), hexc(0.27+((hv>>5)%10)/100, .55, .62), "none", "", "")
+    if e["kind"] == "invert":
+        nm = e["name"].lower()
+        shp = "snail" if "snail" in nm else "crab" if "crab" in nm or "crayfish" in nm else "shrimp"
+        return (shp, hexc(h1, .7, .85), hexc(h1, .4, .95), "none", "", "")
+    shape = SHAPE.get(e["family"], "tetra")
+    return (shape, hexc(h1, .55, .80), hexc(h1, .20, .97), mk, hexc((h1+.5)%1, .6, .30), hexc((h1+.08)%1, .65, .85))
+for e in ALL:
+    if e["slug"] not in S:
+        S[e["slug"]] = auto(e)
 os.makedirs(os.path.join(ROOT,"care/art"), exist_ok=True)
 for slug, spec in S.items():
     open(os.path.join(ROOT,f"care/art/{slug}.svg"),"w").write(svg(slug,spec))

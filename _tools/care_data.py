@@ -225,4 +225,26 @@ PLANTS = [
    ["Keep the leaves dry from splashing.","Thin as needed.","Great for betta and shy fish tanks."],aka=["frogbit","floating plant"]),
 ]
 
+try:
+    import care_data2 as _d2
+    ANIMALS = ANIMALS + _d2.MORE_ANIMALS
+    PLANTS = PLANTS + _d2.MORE_PLANTS
+except ImportError:
+    _d2 = None
 ALL = ANIMALS + PLANTS
+if _d2:
+    _by = {e["slug"]: e for e in ALL}
+    for _s, _al in _d2.ALIAS_INTO.items():
+        for _a in _al:
+            if _a not in _by[_s]["aka"]:
+                _by[_s]["aka"].append(_a)
+    _names = {e["name"].lower() for e in ALL}
+    for _e in ALL:
+        _e["aka"] = [a for a in dict.fromkeys(_e["aka"]) if a.lower() not in _names or a.lower() == _e["name"].lower()]
+    _seen = set()
+    for _e in ALL:
+        _keep = []
+        for _a in _e["aka"]:
+            if _a.lower() not in _seen:
+                _seen.add(_a.lower()); _keep.append(_a)
+        _e["aka"] = _keep
