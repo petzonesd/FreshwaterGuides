@@ -98,7 +98,7 @@ def head(title, desc, path, extra_ld=""):
 <title>{E(title)}</title>
 <link rel="canonical" href="{url}">
 <link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="/care/care.css">
+<link rel="stylesheet" href="/care/care.css?v=2">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{url}">
