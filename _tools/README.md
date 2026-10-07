@@ -5,3 +5,5 @@
 - `/labels/` is a client-side tool (labels.js, labels.css, qr.js = MIT qrcode-generator). It reads `/care/data.json`, so rebuild after any data change.
 - Keep ranges conservative and written from general hobby knowledge; do not copy another site's database. Store details (addresses, phones, hours) live in `STORES` in `build_care.py`.
 - Underscore folders are not published by GitHub Pages' Jekyll, so this folder stays off the live site.
+
+Placeholder art: _tools/make_art.py draws original cartoon SVGs into care/art/ for species without a photo (run before build_care.py). Add a real photo to care/photos.json and it replaces the illustration.

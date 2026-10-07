@@ -148,6 +148,8 @@ def page_for(e, by_slug):
     ph = photo_url(e["slug"])
     if ph:
         out.append(f'<figure class="care-photo"><img src="{ph}" alt="{E(e["name"])} at Pet Zone Tropical Fish in San Diego" width="400" height="400" loading="eager" onerror="this.parentNode.remove()"><figcaption>Photo: {E(PH["credit"])}</figcaption></figure>')
+    elif os.path.exists(os.path.join(ROOT, "care/art", e["slug"] + ".svg")):
+        out.append(f'<figure class="care-photo"><img src="/care/art/{e["slug"]}.svg" alt="Cartoon illustration of {E(e["name"])}" width="400" height="400" loading="eager"><figcaption>Illustration, not a photo</figcaption></figure>')
     out.append('<div class="article-body care-body">')
     if e["kind"] == "plant":
         lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level aquarium plant.</strong> {E(e['note'])}"
@@ -235,6 +237,9 @@ def main():
         d["tapfit"] = tap_fit(e)
         if photo_url(e["slug"]):
             d["photo"] = photo_url(e["slug"], "400x400")
+        elif os.path.exists(os.path.join(ROOT, "care/art", e["slug"] + ".svg")):
+            d["photo"] = f"{BASE}/care/art/{e['slug']}.svg"
+            d["illustration"] = True
         data.append(d)
     write("/care/data.json", json.dumps({"updated": TODAY, "stores": STORES, "items": data}, separators=(",", ":")))
 
