@@ -19,6 +19,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Aquarium Plant Fertilizer Guide](https://freshwaterguides.com/guides/aquarium-plant-fertilizing/): Diagnosing plant nutrient deficiencies by leaf symptom, plus liquid fertilizer, root tab, and EI dosing routines.
 - [San Diego Tap Water and Your Aquarium](https://freshwaterguides.com/san-diego/tap-water/): Official city water-quality numbers for hardness, pH, TDS, and chloramine, and what they mean for local stocking choices.
 - [Aquarium and Fish Stores in San Diego](https://freshwaterguides.com/san-diego/aquarium-stores/): Who specializes in what, addresses and hours, local clubs, and buying online.
+- [How to Prepare Driftwood and Rocks for Your Aquarium](https://freshwaterguides.com/aquascaping/driftwood-and-rocks-prep/): Curing driftwood until it sinks, telling safe inert rock from reactive stone with the vinegar test, and cleaning both before they go in a tank.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
