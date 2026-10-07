@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free tank label printer for aquarium stores: paste a stock list, print tank labels, take-home care sheets and a counter sign with QR codes to care guides.">
+<meta name="theme-color" content="#0b3f4a">
+<title>Aquarium Store Care Label Printer</title>
+<link rel="canonical" href="https://freshwaterguides.com/labels/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/care/care.css">
+<link rel="stylesheet" href="/labels/labels.css">
+<meta property="og:title" content="Aquarium Store Care Label Printer">
+<meta property="og:description" content="Paste a stock list and print tank labels, care sheets and a counter sign with QR codes to care guides.">
+<meta property="og:url" content="https://freshwaterguides.com/labels/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Aquarium Store Care Label Printer", "url": "https://freshwaterguides.com/labels/", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (web browser)", "description": "Paste a stock list and print tank labels, take-home care sheets and a counter sign with QR codes to care guides.", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": "https://freshwaterguides.com/"}}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header no-print">
+<div class="container nav">
+<a class="brand" href="/" aria-label="Freshwater Guides home"><span class="brand-mark">◒</span><span>Freshwater<br><strong>Guides</strong></span></a>
+<nav aria-label="Main navigation">
+<a href="/#start">Start Here</a><a href="/#topics">Topics</a><a href="/#guides">Guides</a><a href="/care/">Care Guides</a><a href="/glossary/">Glossary</a><a href="/#about">About</a>
+</nav>
+</div>
+</header>
+
+<main id="main">
+<div class="container article lab-wrap">
+<div class="no-print">
+<p class="breadcrumb"><a href="/">Home</a> / Care Label Printer</p>
+<h1>Care Label Printer</h1>
+<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · works in your browser, nothing is uploaded</p>
+<p class="lede-line"><strong>Paste your stock list, confirm the matches, and print tank labels with a QR code that opens the matching care guide.</strong> Four pieces on US Letter paper: a small label for the tag holder, a large label with the full line of facts, a half-page care sheet that goes home in the bag, and a counter sign. Your own names and prices go on them.</p>
+
+<section class="lab-step" aria-labelledby="s1">
+<h2 id="s1">1. Where is it going?</h2>
+<label class="lab-field"><span>Store location shown on labels and the care page</span>
+<select id="loc"><option value="">Both Pet Zone stores</option><option value="convoy">Pet Zone Convoy</option><option value="midcity">Pet Zone Mid-City</option></select></label>
+</section>
+
+<section class="lab-step" aria-labelledby="s2">
+<h2 id="s2">2. Paste your stock list</h2>
+<p>One fish, shrimp or plant per line. Add a price after a <code>|</code> or a <code>$</code> if you want it on the labels, for example <code>Neon Tetra | $2.99</code>. Common alternate names work (CPD, SAE, bristlenose).</p>
+<label class="lab-field"><span class="sr-only">Stock list</span><textarea id="list" rows="9" placeholder="Neon Tetra | $2.99&#10;Panda Cory $6.99&#10;Java Fern&#10;Betta"></textarea></label>
+<div class="lab-actions">
+<button type="button" class="button" id="match">Match my list</button>
+<button type="button" class="button secondary-dark" id="sample">Load a sample list</button>
+<button type="button" class="button secondary-dark" id="clear">Clear</button>
+</div>
+<div class="lab-add"><label class="lab-field"><span>Or search the catalog and add one</span><input id="add-q" list="catalog" placeholder="Start typing a name…" autocomplete="off"></label>
+<datalist id="catalog"></datalist><button type="button" class="button secondary-dark" id="add-btn">Add to list</button></div>
+</section>
+
+<section class="lab-step" id="review-wrap" hidden aria-labelledby="s3">
+<h2 id="s3">3. Check the matches</h2>
+<p id="review-note"></p>
+<div class="lab-table-wrap"><table class="lab-table" id="review"><thead><tr><th>You typed</th><th>Care guide</th><th>Name on label</th><th>Price</th><th>Copies</th></tr></thead><tbody></tbody></table></div>
+</section>
+
+<section class="lab-step" id="types-wrap" hidden aria-labelledby="s4">
+<h2 id="s4">4. Choose the pieces</h2>
+<div class="lab-types">
+<label><input type="checkbox" class="ptype" value="small" checked> <strong>Small label</strong> <em>3.5 × 2 in, 10 per sheet</em></label>
+<label><input type="checkbox" class="ptype" value="large"> <strong>Large label</strong> <em>4 × 3 in, 6 per sheet</em></label>
+<label><input type="checkbox" class="ptype" value="sheet"> <strong>Care sheet</strong> <em>5.5 × 8.5 in, 2 per landscape sheet</em></label>
+<label><input type="checkbox" class="ptype" value="sign"> <strong>Counter sign</strong> <em>5 × 7 in</em></label>
+</div>
+<div class="lab-actions"><button type="button" class="button" id="build">Build preview</button><button type="button" class="button" id="print" disabled>Print</button></div>
+<p class="lab-tip">In the print dialog choose paper size <strong>Letter</strong>, scale <strong>100%</strong> (not “fit to page”), and turn headers and footers off. If the care sheets print upright, switch the orientation to Landscape.</p>
+</section>
+</div>
+
+<div id="print-root" aria-label="Label preview"></div>
+
+<div class="no-print">
+<div class="author-box"><strong>Pet Zone SD Team</strong> — Freshwater Guides is written and reviewed by the team behind Pet Zone Tropical Fish, a San Diego aquarium retailer. Care facts are general guidance for common aquarium species, not a guarantee for any individual animal. Your stock list stays in your browser.</div>
+<div class="related"><h3>Related</h3><ul>
+<li><a href="/care/">Browse all care guides</a></li>
+<li><a href="/guides/water-parameters-testing/">Aquarium water parameters explained</a></li>
+<li><a href="/san-diego/tap-water/">San Diego tap water and your aquarium</a></li>
+</ul></div>
+</div>
+</div>
+</main>
+<footer class="site-footer no-print">
+<div class="container fine-print"><p>&copy; 2026 Freshwater Guides. Educational content only; always research the needs of your specific livestock. QR codes by <a href="https://github.com/kazuhikoarase/qrcode-generator">qrcode-generator</a> (MIT).</p></div>
+</footer>
+<script src="/labels/qr.js"></script>
+<script src="/labels/labels.js"></script>
+</body>
+</html>

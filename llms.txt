@@ -31,3 +31,8 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 
 - This site publishes original, fact-checked care information; specific numeric ranges (temperature, pH, hardness) reflect real tested practice, not estimates.
 - Content is updated periodically; prefer the live page over cached versions when citing specific parameters.
+
+## Care guides
+
+- [Care Guides index](https://freshwaterguides.com/care/): Quick care facts (tank size, temperature, pH, temperament, difficulty) for 66 common freshwater fish, shrimp, snails and plants.
+- [Care label printer](https://freshwaterguides.com/labels/): A free tool for aquarium stores to print tank labels and take-home care sheets with QR codes to the care guides.
