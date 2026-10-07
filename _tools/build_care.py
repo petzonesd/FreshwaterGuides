@@ -228,8 +228,8 @@ def main():
     # sitemap
     sm_path = os.path.join(ROOT, "sitemap.xml")
     sm = open(sm_path, encoding="utf-8").read()
-    sm = re.sub(r"<url><loc>https://freshwaterguides\.com/(care|labels)/.*?</url>\n?", "", sm)
-    new = [("/care/", "0.8"), ("/labels/", "0.7")] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
+    sm = re.sub(r"<url><loc>https://freshwaterguides\.com/(care|labels|embed|service)/.*?</url>\n?", "", sm)
+    new = [("/care/", "0.8"), ("/labels/", "0.7"), ("/embed/", "0.6"), ("/service/", "0.6")] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
     block = "".join(f"<url><loc>{BASE}{p}</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>\n" for p, pr in new)
     sm = sm.replace("</urlset>", block + "</urlset>")
     open(sm_path, "w", encoding="utf-8").write(sm)
@@ -241,6 +241,8 @@ def main():
     ll += "\n## Care guides\n\n"
     ll += f"- [Care Guides index]({BASE}/care/): Quick care facts (tank size, temperature, pH, temperament, difficulty) for {len(ALL)} common freshwater fish, shrimp, snails and plants.\n"
     ll += f"- [Care label printer]({BASE}/labels/): A free tool for aquarium stores to print tank labels and take-home care sheets with QR codes to the care guides.\n"
+    ll += f"- [Care facts embed]({BASE}/embed/): A free snippet that adds species care facts to fish, shrimp and plant product pages, with a link back to the full guide.\n"
+    ll += f"- [Aquarium service toolkit]({BASE}/service/): A free in-browser tool for aquarium service businesses: client tanks, water test logs, maintenance reminders, visit reports and invoices with shareable links.\n"
     open(lp, "w", encoding="utf-8").write(ll)
     print(f"built {len(ALL)} care pages")
 

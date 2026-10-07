@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free embed: add species care facts to aquarium product pages with one snippet. Works on Shopify, BigCommerce and any website; links back to the full care guide.">
+<meta name="theme-color" content="#0b3f4a">
+<title>Free Aquarium Care Facts Embed for Product Pages</title>
+<link rel="canonical" href="https://freshwaterguides.com/embed/">
+<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/care/care.css">
+<meta property="og:title" content="Free Aquarium Care Facts Embed for Product Pages">
+<meta property="og:description" content="Add species care facts to fish, shrimp and plant product pages with one snippet.">
+<meta property="og:url" content="https://freshwaterguides.com/embed/">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Free Aquarium Care Facts Embed for Product Pages", "description": "Add species care facts to fish, shrimp and plant product pages with one snippet.", "author": {"@type": "Organization", "name": "Pet Zone SD Team"}, "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": "https://freshwaterguides.com/"}, "datePublished": "2026-10-07", "dateModified": "2026-10-07", "mainEntityOfPage": "https://freshwaterguides.com/embed/"}</script>
+<style>pre{background:#0b3f4a;color:#e8f2ef;padding:1rem;border-radius:6px;overflow-x:auto;font-size:.82rem;line-height:1.5}code{font-family:ui-monospace,Menlo,Consolas,monospace}.demo{border:1px dashed var(--line);padding:1rem;margin:1rem 0;border-radius:6px}.demo p.demo-title{font-weight:700;margin:0 0 .4rem}</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container nav">
+<a class="brand" href="/" aria-label="Freshwater Guides home"><span class="brand-mark">◒</span><span>Freshwater<br><strong>Guides</strong></span></a>
+<nav aria-label="Main navigation">
+<a href="/#start">Start Here</a><a href="/#topics">Topics</a><a href="/#guides">Guides</a><a href="/care/">Care Guides</a><a href="/glossary/">Glossary</a><a href="/#about">About</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<div class="container narrow article">
+<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / Product page embed</p>
+<h1>Care Facts Embed for Product Pages</h1>
+<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · 4 min read</p>
+<div class="article-body care-body">
+<p><strong>The care facts embed adds a small block of species care facts (size, water, minimum tank, temperament, difficulty) to a fish, shrimp or plant product page with one snippet.</strong> It is free for any aquarium store or blog. Each block links back to the full guide on Freshwater Guides, and you keep the credit line.</p>
+
+<h2>Live demo</h2>
+<div class="demo"><p class="demo-title">By species name:</p><div data-fwg-care="neon-tetra"></div></div>
+<div class="demo"><p class="demo-title" id="demo-title">Tank-Raised Java Fern on Wood - Medium</p><div data-fwg-care="auto" data-title="#demo-title"></div></div>
+<div class="demo"><p class="demo-title" id="demo-food">Betta Fish Food Pellets 1 oz</p><div data-fwg-care="auto" data-title="#demo-food"></div><p><em>A food product: the embed correctly shows nothing.</em></p></div>
+
+<h2>Add it to any page</h2>
+<p>Put the container where you want the block, and load the script once on the page:</p>
+<pre><code>&lt;div data-fwg-care="neon-tetra"&gt;&lt;/div&gt;
+&lt;script src="https://freshwaterguides.com/embed/care.js" defer&gt;&lt;/script&gt;</code></pre>
+<p>Use a guide's slug (the end of its <a href="/care/">care guide</a> URL) or its exact name, such as <code>data-fwg-care="Neon Tetra"</code>.</p>
+
+<h2>Shopify: match from the product title</h2>
+<p>In the product template or a custom Liquid block, let the embed read the product title. It only shows when the title clearly names one of our species:</p>
+<pre><code>&lt;div data-fwg-care="auto" data-name="{{ product.title | escape }}"&gt;&lt;/div&gt;
+&lt;script src="https://freshwaterguides.com/embed/care.js" defer&gt;&lt;/script&gt;</code></pre>
+
+<h2>BigCommerce: Script Manager, product pages</h2>
+<p>Add a footer script in Script Manager, limited to product pages. Test on one product first, because theme selectors vary:</p>
+<pre><code>&lt;script&gt;
+document.addEventListener('DOMContentLoaded', function () {
+  var t = document.querySelector('.productView-title'); if (!t) return;
+  var d = document.createElement('div');
+  d.setAttribute('data-fwg-care', 'auto');
+  d.setAttribute('data-title', '.productView-title');
+  (t.closest('.productView') || document.querySelector('main')).appendChild(d);
+  var s = document.createElement('script');
+  s.src = 'https://freshwaterguides.com/embed/care.js'; document.body.appendChild(s);
+});
+&lt;/script&gt;</code></pre>
+
+<h2>How the matching works</h2>
+<ul>
+<li>It is deliberately strict. A title like "Neon Tetra", "Tank-Raised Neon Tetra (1 in)" or "Java Fern on Wood" matches. Food, medication, kits, equipment and anything with unexpected extra words show nothing, so a care block never lands on the wrong product.</li>
+<li>If a species is not in the <a href="/care/">catalog</a> yet, the block stays hidden. We add species on request.</li>
+<li>Style it with CSS: everything lives under the <code>.fwg-care</code> class.</li>
+</ul>
+
+<h2>Terms</h2>
+<p>Free to use on aquarium retail and hobby sites. Keep the credit line and the link back. Care facts are general guidance for common species, not a guarantee for any individual animal, so keep your own livestock notes (acclimation, quarantine, source) on the page too.</p>
+<div class="callout"><strong>Want printed labels too?</strong> The <a href="/labels/">care label printer</a> turns the same data into tank labels with QR codes.</div>
+</div>
+<div class="author-box"><strong>Pet Zone SD Team</strong> — Freshwater Guides is written and reviewed by the team behind Pet Zone Tropical Fish, a San Diego aquarium retailer, drawing on hands-on retail and keeping experience.</div>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid"><div><a class="brand footer-brand" href="/"><span class="brand-mark">◒</span><span>Freshwater<br><strong>Guides</strong></span></a><p>Practical freshwater aquarium care for better tanks and healthier livestock.</p></div><div><p class="footer-label">Explore</p><a href="/#start">Start Here</a><a href="/#topics">Topics</a><a href="/#guides">Guides</a><a href="/glossary/">Glossary</a></div><div><p class="footer-label">Transparency</p><a href="/#about">About &amp; editorial standards</a><a href="mailto:hello@freshwaterguides.com">Contact</a></div></div>
+<div class="container sites-row"><p class="footer-label">From Pet Zone</p><div class="sites-grid"><a href="https://www.petzonesd.com/">Pet Zone Tropical Fish</a><a href="https://masterscaper.com/">Masterscaper</a><a href="https://apistogrammarama.com/">Apisto Grammarama</a><a href="https://discusguides.com/">Discus Guides</a><a href="https://flowerhornhobby.com/">Flowerhorn Hobby</a><a href="https://arowana.co/">Arowana.co</a><a href="https://flowerhorn.co/">Flowerhorn.co</a><a href="https://bettabelieve.com/">Betta Believe</a><a href="https://puffercentral.com/">Puffer Central</a><a href="https://shrimpsd.com/">Shrimp SD</a><a href="https://hakkai.com/">Hakkai Aquascape Gallery</a><a href="https://thescapegallery.com/">The Scape Gallery</a></div></div>
+<div class="container fine-print"><p>&copy; 2026 Freshwater Guides. Educational content only; always research the needs of your specific livestock.</p></div>
+</footer>
+<script src="/embed/care.js" defer></script>
+</body>
+</html>
