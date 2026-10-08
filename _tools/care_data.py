@@ -168,7 +168,7 @@ ANIMALS = [
  # ---------------- Inverts ----------------
  A("neocaridina-shrimp","Neocaridina Shrimp","Neocaridina davidi","invert","Atyidae","Taiwan and China (captive-bred colors)","1-1.5 in",(65,80),(6.5,8.0),5,"Peaceful","Colony, start with 6+","Bottom","Beginner","Biofilm, algae, shrimp pellets, blanched veggies","1-2 years",
    "Cherry shrimp and other color morphs. Easy, active and breed readily in a planted tank, but sensitive to copper and some medications.",
-   ["Never use copper-based medications.","Add after the tank has cycled.","Acclimate slowly, with drip acclimation."],aka=["cherry shrimp","red cherry shrimp","blue dream shrimp","neocaridina","rili shrimp","shrimp"]),
+   ["Never use copper-based medications.","Add after the tank has cycled.","Acclimate slowly, with drip acclimation."],aka=["cherry shrimp","red cherry shrimp","blue dream shrimp","neocaridina","rili shrimp"]),
  A("amano-shrimp","Amano Shrimp","Caridina multidentata","invert","Atyidae","Japan and Taiwan","2 in",(70,78),(6.5,7.5),10,"Peaceful","Groups","All levels","Beginner","Algae, biofilm, shrimp pellets, blanched veggies","2-3 years",
    "A larger, tireless algae grazer. They breed only in brackish water, so they will not overrun a freshwater tank.",
    ["Acclimate slowly.","Great algae eaters.","Secure the lid; they can climb out."],aka=["amano shrimps","amano"]),
@@ -231,10 +231,20 @@ try:
     PLANTS = PLANTS + _d2.MORE_PLANTS
 except ImportError:
     _d2 = None
+try:
+    import care_data3 as _d3
+    ANIMALS = ANIMALS + _d3.MORE_ANIMALS
+    PLANTS = PLANTS + _d3.MORE_PLANTS
+except ImportError:
+    _d3 = None
 ALL = ANIMALS + PLANTS
 if _d2:
     _by = {e["slug"]: e for e in ALL}
-    for _s, _al in _d2.ALIAS_INTO.items():
+    _alias = dict(_d2.ALIAS_INTO)
+    if _d3:
+        for _k, _v in getattr(_d3, "ALIAS_INTO", {}).items():
+            _alias[_k] = list(_alias.get(_k, [])) + list(_v)
+    for _s, _al in _alias.items():
         for _a in _al:
             if _a not in _by[_s]["aka"]:
                 _by[_s]["aka"].append(_a)

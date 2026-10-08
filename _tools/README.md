@@ -9,3 +9,5 @@
 Placeholder art: _tools/make_art.py draws original cartoon SVGs into care/art/ for species without a photo (run before build_care.py). Add a real photo to care/photos.json and it replaces the illustration.
 
 Hub pages: HUBS in build_care.py generates /care/<group>/ category pages (tetras, cichlids, plants, etc.); every guide must fall into exactly one hub (build asserts it).
+
+Tests: _tools/tests/ holds the headless Playwright checks (match, embed, labels, service, mobile) and validate.py. They serve the repo on localhost and stub data.json; run with `python3 _tools/tests/match.py` etc. (Chromium at /opt/pw-browsers/chromium). `care_data3.py` is the daily batch file loaded after care_data2.py.

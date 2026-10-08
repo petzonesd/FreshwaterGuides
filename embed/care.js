@@ -39,6 +39,7 @@
         var s = qt.join(' '), p = nt.join(' ');
         var i = (' ' + s + ' ').indexOf(' ' + p + ' ');
         if (i < 0) return;
+        if (/\b(black|green|false|blue|gold|golden|red|rainbow|glowlight) neons?\b/i.test(query) && !/\b(black|green|false|blue|gold|golden|red|rainbow|glowlight) neons?\b/i.test(name)) return;
         var rest = (' ' + s + ' ').replace(' ' + p + ' ', ' ').trim().split(' ').filter(Boolean);
         if (rest.length > 5 || !okRest(rest, e)) return;
         if (nt.length > bl) { best = e; bl = nt.length; }
