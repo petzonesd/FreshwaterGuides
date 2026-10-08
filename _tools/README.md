@@ -7,3 +7,5 @@
 - Underscore folders are not published by GitHub Pages' Jekyll, so this folder stays off the live site.
 
 Placeholder art: _tools/make_art.py draws original cartoon SVGs into care/art/ for species without a photo (run before build_care.py). Add a real photo to care/photos.json and it replaces the illustration.
+
+Hub pages: HUBS in build_care.py generates /care/<group>/ category pages (tetras, cichlids, plants, etc.); every guide must fall into exactly one hub (build asserts it).
