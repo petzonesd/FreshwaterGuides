@@ -8,7 +8,7 @@ h1{margin:0;font-size:1.5rem;color:#0b3f4a}h2{font-size:1.02rem;margin:1.4rem 0 
 .tbl{width:100%;border-collapse:collapse;margin:.4rem 0}.tbl th,.tbl td{border-bottom:1px solid #d9e5e1;padding:.45rem .5rem;text-align:left}.tbl th{background:#e8f2ef;color:#0b3f4a;font-size:.88rem}.tbl .num{text-align:right}.items th:nth-child(n+2){text-align:right}
 .totals{margin-top:.8rem;text-align:right}.grand{font-size:1.25rem;font-weight:800;color:#0b3f4a}
 .pre{white-space:pre-wrap}.next{margin-top:1.2rem;font-weight:700}
-.tools{text-align:center}.tools button{background:#0b3f4a;color:#fff;border:0;padding:.7rem 1.2rem;border-radius:999px;font:inherit;font-weight:700;cursor:pointer}
+.tools{text-align:center}.tools button{background:#0b3f4a;color:#fff;border:0;padding:.7rem 1.2rem;border-radius:4px;font:inherit;font-weight:700;cursor:pointer}
 .foot{text-align:center;font-size:.8rem;color:#557177}.foot a{color:#0b3f4a}
 @media(max-width:640px){.doc{padding:1rem;margin:0}.dh{flex-direction:column}.rt{text-align:left}}
 @page{margin:.5in}

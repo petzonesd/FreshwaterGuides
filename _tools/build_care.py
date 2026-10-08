@@ -72,7 +72,7 @@ def desc_for(e):
 HEAD_NAV = """<a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="container nav">
-<a class="brand" href="/" aria-label="Freshwater Guides home"><span class="brand-mark">◒</span><span>Freshwater<br><strong>Guides</strong></span></a>
+<a class="brand" href="/" aria-label="Freshwater Guides home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 22 40" xmlns="http://www.w3.org/2000/svg"><rect x="1" y="1" width="20" height="38" rx="2" ry="10" class="glass" fill="#e3f0ed" stroke="currentColor" stroke-width="2"/><path d="M2 20h18v10a9 9 0 0 1-18 0z" fill="#8cc152"/><rect x="0" y="0" width="22" height="5" fill="currentColor"/><path d="M12 22h6M12 27h6M12 32h6" stroke="currentColor" stroke-width="1.5"/></svg></span><span>Freshwater<br><strong>Guides</strong></span></a>
 <nav aria-label="Main navigation">
 <a href="/#start">Start Here</a><a href="/#topics">Topics</a><a href="/#guides">Guides</a><a href="/care/">Care Guides</a><a href="/glossary/">Glossary</a><a href="/#about">About</a>
 </nav>
@@ -97,8 +97,9 @@ def head(title, desc, path, extra_ld=""):
 <meta name="theme-color" content="#0b3f4a">
 <title>{E(title)}</title>
 <link rel="canonical" href="{url}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;600;700;800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
 <link rel="stylesheet" href="/styles.css">
-<link rel="stylesheet" href="/care/care.css?v=2">
+<link rel="stylesheet" href="/care/care.css?v=3">
 <meta property="og:title" content="{E(title)}">
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{url}">
@@ -144,7 +145,7 @@ def page_for(e, by_slug):
     out = [head(title, desc, path, extra), HEAD_NAV, '<main id="main">\n<div class="container narrow article">']
     out.append(f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(e["name"])}</p>')
     out.append(f'<h1>{E(e["name"])} Care Guide</h1>')
-    out.append('<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · 2 min read</p>')
+    out.append('<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>2 min read</span></p>')
     ph = photo_url(e["slug"])
     if ph:
         out.append(f'<figure class="care-photo"><img src="{ph}" alt="{E(e["name"])} at Pet Zone Tropical Fish in San Diego" width="400" height="400" loading="eager" onerror="this.parentNode.remove()"><figcaption>Photo: {E(PH["credit"])}</figcaption></figure>')
@@ -192,7 +193,7 @@ def index_page(by_slug):
            '<main id="main">\n<div class="container article care-index">',
            '<p class="breadcrumb"><a href="/">Home</a> / Care Guides</p>',
            '<h1>Aquarium Care Guides</h1>',
-           f'<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · {len(by_slug)} guides</p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>{len(by_slug)} guides</span></p>',
            '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails, frogs, newts and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
            '<label class="care-search"><span>Search the guides</span><input id="care-q" type="search" placeholder="Try neon, betta, java fern…" autocomplete="off"></label>',
            '<p id="care-none" class="care-none" hidden>No guides match that search yet. Ask us in store and we will add it.</p>']
@@ -292,7 +293,7 @@ def hub_page(h, by_slug):
            '<main id="main">\n<div class="container article care-index">',
            f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(h1)}</p>',
            f'<h1>{E(h1)}</h1>',
-           f'<p class="byline">By Pet Zone SD Team · Updated October 7, 2026 · {len(items)} guides</p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>{len(items)} guides</span></p>',
            f'<p class="lede-line"><strong>{E(intro)}</strong></p>',
            '<h2>Quick rules of thumb</h2><ul>' + "".join(f"<li>{E(b)}</li>" for b in bullets) + "</ul>",
            f'<section class="care-group"><h2>{E(h1.replace(" Care Guides","").replace(" Care",""))} guides</h2><ul class="care-grid">']

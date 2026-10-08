@@ -25,7 +25,7 @@
 
 /* ---------- preview (screen) ---------- */
 #print-root{margin-top:2rem;overflow-x:auto}
-.pg{background:#fff;margin:0 0 1.2rem;border:1px solid var(--line);box-shadow:3px 4px 0 var(--lime)}
+.pg{background:#fff;margin:0 0 1.2rem;border:1px solid var(--line);box-shadow:inset 0 -4px 0 var(--lime)}
 .pg.p-small,.pg.p-large{width:8in;min-height:10.5in;padding:0;display:grid;align-content:start}
 .pg.p-small{grid-template-columns:repeat(2,3.5in);grid-auto-rows:2in;justify-content:center}
 .pg.p-large{grid-template-columns:repeat(2,4in);grid-auto-rows:3in;justify-content:center}
