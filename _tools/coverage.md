@@ -2,7 +2,7 @@
 
 Catalog source: petzonesd.com sitemap could not be fetched from the cloud shell on 2026-10-08 (WebFetch needs approval; search gave nothing for site:petzonesd.com). Lists below come from common hobby staples, to be checked against the sitemap when it can be fetched.
 
-Guides: 227 (213 + 14 on 2026-10-08). Guides with a real Pet Zone photo: see care/photos.json; all others use illustrations.
+Guides: 247 (227 + 20 on 2026-10-09: columbian/rosy/ruby/gold tetra, glowlight danio, five-banded barb, glass/upside-down/bumblebee catfish, festivum, green terror, sailfin/rubber-lip pleco, kissing/chocolate gourami; plants cryptocoryne balansae, rotala wallichii, ludwigia arcuata, bacopa monnieri, subwassertang). Sitemap WebFetch still needs approval (2026-10-09). Guides with a real Pet Zone photo: see care/photos.json; all others use illustrations.
 
 ## Still missing (priority order)
 - Tetras: Columbian tetra, rosy tetra, ruby tetra, gold tetra, coral red pencilfish, jumbo/black-line tetras.
@@ -19,3 +19,6 @@ Guides: 227 (213 + 14 on 2026-10-08). Guides with a real Pet Zone photo: see car
 
 ## California legality flags (for Roger)
 Existing guides that may be restricted/regulated in CA and should be checked against CDFW restricted species list (Title 14 CCR section 671): crayfish, freshwater-crab (mitten crabs etc.), hermit-crab-freshwater (check), red-belly-pacu and silver-dollar (piranha relatives; pacu may be fine but check), gar (check species), mystery-snail / apple snails (some Pomacea are restricted). Not removed automatically.
+
+## Left out on purpose (2026-10-09)
+- Texas cichlid: left out pending a check of the CA restricted list; Roger to confirm.

@@ -18,3 +18,9 @@ Other fixes found during QA:
 - rainbowfish: removed "dwarf neon rainbowfish" (own guide). STILL TO REVIEW: this guide lumps many species (4 in, 30 gal) incl. threadfin, celebes, madagascar, featherfin; split later.
 
 Next up: care_data2.py from flame-tetra onward.
+
+## 2026-10-09 (8 entries; care_data2.py entries 9-16)
+- flame-tetra, penguin-tetra, black-phantom-tetra, red-phantom-tetra, bloodfin-tetra, glofish-tetra, emperor-tetra: checked, OK.
+- diamond-tetra: minimum tank 20 -> 30 gal (active 2.5 in schooling fish, group of 6+).
+- synodontis-catfish: removed alias "upside down catfish" (that is S. nigriventris, now its own guide).
+Next up: care_data2.py after emperor-tetra.

@@ -133,7 +133,7 @@ def svg(slug, spec):
 import sys, hashlib, colorsys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from care_data import ALL
-SHAPE = {"Cichlidae":"deep","Loricariidae":"pleco","Callichthyidae":"cory","Cobitidae":"long","Botiidae":"long","Balitoridae":"long","Characidae":"tetra","Alestidae":"tetra","Danionidae":"tetra","Cyprinidae":"tetra","Tetraodontidae":"puffer","Osteoglossidae":"arowana","Osphronemidae":"deep","Poeciliidae":"guppy","Serrasalmidae":"deep","Mochokidae":"pleco","Pimelodidae":"long","Doradidae":"pleco","Notopteridae":"arowana","Polypteridae":"eel","Lepisosteidae":"arowana","Datnioididae":"deep","Aplocheilidae":"tetra","Melanotaeniidae":"tetra","Lebiasinidae":"tiny","Adrianichthyidae":"tiny","Gyrinocheilidae":"long","Mormyridae":"long","Aspredinidae":"pleco","Gasteropelecidae":"deep"}
+SHAPE = {"Cichlidae":"deep","Loricariidae":"pleco","Callichthyidae":"cory","Cobitidae":"long","Botiidae":"long","Balitoridae":"long","Characidae":"tetra","Alestidae":"tetra","Danionidae":"tetra","Cyprinidae":"tetra","Tetraodontidae":"puffer","Osteoglossidae":"arowana","Osphronemidae":"deep","Poeciliidae":"guppy","Serrasalmidae":"deep","Mochokidae":"pleco","Pimelodidae":"long","Doradidae":"pleco","Notopteridae":"arowana","Polypteridae":"eel","Lepisosteidae":"arowana","Datnioididae":"deep","Aplocheilidae":"tetra","Melanotaeniidae":"tetra","Lebiasinidae":"tiny","Adrianichthyidae":"tiny","Gyrinocheilidae":"long","Mormyridae":"long","Aspredinidae":"pleco","Gasteropelecidae":"deep","Siluridae":"long","Pseudopimelodidae":"pleco","Helostomatidae":"deep"}
 def hexc(h, sat, val):
     r,g,b = colorsys.hsv_to_rgb(h, sat, val); return "#%02x%02x%02x" % (int(r*255),int(g*255),int(b*255))
 def auto(e):
