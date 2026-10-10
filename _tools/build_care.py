@@ -256,7 +256,7 @@ HUBS = [
  ("large-and-specialty-fish", "Large and Specialty Fish Care Guides", "Large and Specialty Freshwater Fish Care Guides", "Care facts for puffers, arowana, bichirs, knifefish, pacu and other large or specialty fish: tank size, diet and the commitment involved.",
   "These are fish for experienced hobbyists with large tanks. Many are predators that will eat smaller tankmates, and several grow far beyond the size they are sold at. Puffers need hard-shelled foods to wear down their teeth, and arowana and gar need long tanks with secure lids. Plan for the adult fish before you buy.",
   ["Plan for adult size and decades of care.","Do not mix predators with small fish.","Use a very secure lid for arowana, gar and bichirs."],
-  lambda e: e["family"] in ("Tetraodontidae","Osteoglossidae","Polypteridae","Notopteridae","Mormyridae","Datnioididae","Lepisosteidae","Serrasalmidae","Pimelodidae")),
+  lambda e: e["family"] in ("Tetraodontidae","Osteoglossidae","Polypteridae","Notopteridae","Mormyridae","Datnioididae","Lepisosteidae","Serrasalmidae","Pimelodidae","Pangasiidae")),
  ("shrimp-snails-crabs", "Shrimp, Snail and Crab Care Guides", "Shrimp, Snail and Crab Care Guides", "Care facts for neocaridina and caridina shrimp, snails, crabs and crayfish: water needs, copper warning and tankmates.",
   "Invertebrates are sensitive to copper, which is common in fish medications and some plant products, so check labels before dosing. Neocaridina shrimp are forgiving, while crystal, bee and tiger caridina shrimp need more stable, softer water. Crabs and crayfish are escape artists and will eat shrimp and small fish.",
   ["Avoid copper-based medications.","Drip-acclimate shrimp slowly.","Do not keep crayfish with shrimp or small fish."],

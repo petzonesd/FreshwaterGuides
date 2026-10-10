@@ -2,7 +2,7 @@
 
 Catalog source: petzonesd.com sitemap could not be fetched from the cloud shell on 2026-10-08 (WebFetch needs approval; search gave nothing for site:petzonesd.com). Lists below come from common hobby staples, to be checked against the sitemap when it can be fetched.
 
-Guides: 247 (227 + 20 on 2026-10-09: columbian/rosy/ruby/gold tetra, glowlight danio, five-banded barb, glass/upside-down/bumblebee catfish, festivum, green terror, sailfin/rubber-lip pleco, kissing/chocolate gourami; plants cryptocoryne balansae, rotala wallichii, ludwigia arcuata, bacopa monnieri, subwassertang). Sitemap WebFetch still needs approval (2026-10-09). Guides with a real Pet Zone photo: see care/photos.json; all others use illustrations.
+Guides: 260 (2026-10-10 +13: peppered cory, iridescent shark, jewel/midas/peacock/frontosa/daffodil cichlids, julidochromis, moonlight gourami, Malaysian trumpet snail, duckweed, crinum, cryptocoryne lutea). Earlier: 247 (227 + 20 on 2026-10-09: columbian/rosy/ruby/gold tetra, glowlight danio, five-banded barb, glass/upside-down/bumblebee catfish, festivum, green terror, sailfin/rubber-lip pleco, kissing/chocolate gourami; plants cryptocoryne balansae, rotala wallichii, ludwigia arcuata, bacopa monnieri, subwassertang). Sitemap WebFetch still needs approval (2026-10-09). Guides with a real Pet Zone photo: see care/photos.json; all others use illustrations.
 
 ## Still missing (priority order)
 - Tetras: Columbian tetra, rosy tetra, ruby tetra, gold tetra, coral red pencilfish, jumbo/black-line tetras.
@@ -22,3 +22,9 @@ Existing guides that may be restricted/regulated in CA and should be checked aga
 
 ## Left out on purpose (2026-10-09)
 - Texas cichlid: left out pending a check of the CA restricted list; Roger to confirm.
+
+## Flags for Roger (2026-10-10)
+- Plants possibly on California noxious-weed lists (CDFA / Cal-IPC): water lettuce, salvinia, anacharis/egeria, water hyacinth (never add), hydrilla (never add). Existing guides for water-lettuce, salvinia, anacharis may need review.
+- Iridescent shark added as a "plan for adult size" warning guide; remove if you would rather not promote it.
+- Vampire shrimp (Atya gabonensis) is aliased into the bamboo-shrimp guide, but it grows larger (to ~6 in) than that guide says; consider its own guide.
+- Still no sitemap access; catalog list is hobby staples.

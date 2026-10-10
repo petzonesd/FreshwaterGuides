@@ -24,3 +24,12 @@ Next up: care_data2.py from flame-tetra onward.
 - diamond-tetra: minimum tank 20 -> 30 gal (active 2.5 in schooling fish, group of 6+).
 - synodontis-catfish: removed alias "upside down catfish" (that is S. nigriventris, now its own guide).
 Next up: care_data2.py after emperor-tetra.
+
+## 2026-10-10 (8 entries; care_data2.py entries 17-24)
+- blue-tetra: removed aliases "columbian tetra"/"colombian tetra" (separate species, own guide).
+- bucktooth-tetra: minimum tank 40 -> 55 gal (group of 6+, 4-5 in); size 4 -> 4-5 in.
+- silver-tip-tetra: temperature 68-82 -> 70-80 F (conservative).
+- hatchetfish: size 2 in -> 1-2.5 in (pygmy to silver hatchets are lumped).
+- strawberry-rasbora, pygmy-rasbora: minimum tank 5 -> 10 gal for the 8+ group.
+- clown-rasbora, espei-rasbora: checked, OK.
+Next up: care_data2.py from giant-danio onward.

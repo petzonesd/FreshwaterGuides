@@ -3,6 +3,23 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Peppered Cory Catfish","peppered-cory"),
+("Iridescent Shark","iridescent-shark"),
+("Red Jewel Cichlid","jewel-cichlid"),
+("Red Devil Cichlid","midas-cichlid"),
+("Blue Peacock Cichlid","peacock-cichlid"),
+("Peacock Bass","peacock-bass"),
+("Frontosa Cichlid 3 in","frontosa-cichlid"),
+("Daffodil Cichlid","daffodil-cichlid"),
+("Julidochromis Ornatus","julidochromis"),
+("Moonlight Gourami","moonlight-gourami"),
+("Malaysian Trumpet Snail","malaysian-trumpet-snail"),
+("Cryptocoryne Lutea Potted","cryptocoryne-lutea"),
+("Duckweed","duckweed"),
+("Peacock Cichlid Food Pellets",None),
+("Red Devil Crab","ANY"),
+("Duckweed Fish Food",None),
+("Blue Tetra","blue-tetra"),
 ("Tank-Raised Neon Tetra (Paracheirodon innesi) - 1 in","neon-tetra"),
 ("Cardinal Tetra","cardinal-tetra"),
 ("Columbian Tetra","columbian-tetra"),
