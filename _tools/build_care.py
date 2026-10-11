@@ -2,14 +2,45 @@
 """Generate /care/ pages, /care/data.json, sitemap + llms.txt entries from care_data.py.
 Run from repo root:  python3 _tools/build_care.py
 Idempotent. Safe to re-run after editing care_data.py."""
-import json, os, re, html, sys
+import json, os, re, html, sys, datetime, subprocess
 sys.path.insert(0, os.path.dirname(__file__))
 from care_data import ALL
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://freshwaterguides.com"
-TODAY = "2026-10-07"
+# Real build date (was hardcoded to "2026-10-07" forever -- every rebuild kept
+# stamping that frozen date into dateModified, the sitemap, and the visible
+# "Updated ..." byline no matter how many days/entries later it actually ran).
+TODAY = datetime.date.today().isoformat()
+TODAY_LONG = datetime.date.today().strftime("%B %-d, %Y")
 E = html.escape
+
+_first_commit_cache = {}
+
+def original_date_published(slug, fallback):
+    """A care page's true original datePublished, taken from git history
+    (the date the file was first committed) rather than from the existing
+    file's own datePublished field -- the old hardcoded-TODAY bug means any
+    page added after 2026-10-07 already has a wrong "2026-10-07" baked into
+    it, so scraping the file would just keep propagating that error."""
+    rel = f"care/{slug}/index.html"
+    if rel in _first_commit_cache:
+        return _first_commit_cache[rel]
+    date = fallback
+    try:
+        # No --follow: these are freshly-generated files, not renames, and
+        # --follow's similarity-based rename detection false-matches them
+        # against older unrelated pages that share the same boilerplate
+        # template, which silently produces a too-old date.
+        out = subprocess.run(
+            ["git", "log", "--diff-filter=A", "--format=%ad", "--date=short", "--", rel],
+            cwd=ROOT, capture_output=True, text=True, timeout=10).stdout.strip()
+        if out:
+            date = out.splitlines()[-1]  # oldest add-commit if more than one
+    except Exception:
+        pass
+    _first_commit_cache[rel] = date
+    return date
 
 STORES = [
     dict(id="convoy", name="Pet Zone Convoy", addr="4160 Convoy St, San Diego, CA 92111", phone="(858) 987-0309", tel="+18589870309",
@@ -133,7 +164,7 @@ def page_for(e, by_slug):
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
           "author": {"@type": "Organization", "name": "Pet Zone SD Team"},
           "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": BASE + "/"},
-          "datePublished": TODAY, "dateModified": TODAY, "mainEntityOfPage": BASE + path}
+          "datePublished": original_date_published(e["slug"], TODAY), "dateModified": TODAY, "mainEntityOfPage": BASE + path}
     if photo_url(e["slug"]):
         ld["image"] = [photo_url(e["slug"])]
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -145,7 +176,7 @@ def page_for(e, by_slug):
     out = [head(title, desc, path, extra), HEAD_NAV, '<main id="main">\n<div class="container narrow article">']
     out.append(f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(e["name"])}</p>')
     out.append(f'<h1>{E(e["name"])} Care Guide</h1>')
-    out.append('<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>2 min read</span></p>')
+    out.append(f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>2 min read</span></p>')
     ph = photo_url(e["slug"])
     if ph:
         out.append(f'<figure class="care-photo"><img src="{ph}" alt="{E(e["name"])} at Pet Zone Tropical Fish in San Diego" width="400" height="400" loading="eager" onerror="this.parentNode.remove()"><figcaption>Photo: {E(PH["credit"])}</figcaption></figure>')
@@ -193,7 +224,7 @@ def index_page(by_slug):
            '<main id="main">\n<div class="container article care-index">',
            '<p class="breadcrumb"><a href="/">Home</a> / Care Guides</p>',
            '<h1>Aquarium Care Guides</h1>',
-           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>{len(by_slug)} guides</span></p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>{len(by_slug)} guides</span></p>',
            '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails, frogs, newts and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
            '<label class="care-search"><span>Search the guides</span><input id="care-q" type="search" placeholder="Try neon, betta, java fern…" autocomplete="off"></label>',
            '<p id="care-none" class="care-none" hidden>No guides match that search yet. Ask us in store and we will add it.</p>']
@@ -293,7 +324,7 @@ def hub_page(h, by_slug):
            '<main id="main">\n<div class="container article care-index">',
            f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(h1)}</p>',
            f'<h1>{E(h1)}</h1>',
-           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated October 7, 2026</span><span>{len(items)} guides</span></p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>{len(items)} guides</span></p>',
            f'<p class="lede-line"><strong>{E(intro)}</strong></p>',
            '<h2>Quick rules of thumb</h2><ul>' + "".join(f"<li>{E(b)}</li>" for b in bullets) + "</ul>",
            f'<section class="care-group"><h2>{E(h1.replace(" Care Guides","").replace(" Care",""))} guides</h2><ul class="care-grid">']
