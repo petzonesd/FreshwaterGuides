@@ -46,10 +46,11 @@
   // A qualifier that makes it a different species (black/green/false neon are not neon tetras).
   var CONFLICT = /\b(black|green|false|blue|gold|golden|red|rainbow|glowlight) neons?\b/i;
   var ALLOWX = {};
-  ('fish fishes live raised captive bred wild caught tropical freshwater assorted mix mixed random color colors colour variety male female pair trio group juvenile adult baby small medium large xl xxl xs sm md lg inch in inches cm mm approx approximately plant plants potted pot cup bunch stem stems portion bare root rhizome tissue culture on wood rock mat mesh red blue green white gold golden yellow orange pink purple silver albino blood pigeon dalmatian electric neon super halfmoon half moon powder catfish cichlid tetra shrimp snail zebra tiger crowntail veiltail plakat delta dumbo king giant double tail koi dragon scale marble galaxy fancy long fin longfin short shortfin the a an of')
+  ('fish fishes live raised captive bred wild caught tropical freshwater assorted mix mixed random color colors colour variety male female pair trio group juvenile adult baby small medium large xl xxl xs sm md lg inch in inches cm mm approx approximately plant plants potted pot cup bunch stem stems portion bare root rhizome tissue culture uns un on wood rock mat mesh red blue green white gold golden yellow orange pink purple silver albino blood pigeon dalmatian electric neon super halfmoon half moon powder catfish cichlid tetra shrimp snail zebra tiger crowntail veiltail plakat delta dumbo king giant double tail koi dragon scale marble galaxy fancy long fin longfin short shortfin the a an of')
     .split(' ').forEach(function (w) { var t = toks(w)[0] || w; ALLOWX[t] = 1; });
-  function extrasOk(q, cand) {
+  function extrasOk(q, cand, ent) {
     var tc = {}; toks(cand).forEach(function (t) { tc[t] = 1; });
+    if (ent) toks(ent.sci || '').forEach(function (t) { tc[t] = 1; });
     return toks(q).every(function (t) { return tc[t] || /^[0-9]+$/.test(t) || ALLOWX[t]; });
   }
   function bestMatch(q) {
@@ -60,7 +61,7 @@
       [e.name, e.sci].concat(e.aka || []).forEach(function (name) {
         var s = score(q, name);
         // candidate is only part of the title: every leftover word must be harmless (size, sex, color...)
-        if (s < 1 && toks(name).length < toks(q).length && !extrasOk(q, name)) s = Math.min(s, 0.5);
+        if (s < 1 && toks(name).length < toks(q).length && !extrasOk(q, name, e)) s = Math.min(s, 0.5);
         if (CONFLICT.test(q) && !CONFLICT.test(name)) s = Math.min(s, 0.5);
         if (s > bs) { bs = s; best = i; }
       });

@@ -33,3 +33,12 @@ Next up: care_data2.py after emperor-tetra.
 - strawberry-rasbora, pygmy-rasbora: minimum tank 5 -> 10 gal for the 8+ group.
 - clown-rasbora, espei-rasbora: checked, OK.
 Next up: care_data2.py from giant-danio onward.
+
+## 2026-10-11 (8 entries; care_data2.py entries 25-32)
+- giant-danio: size 4 in -> 4-6 in, minimum tank 30 -> 40 gal, temperature 65-80 -> 68-78 F (active 6-in schooling fish).
+- rosy-barb: size 3 -> 3-4 in, minimum tank 20 -> 30 gal (active group of 6+).
+- denison-barb: size 4.5 -> 4-6 in (wild fish reach about 6 in).
+- tinfoil-barb: size 12 -> 10-14 in, minimum tank 125 -> 200 gal (group of 4+ of 12-in fish), temperature 72-77 -> 72-79 F.
+- leopard-danio, odessa-barb, ruby-barb, gold-barb: checked, OK.
+- licorice-gourami: removed wrong aliases (thicklip sunset gourami, pygmy gourami, samurai gourami, croaking gourami); lotus-tiger: removed Nymphoides aliases (banana plant is a different plant, now its own guide).
+Next up: care_data2.py from bala-shark onward.
