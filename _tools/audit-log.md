@@ -42,3 +42,8 @@ Next up: care_data2.py from giant-danio onward.
 - leopard-danio, odessa-barb, ruby-barb, gold-barb: checked, OK.
 - licorice-gourami: removed wrong aliases (thicklip sunset gourami, pygmy gourami, samurai gourami, croaking gourami); lotus-tiger: removed Nymphoides aliases (banana plant is a different plant, now its own guide).
 Next up: care_data2.py from bala-shark onward.
+
+## 2026-10-12 (8 entries; care_data2.py entries 33-40)
+- bala-shark: size 12 -> 12-14 in, minimum tank 150 -> 180 gal (group of 3+ of 12-in fish).
+- rainbow-shark, red-tail-black-shark, flying-fox, chinese-algae-eater, medaka, limia, julii-cory: checked, OK.
+Next up: care_data2.py after julii-cory.

@@ -3,6 +3,18 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Salvini Cichlid","salvini-cichlid"),
+("Peacock Eel","peacock-eel"),
+("Half Banded Spiny Eel","half-banded-spiny-eel"),
+("Norman's Lampeye","normans-lampeye"),
+("Taiwan Moss on Mesh","taiwan-moss"),
+("Flame Moss","flame-moss"),
+("Fissidens Moss","fissidens-moss"),
+("Tonina Fluviatilis","tonina-fluviatilis"),
+("Cyperus Helferi","cyperus-helferi"),
+("Utricularia Graminifolia","utricularia-graminifolia"),
+("Golden Creeping Jenny","golden-creeping-jenny"),
+("Nomaphila","nomaphila"),
 ("Rope Fish","rope-fish"),
 ("Exclamation Point Rasbora Boraras urophthalmoides","exclamation-point-rasbora"),
 ("Pretty Tetra","pretty-tetra"),
