@@ -6,6 +6,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 
 ## Core guides
 
+- [Aquarium Setup & Equipment Guide](https://freshwaterguides.com/guides/aquarium-setup-equipment-guide/): The real equipment list for a new freshwater tank — tank size, filter GPH, heater wattage, lighting, substrate, and test kit — and what to skip on day one.
 - [How to Cycle a Freshwater Aquarium](https://freshwaterguides.com/guides/cycle-a-fish-tank/): The nitrogen cycle explained simply, how to test for it, and realistic timelines.
 - [Water Parameters and Testing Explained](https://freshwaterguides.com/guides/water-parameters-testing/): Every core parameter — pH, GH, KH, ammonia, nitrite, nitrate, chlorine/chloramine — with target ranges and test kit guidance.
 - [Aquarium Maintenance Schedule](https://freshwaterguides.com/guides/aquarium-maintenance-schedule/): A realistic daily, weekly, monthly, and quarterly freshwater tank maintenance routine.
