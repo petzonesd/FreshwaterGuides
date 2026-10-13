@@ -47,3 +47,8 @@ Next up: care_data2.py from bala-shark onward.
 - bala-shark: size 12 -> 12-14 in, minimum tank 150 -> 180 gal (group of 3+ of 12-in fish).
 - rainbow-shark, red-tail-black-shark, flying-fox, chinese-algae-eater, medaka, limia, julii-cory: checked, OK.
 Next up: care_data2.py after julii-cory.
+
+## 2026-10-13 (8 entries; care_data2.py entries 41-48)
+- sterbai-cory, pygmy-cory, skunk-cory, albino-cory, corydoras-assorted, common-pleco, clown-pleco: checked against SeriouslyFish/Wikipedia/Tankarium/AquariumSource, all OK (common-pleco's 15 in captive-size and 125 gal tank sit correctly between sources' 75-80 gal minimum and 150 gal ideal; clown-pleco's 4 in/73-82F matches Tankarium's 3-4 in/73-82F).
+- golden-nugget-pleco: sources disagree sharply (SeriouslyFish: max 180mm/~7in SL, needs 81-90F; AquariumSource: up to 10 in, 73-79F) — likely the same lumped-trade-name problem seen elsewhere in this audit (L018/L081 "gold nugget" covers more than one similar Baryancistrus/Scobinancistrus species). This entry's existing 7 in/78-86F/55 gal already sits as a defensible middle ground between the conflicting sources; left as-is rather than picking one source as ground truth.
+Next up: care_data2.py from whiptail-catfish onward.
