@@ -148,6 +148,27 @@ MORE_ANIMALS = [
  A("snowball-pleco","Snowball Pleco (L201)","Hypancistrus inspector","fish","Loricariidae","South America","3.5-4 in",(76,84),(6.0,7.5),30,"Peaceful, territorial around caves","Pair or small group","Bottom","Intermediate","Omnivore leaning carnivore: sinking pellets, frozen bloodworms, brine shrimp, some vegetables","5-10 years",
   "A small, white-spotted pleco that stays compact and lives in caves. It likes warm, clean, well-oxygenated water, so it suits an established tank rather than a first aquarium.",
   ["Provide several caves, one per fish.","Keep water warm, clean and well oxygenated.","Feed meaty sinking foods; do not rely on algae alone."],aka=["l201 snowball pleco","l201 pleco","l-201 pleco","snowball pleco l201","hypancistrus inspector","l201 snowball pleco hypancistrus inspector"]),
+ A("red-terror","Red Terror Cichlid","Amphilophus festae","fish","Cichlidae","Pacific slope of Ecuador and Peru","14-16 in",(75,82),(6.5,8.0),150,"Aggressive, territorial","Solitary or a bonded pair in a very large tank","Bottom to mid","Advanced","Carnivore leaning omnivore: cichlid pellets, frozen foods, earthworms","10-15 years",
+  "A big, bold Central and South American cichlid with a blue-green body and a red-orange flush. It is strong, digs, and can be fierce toward tankmates, so it is a one-fish centerpiece for a very large tank.",
+  ["Plan for 150 gallons or more for one adult.","Keep only with similar large, tough fish, if at all.","Use heavy decor and secure equipment; it digs and moves things."],aka=["red terror","red terror cichlid","amphilophus festae","cichlasoma festae","festae cichlid"]),
+ A("threadfin-acara","Threadfin Acara","Acarichthys heckelii","fish","Cichlidae","Amazon and Guianas, northern South America","8-10 in",(75,82),(6.0,7.5),75,"Semi-aggressive, territorial when breeding","Solitary or a pair","Bottom to mid","Intermediate","Omnivore leaning carnivore: pellets, frozen foods, worms","8-10 years",
+  "A sand-sifting South American cichlid with a mottled pattern and a dark spot on the side. It is calmer than many large cichlids but still needs a roomy tank and fish of similar size.",
+  ["Use soft sand so it can sift without scratching its mouth.","Keep tankmates too big to swallow and not easily bullied.","Provide caves or wood for pairs that breed."],aka=["threadfin acara","threadfin acara cichlid","albino threadfin acara","heckels acara","heckel's acara","acarichthys heckelii","heckels cichlid"]),
+ A("green-phantom-pleco","Green Phantom Pleco","Hemiancistrus subviridis (L200)","fish","Loricariidae","Brazil, Amazon basin","5-7 in",(76,84),(6.0,7.5),55,"Peaceful, may defend caves","Solitary or small groups in big tanks","Bottom","Intermediate","Omnivore: sinking pellets, vegetables, frozen foods, driftwood to rasp","10+ years",
+  "A dark-green pleco with pale spots, known by the trade code L200. It stays smaller than a common pleco but likes warm, oxygen-rich water, caves, and wood to graze on.",
+  ["Provide caves and driftwood.","Keep the water warm, clean and well oxygenated.","Do not mix it up with larger common plecos; check the exact fish."],aka=["green phantom pleco","green phantom plecos","l200 pleco","l200 green phantom pleco","l200","hemiancistrus subviridis","l-200 pleco"]),
+ A("head-and-tail-light-tetra","Head and Tail Light Tetra","Hemigrammus ocellifer","fish","Characidae","Amazon and Guianas, South America","1.75-2 in",(72,82),(5.5,7.5),15,"Peaceful","Schooling, keep 6+","Mid","Beginner","Omnivore: micro pellets, flakes, small frozen foods","3-5 years",
+  "A small, silvery tetra with glowing spots near the eye and the base of the tail, also called the beacon fish. It is hardy and peaceful and does well in a planted community tank.",
+  ["Keep a group of six or more.","Choose small, calm tankmates.","Feed small foods that fit its mouth."],aka=["head and tail light tetra","head and taillight tetra","head & tail light tetra","beacon fish","beacon tetra","hemigrammus ocellifer"]),
+ A("glowlight-rasbora","Glowlight Rasbora","Trigonostigma hengeli","fish","Danionidae","Sumatra and nearby regions, Indonesia","1.5-2 in",(73,79),(5.5,7.5),15,"Peaceful","Schooling, keep 8+","Mid","Beginner","Omnivore: micro pellets, flakes, baby brine shrimp","3-5 years",
+  "A tiny, peaceful rasbora with a glowing orange stripe along the body. Keep a group in a planted tank with calm tankmates and stable water.",
+  ["Keep eight or more together.","Choose gentle tankmates of similar size.","Avoid rapid water changes in temperature and hardness."],aka=["glowlight rasbora","glowlight rasboras","hengeli rasbora","hengels rasbora","trigonostigma hengeli","rasbora hengeli"]),
+ A("salt-and-pepper-cory","Salt and Pepper Cory","Corydoras habrosus","fish","Callichthyidae","Venezuela, South America","1.5 in",(72,79),(6.0,7.5),15,"Peaceful","Schooling, keep 6+","Bottom","Beginner","Omnivore: sinking micro pellets, wafers, frozen foods","3-5 years",
+  "A tiny, peppery-patterned corydoras that stays small and likes soft sand. Keep a group at the bottom of a peaceful tank, and feed foods that sink within its reach.",
+  ["Use smooth sand or fine gravel.","Keep six or more.","Do not mix with fish large enough to eat it."],aka=["salt and pepper cory","salt and pepper corydoras","salt & pepper cory","salt n pepper cory","corydoras habrosus","habrosus cory"]),
+ A("vampire-shrimp","Vampire Shrimp","Atya gabonensis","invert","Atyidae","West and Central Africa","3-6 in",(72,82),(6.5,7.5),30,"Peaceful","Solitary or small groups","Bottom to mid","Intermediate","Filter feeder: fine powdered foods, floating particles, biofilm","Several years",
+  "A large, peaceful filter-feeding shrimp that uses fan-like hands to catch particles from the water. It hides a lot and is shy after molting, so it needs a mature tank with strong flow, caves, and tankmates that will not pick on it.",
+  ["Add only to a mature tank with plenty of fine food in the water.","Provide caves and rocks to hide in.","Keep the lid on and avoid copper-based medications."],aka=["vampire shrimp","vampire shrimps","african fan shrimp","atya gabonensis","giant fan shrimp"]),
 ]
 
 MORE_PLANTS = [
@@ -245,6 +266,15 @@ MORE_PLANTS = [
  P("utricularia-graminifolia","Utricularia Graminifolia","Utricularia graminifolia","Lentibulariaceae","Asia","1-2 in","High","Recommended","Foreground carpet","Moderate",(68,80),(5.5,7.0),"Advanced","Division",
   "A tiny carpeting plant with grass-like leaves that forms a dense lawn in strong light with CO2. It is a bladderwort, so it also has tiny traps. Plant in small tufts and be patient.",
   ["Needs strong light and CO2 for a tight carpet.","Plant in small tufts; it can lift at first.","Keep the water clean to avoid algae."],aka=["utricularia graminifolia","ug carpet","utricularia graminifolia carpet","utricularia"]),
+ P("pogostemon-erectus","Pogostemon Erectus","Pogostemon erectus","Lamiaceae","India","10-20 in","Moderate to high","Recommended","Background","Fast",(72,80),(5.5,7.5),"Intermediate","Cuttings",
+  "A fast-growing stem plant with narrow, whorled leaves that forms a bright green background. It does best in good light with CO2, and the top shoots can be trimmed and replanted.",
+  ["Trim and replant the tops often.","Give it nutrients, especially iron, for strong growth.","Plant in groups for a full background."],aka=["pogostemon erectus","pogostemon erectus stem","pogostemon erecta"]),
+ P("weeping-moss","Weeping Moss","Vesicularia ferriei","Hypnaceae","Asia","2-4 in","Low to moderate","Not required","Attach to wood or rock","Moderate",(65,82),(5.5,7.5),"Beginner","Division",
+  "A drooping, easygoing moss that forms cascading strands once attached to driftwood or rock. It is a hardy choice for shrimp tanks and beginner aquascapes.",
+  ["Tie or glue to wood or rock; do not bury it.","Trim to keep it neat and to prevent debris buildup.","Keep the water clean to avoid algae."],aka=["weeping moss","weeping moss vesicularia","vesicularia ferriei"]),
+ P("hygrophila-pinnatifida","Hygrophila Pinnatifida","Hygrophila pinnatifida","Acanthaceae","India","6-12 in","Moderate","Not required","Attach to wood or rock","Slow",(72,80),(6.0,7.5),"Intermediate","Rhizome division",
+  "A rhizome plant with crinkled, deeply lobed leaves, grown attached to driftwood or rock like a fern. It is slow growing and can brown if buried or kept in very soft water.",
+  ["Attach to wood or rock; do not bury the rhizome.","Keep light moderate to avoid algae on slow leaves.","Be patient; it grows slowly."],aka=["hygrophila pinnatifida","pinnatifida plant"]),
 ]
 
 ALIAS_INTO = {

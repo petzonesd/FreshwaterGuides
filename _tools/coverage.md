@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-13 update
+Guides: 302 (+10: red terror, threadfin acara, green phantom pleco L200, head and tail light tetra, glowlight rasbora, salt and pepper cory, vampire shrimp; plants pogostemon erectus, weeping moss, hygrophila pinnatifida). Sitemap not re-fetched today. Bug fixed: labels matcher treated "Head and Tail Light Tetra" as a light fixture. Still missing: other L-number plecos (L014, L015, L047, L114, L152, L155), kitty/slender tetra, garra gotyla, spotback mountain loach, red-eye puffer, clown killifish (needs Nothobranchiidae hub), glass knifefish, persicaria, ranunculus inundatus, mini pellia, selaginella. CA flag: check parrots-feather, water-lettuce and anacharis/egeria against the CDFA noxious weed list.
+
 ## 2026-10-12 update
 Guides: 292 (+12: salvini cichlid, peacock eel, half-banded spiny eel, Norman's lampeye; plants taiwan moss, flame moss, fissidens, cyperus helferi, tonina, nomaphila, golden creeping jenny, utricularia graminifolia). Riccia is already covered inside the subwassertang guide. Skipped on purpose: Brazilian pennywort (CA weed status unclear), pearl weed (taxonomy unclear). Remaining list from 2026-10-11 still stands minus the items above.
 
