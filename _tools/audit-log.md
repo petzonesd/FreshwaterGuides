@@ -58,3 +58,9 @@ Next up: care_data2.py from whiptail-catfish onward. (done on 2026-10-13b below)
 - yoyo-loach: minimum tank 40 -> 55 gal, group "3+" -> "5+" (active social loach; small groups cause bullying).
 - whiptail-catfish, hoplo-catfish, pictus-catfish, raphael-catfish, banjo-catfish, dojo-loach: checked against general hobby references, OK.
 Next up: care_data2.py from zebra-loach onward.
+
+## 2026-10-14 (8 entries; care_data2.py entries 57-64)
+- horseface-loach: minimum tank 40 -> 55 gal (8-in burrower that needs floor space).
+- flame-gourami: same species as dwarf-gourami (Trichogaster lalius), so difficulty Beginner -> Intermediate and temperature 72-82 -> 74-82 F to match; added quarantine/disease tip.
+- zebra-loach, hillstream-loach, botia-loach, dwarf-chain-loach, giant-gourami, opaline-gourami: checked against general hobby references, OK.
+Next up: care_data2.py after flame-gourami (licorice-gourami was audited earlier; continue with the entries following it in file order that are not yet logged).

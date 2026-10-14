@@ -3,6 +3,11 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Glowlight Tetra","glowlight-tetra"),("Glowlight Tetra Flake Food",None),("Mosquito Rasbora","mosquito-rasbora"),("Scissortail Rasbora","scissortail-rasbora"),
+("Red Zebra Cichlid","red-zebra-cichlid"),("Demasoni Cichlid","demasoni-cichlid"),("Kenyi Cichlid","kenyi-cichlid"),("Cichlid Pellets Mbuna Formula",None),
+("Weather Loach","weather-loach"),("Twig Catfish Farlowella","twig-catfish"),("Croaking Gourami","croaking-gourami"),("Threadfin Rainbowfish","threadfin-rainbowfish"),
+("Red Rainbowfish","red-rainbowfish"),("Cardinal Shrimp Sulawesi","sulawesi-cardinal-shrimp"),("Mini Pellia","mini-pellia"),("Ranunculus Inundatus","ranunculus-inundatus"),
+("Cardinal Tetra","cardinal-tetra"),("Red Rainbowfish Food",None),
 ("Red Terror Cichlid","red-terror"),("Threadfin Acara Albino","threadfin-acara"),("L200 Green Phantom Pleco","green-phantom-pleco"),("Head and Tail Light Tetra","head-and-tail-light-tetra"),
 ("Glowlight Rasbora","glowlight-rasbora"),("Salt and Pepper Cory","salt-and-pepper-cory"),("Vampire Shrimp","vampire-shrimp"),("Pogostemon Erectus","pogostemon-erectus"),("Weeping Moss on Rock","weeping-moss"),("Hygrophila Pinnatifida","hygrophila-pinnatifida"),
 ("Vampire Shrimp Food Powder",None),("Glowlight Rasbora Flake Food",None),("Green Phantom Pleco Wafers",None),

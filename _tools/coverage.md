@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-14 update
+Guides: 316 (+14: glowlight tetra, mosquito rasbora, scissortail rasbora, red zebra, demasoni, kenyi, weather loach, twig catfish, croaking gourami, threadfin rainbowfish, red rainbowfish, Sulawesi cardinal shrimp, mini pellia, ranunculus inundatus). Sitemap not re-fetched today. Still missing: L-number plecos (L014, L015, L047, L114, L152, L155), kitty/slender tetra, garra gotyla, spotback mountain loach, red-eye puffer, clown killifish (needs a Nothobranchiidae hub rule), glass knifefish, persicaria, selaginella, halfbeak (needs Hemiramphidae hub rule). Cabomba not added: check CA noxious-weed status.
+
 ## 2026-10-13 update
 Guides: 302 (+10: red terror, threadfin acara, green phantom pleco L200, head and tail light tetra, glowlight rasbora, salt and pepper cory, vampire shrimp; plants pogostemon erectus, weeping moss, hygrophila pinnatifida). Sitemap not re-fetched today. Bug fixed: labels matcher treated "Head and Tail Light Tetra" as a light fixture. Still missing: other L-number plecos (L014, L015, L047, L114, L152, L155), kitty/slender tetra, garra gotyla, spotback mountain loach, red-eye puffer, clown killifish (needs Nothobranchiidae hub), glass knifefish, persicaria, ranunculus inundatus, mini pellia, selaginella. CA flag: check parrots-feather, water-lettuce and anacharis/egeria against the CDFA noxious weed list.
 
