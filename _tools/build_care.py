@@ -54,6 +54,9 @@ def rng(t, unit=""):
     f = lambda v: ("%g" % v)
     return f"{f(lo)}-{f(hi)}{unit}"
 
+def a_an(word):
+    return "an" if word[:1].lower() in "aeiou" else "a"
+
 def tap_fit(e):
     lo, hi = e["ph"] if isinstance(e["ph"], tuple) else tuple(float(x) for x in e["ph"].split("-"))
     if lo >= 7.0:
@@ -184,9 +187,9 @@ def page_for(e, by_slug):
         out.append(f'<figure class="care-photo"><img src="/care/art/{e["slug"]}.svg" alt="Cartoon illustration of {E(e["name"])}" width="400" height="400" loading="eager"><figcaption>Illustration, not a photo</figcaption></figure>')
     out.append('<div class="article-body care-body">')
     if e["kind"] == "plant":
-        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level aquarium plant.</strong> {E(e['note'])}"
+        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is {a_an(e['difficulty'])} {E(e['difficulty'].lower())}-level aquarium plant.</strong> {E(e['note'])}"
     else:
-        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is a {E(e['difficulty'].lower())}-level {'freshwater fish' if e['kind']=='fish' else 'freshwater amphibian' if e['kind']=='amphibian' else 'freshwater invertebrate'} that needs at least {e['tank']} gallons and {E(temp_s(e))}.</strong> {E(e['note'])}"
+        lead = f"<strong>{E(e['name'])} ({E(e['sci'])}) is {a_an(e['difficulty'])} {E(e['difficulty'].lower())}-level {'freshwater fish' if e['kind']=='fish' else 'freshwater amphibian' if e['kind']=='amphibian' else 'freshwater invertebrate'} that needs at least {e['tank']} gallons and {E(temp_s(e))}.</strong> {E(e['note'])}"
     out.append(f"<p>{lead}</p>")
     out.append('<h2>Care facts at a glance</h2>')
     rows = "".join(f"<tr><th scope=\"row\">{E(k)}</th><td>{E(v)}</td></tr>" for k, v in facts_rows(e))
