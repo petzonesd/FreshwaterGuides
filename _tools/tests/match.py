@@ -141,6 +141,10 @@ CASES=[
 ("Fish Net Large",None),
 ("Zoo Med Betta Log Hide",None),
 ("Neon Tetra Plush Toy",None),
+("Red Eye Puffer","red-eye-puffer"),("Clown Killifish","clown-killifish"),("African Banded Barb","african-banded-barb"),("Black Ghost Knife Fish","black-ghost-knifefish"),
+("Auratus Cichlid","auratus-cichlid"),("Johanni Cichlid","johanni-cichlid"),("Yellow Tail Acei","acei-cichlid"),("Electric Blue Ahli","electric-blue-hap"),
+("Snakeskin Gourami","snakeskin-gourami"),("Dwarf Water Lily Bulb","dwarf-water-lily"),("Lagenandra Meeboldii","lagenandra"),
+("Cichlid Pellets Malawi Auratus Formula",None),("Water Lily Fertilizer Tabs",None),("Betta Pellets Black Ghost",None),
 ]
 with sync_playwright() as p:
     srv=serve(8791)

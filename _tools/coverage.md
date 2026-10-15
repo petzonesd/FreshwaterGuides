@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-15 update
+Guides: 327 (+11: red-eye puffer, clown killifish, African banded barb, black ghost knifefish, auratus, johanni, yellow-tail acei, electric blue hap, snakeskin gourami; plants dwarf water lily, lagenandra). Hubs: added Nothobranchiidae to killifish hub and Apteronotidae to large/specialty. Petzonesd.com sitemap WebFetch was blocked (permission prompt unanswered), so picks came from the coverage list. Skipped for accuracy doubt: hecqui shell dweller (genus unsure), L-number plecos, kitty tetra, glass knifefish, Thai micro crab (CA check). Water hyacinth deliberately not added (CA noxious weed).
+
 ## 2026-10-14 update
 Guides: 316 (+14: glowlight tetra, mosquito rasbora, scissortail rasbora, red zebra, demasoni, kenyi, weather loach, twig catfish, croaking gourami, threadfin rainbowfish, red rainbowfish, Sulawesi cardinal shrimp, mini pellia, ranunculus inundatus). Sitemap not re-fetched today. Still missing: L-number plecos (L014, L015, L047, L114, L152, L155), kitty/slender tetra, garra gotyla, spotback mountain loach, red-eye puffer, clown killifish (needs a Nothobranchiidae hub rule), glass knifefish, persicaria, selaginella, halfbeak (needs Hemiramphidae hub rule). Cabomba not added: check CA noxious-weed status.
 

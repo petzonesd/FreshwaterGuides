@@ -320,6 +320,45 @@ MORE_PLANTS = [
 
 ]
 
+MORE_ANIMALS += [
+ A("red-eye-puffer","Red-Eye Puffer","Carinotetraodon irrubesco","fish","Tetraodontidae","Southern India","2.5-3 in",(72,79),(6.5,7.5),20,"Semi-aggressive, fin-nipper","Solitary or a well-planted group with experience","Mid to lower","Advanced","Carnivore: snails, frozen bloodworms, brine shrimp, small live foods","4-5 years",
+  "A small freshwater puffer with a red eye, sold as a cousin of the dwarf puffer. It is curious but nips fins and may bully tankmates, so most keepers give it its own heavily planted tank and feed hard-shelled snails to wear down its teeth.",
+  ["Do not assume it is a community fish; it nips fins.","Offer snails regularly so its teeth stay worn down.","Keep the water very clean; puffers are messy eaters."],aka=["red eye puffer","red-eyed puffer","redeye puffer","carinotetraodon irrubesco","red eye dwarf puffer"]),
+ A("clown-killifish","Clown Killifish","Epiplatys annulatus","fish","Nothobranchiidae","West Africa","1.5 in",(72,79),(6.0,7.5),10,"Peaceful, shy","Small group, 1 male with a few females","Top","Intermediate","Carnivore: micro pellets, baby brine shrimp, daphnia, small frozen foods","1-2 years",
+  "A tiny banded killifish that spends its time near the surface. It is peaceful but short-lived and a skilled jumper, so it needs a tight lid, floating plants and very gentle tankmates.",
+  ["Use a tight lid; it jumps.","Add floating plants for cover.","Feed small live or frozen foods; many refuse dry food at first."],aka=["clown killifish","rocket killifish","epiplatys annulatus","banded killifish clown"]),
+ A("african-banded-barb","African Banded Barb","Barbus fasciolatus","fish","Cyprinidae","Angola and the upper Congo and Zambezi basins, Africa","2.5-3 in",(68,77),(6.0,7.5),30,"Peaceful, active","Schooling, keep 6+","Mid to lower","Intermediate","Omnivore: micro pellets, flakes, frozen foods","3-5 years",
+  "A small barb with several dark vertical bands on a golden body. It is peaceful and active and is best kept as a group in a planted tank with calm tankmates.",
+  ["Keep a group of six or more.","Use a tight lid; barbs can jump.","Keep the water clean and well filtered."],aka=["african banded barb","african banded barbs","barbus fasciolatus","banded barb african"]),
+ A("black-ghost-knifefish","Black Ghost Knifefish","Apteronotus albifrons","fish","Apteronotidae","Amazon and Paraguay basins, South America","12-20 in",(73,80),(6.0,7.5),100,"Peaceful with large fish, eats small fish","Solitary","Lower to mid","Advanced","Carnivore: frozen bloodworms, mysis, krill, earthworms, sinking meaty pellets","10-15 years",
+  "A velvety black, nocturnal knifefish that swims forwards and backwards using a long ribbon fin. It is sold small but grows over a foot long, hides all day, and is sensitive to salt, strong medications and poor water.",
+  ["Provide hiding places like pipes and caves.","Do not keep with fish small enough to eat.","Avoid copper and use fish medications with extra care."],aka=["black ghost knifefish","black ghost knife","black ghost knife fish","black ghost","apteronotus albifrons","ghost knifefish"]),
+ A("auratus-cichlid","Auratus Cichlid","Melanochromis auratus","fish","Cichlidae","Lake Malawi, East Africa","4-5 in",(75,82),(7.5,8.6),55,"Aggressive, territorial","One male with several females","Mid to lower","Intermediate","Omnivore: cichlid pellets, flakes, spirulina, vegetables","6-8 years",
+  "A striped Malawi mbuna. Young fish and females are gold with dark stripes while mature males turn mostly black with a blue sheen. It is feisty and territorial, so plan a rocky tank with plenty of hiding places and a group with more females than males.",
+  ["Keep one male with several females.","Stack rock to break lines of sight.","Use hard, alkaline water and avoid very small tankmates."],aka=["auratus cichlid","auratus cichlids","melanochromis auratus","golden mbuna","malawi golden cichlid"]),
+ A("johanni-cichlid","Johanni Cichlid","Melanochromis johannii","fish","Cichlidae","Lake Malawi, East Africa","4-5 in",(75,82),(7.5,8.6),55,"Aggressive, territorial","One male with several females","Mid to lower","Intermediate","Omnivore: cichlid pellets, flakes, spirulina, vegetables","6-8 years",
+  "A Malawi mbuna with a striking sexual difference: females and young are orange-gold with dark stripes while mature males turn dark blue-black. It is territorial, so keep it in a rocky tank with several females per male and tough tankmates.",
+  ["Keep one male with several females.","Do not mix with other similar striped mbuna, since males fight.","Offer vegetable matter along with pellets."],aka=["johanni cichlid","johanni","melanochromis johannii","johannii cichlid","johanni mbuna"]),
+ A("acei-cichlid","Yellow-Tail Acei Cichlid","Pseudotropheus acei","fish","Cichlidae","Lake Malawi, East Africa","5-6 in",(75,82),(7.5,8.6),55,"Mostly peaceful for a Malawi cichlid, some chasing","Group of 6+ in a large tank","Mid","Intermediate","Omnivore: cichlid pellets, spirulina, frozen foods","6-8 years",
+  "A slim, silvery-blue Malawi cichlid with a yellow tail. It is one of the calmer Malawi species but still needs rockwork, hard alkaline water and a group larger than a few fish to spread out any aggression.",
+  ["Keep a group in a long tank.","Use rock caves and open swimming room.","Use hard, alkaline water."],aka=["acei cichlid","yellow tail acei","yellowtail acei cichlid","pseudotropheus acei","acei"]),
+ A("electric-blue-hap","Electric Blue Hap","Sciaenochromis fryeri","fish","Cichlidae","Lake Malawi, East Africa","6 in",(72,82),(7.5,8.6),75,"Semi-aggressive, predatory toward small fish","One male with several females","Mid","Intermediate","Carnivore-leaning omnivore: cichlid pellets, frozen foods","6-8 years",
+  "A bright blue peacock-relative from Lake Malawi, often sold as electric blue ahli. It is a fish-eater at heart, so avoid very small tankmates and give it a long tank with open water and some rock.",
+  ["Do not keep with fish small enough to swallow.","Keep one male per tank unless the tank is large.","Use hard, alkaline water."],aka=["electric blue hap","electric blue haps","electric blue ahli","electric blue ahli cichlid","sciaenochromis fryeri","sciaenochromis ahli"]),
+ A("snakeskin-gourami","Snakeskin Gourami","Trichopodus pectoralis","fish","Osphronemidae","Mekong basin and Southeast Asia","8-10 in",(72,82),(6.0,7.5),75,"Peaceful but large, can bully small fish","Solitary or pair in a very large tank","Upper to mid","Intermediate","Omnivore: pellets, flakes, frozen foods, vegetables","8-10 years",
+  "A big, calm gourami with a snake-like pattern on its sides. Store fish are small, but adults reach about ten inches, so it belongs in a large, long tank with a lid that leaves an air gap.",
+  ["Plan for a tank of 75 gallons or more.","Leave an air gap above the water.","Avoid very small tankmates."],aka=["snakeskin gourami","snakeskin gouramis","trichopodus pectoralis","trichogaster pectoralis","sepat siam"]),
+]
+
+MORE_PLANTS += [
+ P("dwarf-water-lily","Dwarf Water Lily","Nymphaea sp.","Nymphaeaceae","Tropical regions worldwide","8-20 in plus floating leaves","Medium to high","Not required","Bulb or tuber in the substrate; leaves reach the surface","Moderate to fast",(70,82),(6.0,7.5),"Intermediate","Bulb offsets",
+  "A bulb plant that sends up lily pads to the surface and sometimes flowers. Plant the bulb with the top exposed and trim the floating leaves if they shade other plants too much.",
+  ["Leave the top of the bulb above the substrate.","Trim floating leaves if they block light.","Give it a rich root-feeding substrate."],aka=["dwarf water lily","dwarf lily","water lily bulb","dwarf water lily bulb","nymphaea stellata"]),
+ P("lagenandra","Lagenandra","Lagenandra meeboldii","Araceae","India and Sri Lanka","8-16 in","Low to moderate","Not required","Midground to background, rooted","Slow",(72,82),(6.0,7.5),"Intermediate","Rhizome division",
+  "A slow-growing crypt relative with broad, often reddish or brownish leaves. It does best left undisturbed in a rich substrate with moderate light, and it may melt briefly after planting.",
+  ["Do not disturb it once rooted.","Expect an adjustment period after planting.","Use root tabs in poor substrate."],aka=["lagenandra","lagenandra meeboldii","lagenandra meeboldii red","lagenandra bleeding heart","lagenandra thwaitesii"]),
+]
+
 ALIAS_INTO = {
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],
 }

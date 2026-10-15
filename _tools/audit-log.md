@@ -64,3 +64,10 @@ Next up: care_data2.py from zebra-loach onward.
 - flame-gourami: same species as dwarf-gourami (Trichogaster lalius), so difficulty Beginner -> Intermediate and temperature 72-82 -> 74-82 F to match; added quarantine/disease tip.
 - zebra-loach, hillstream-loach, botia-loach, dwarf-chain-loach, giant-gourami, opaline-gourami: checked against general hobby references, OK.
 Next up: care_data2.py after flame-gourami (licorice-gourami was audited earlier; continue with the entries following it in file order that are not yet logged).
+
+## 2026-10-15 (8 entries; care_data2.py: x-ray-tetra .. severum)
+- emerald-dwarf-rasbora: scientific name corrected Danionella erythromicron -> Danio erythromicron (Danionella is a different genus); size 0.8 -> 0.8-1 in.
+- severum: size 8 -> 8-10 in.
+- x-ray-tetra, melon-barb, zebra-pleco, royal-pleco, paradise-fish, plakat-betta: checked against general hobby references, OK.
+- Alias bug: "lagenandra meeboldii"/"lagenandra bleeding heart" were hidden inside bucephalandra-varieties (different genus); moved to the new lagenandra guide.
+Next up: care_data2.py from geophagus onward (see list of unlogged slugs: python check vs this file).
