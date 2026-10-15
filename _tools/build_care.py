@@ -376,10 +376,18 @@ def main():
     write("/care/data.json", json.dumps({"updated": TODAY, "stores": STORES, "items": data}, separators=(",", ":")))
 
     # sitemap
+    # Note: only /care/* urls are rebuilt here, since this script runs
+    # whenever care pages are added/edited. /labels/, /embed/, /service/
+    # are standalone static tools that this script does not touch, so
+    # their lastmod must NOT be bumped to TODAY on every care-page build
+    # (that previously overstated their freshness by several days whenever
+    # this script ran without those pages themselves changing - found and
+    # fixed 15 Oct 2026). If you edit labels/embed/service content, update
+    # their <lastmod> in sitemap.xml by hand in that same commit.
     sm_path = os.path.join(ROOT, "sitemap.xml")
     sm = open(sm_path, encoding="utf-8").read()
-    sm = re.sub(r"<url><loc>https://freshwaterguides\.com/(care|labels|embed|service)/.*?</url>\n?", "", sm)
-    new = [("/care/", "0.8"), ("/labels/", "0.7"), ("/embed/", "0.6"), ("/service/", "0.6")] + [(f"/care/{h[0]}/", "0.7") for h in HUBS] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
+    sm = re.sub(r"<url><loc>https://freshwaterguides\.com/care/.*?</url>\n?", "", sm)
+    new = [("/care/", "0.8")] + [(f"/care/{h[0]}/", "0.7") for h in HUBS] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
     block = "".join(f"<url><loc>{BASE}{p}</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>\n" for p, pr in new)
     sm = sm.replace("</urlset>", block + "</urlset>")
     open(sm_path, "w", encoding="utf-8").write(sm)
