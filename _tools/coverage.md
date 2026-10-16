@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-16 update
+Guides: 337 (+10: bandit cory, black ruby barb, cobalt blue zebra, lemon cichlid, Princess of Burundi, Celebes rainbowfish, turquoise rainbowfish, giraffe cichlid; plants stargrass, pogostemon stellatus). Petzonesd sitemap WebFetch blocked again (permission unanswered); picks from the coverage list. Skipped for accuracy/legal doubt: Sagittaria platyphylla (CA weed status unsure), foxtail/Myriophyllum (CA noxious weed), kerri danio (size unsure). Still missing: L-number plecos, kitty tetra, garra gotyla, spotback mountain loach, glass knifefish, persicaria, selaginella, halfbeak, Bleher's rainbowfish, kerri danio, rainbow krib types.
+
 ## 2026-10-15 update
 Guides: 327 (+11: red-eye puffer, clown killifish, African banded barb, black ghost knifefish, auratus, johanni, yellow-tail acei, electric blue hap, snakeskin gourami; plants dwarf water lily, lagenandra). Hubs: added Nothobranchiidae to killifish hub and Apteronotidae to large/specialty. Petzonesd.com sitemap WebFetch was blocked (permission prompt unanswered), so picks came from the coverage list. Skipped for accuracy doubt: hecqui shell dweller (genus unsure), L-number plecos, kitty tetra, glass knifefish, Thai micro crab (CA check). Water hyacinth deliberately not added (CA noxious weed).
 

@@ -145,6 +145,10 @@ CASES=[
 ("Auratus Cichlid","auratus-cichlid"),("Johanni Cichlid","johanni-cichlid"),("Yellow Tail Acei","acei-cichlid"),("Electric Blue Ahli","electric-blue-hap"),
 ("Snakeskin Gourami","snakeskin-gourami"),("Dwarf Water Lily Bulb","dwarf-water-lily"),("Lagenandra Meeboldii","lagenandra"),
 ("Cichlid Pellets Malawi Auratus Formula",None),("Water Lily Fertilizer Tabs",None),("Betta Pellets Black Ghost",None),
+("Bandit Cory Catfish","bandit-cory"),("Black Ruby Barb","black-ruby-barb"),("Cobalt Blue Zebra Cichlid","cobalt-blue-zebra"),("Lemon Cichlid Neolamprologus Leleupi","lemon-cichlid"),
+("Princess of Burundi Cichlid","brichardi-cichlid"),("Celebes Rainbowfish","celebes-rainbowfish"),("Turquoise Rainbowfish","turquoise-rainbowfish"),("Giraffe Cichlid","giraffe-cichlid"),
+("Stargrass Bunch","stargrass"),("Pogostemon Stellatus","pogostemon-stellatus"),
+("Cichlid Pellets Cobalt Blue Zebra Formula",None),("Lemon Tetra","lemon-tetra"),("Black Ruby Barb Flake Food",None),("Bandit Cory Wafers",None),
 ]
 with sync_playwright() as p:
     srv=serve(8791)

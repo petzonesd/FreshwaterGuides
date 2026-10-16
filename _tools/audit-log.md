@@ -71,3 +71,11 @@ Next up: care_data2.py after flame-gourami (licorice-gourami was audited earlier
 - x-ray-tetra, melon-barb, zebra-pleco, royal-pleco, paradise-fish, plakat-betta: checked against general hobby references, OK.
 - Alias bug: "lagenandra meeboldii"/"lagenandra bleeding heart" were hidden inside bucephalandra-varieties (different genus); moved to the new lagenandra guide.
 Next up: care_data2.py from geophagus onward (see list of unlogged slugs: python check vs this file).
+
+## 2026-10-16 (8 entries; care_data2.py: peacock-bass .. green-spotted-puffer)
+- green-spotted-puffer: minimum tank 30 -> 55 gal, size 6 -> 6-7 in, tip now says adults need brackish to near-marine water (messy, long-lived).
+- peacock-bass: size 20 in -> 12-28 in by species, tip that the biggest species need far more than 300 gal.
+- tropheus: minimum tank 75 -> 100 gal, group "large" -> 8-12+ (small groups bully the weakest fish).
+- firemouth-cichlid: size 6 -> 5-6 in. multies-shell-dweller: size 2 -> 1-2 in (shells are the colony unit).
+- blood-parrot-cichlid, uaru, german-gold-ram, apistogramma (genus-level), electric-blue-jack-dempsey: checked against general hobby references, OK.
+Next up: care_data2.py after electric-blue-jack-dempsey (67 entries unlogged by slug; see check script in README).

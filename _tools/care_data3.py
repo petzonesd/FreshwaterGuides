@@ -359,6 +359,42 @@ MORE_PLANTS += [
   ["Do not disturb it once rooted.","Expect an adjustment period after planting.","Use root tabs in poor substrate."],aka=["lagenandra","lagenandra meeboldii","lagenandra meeboldii red","lagenandra bleeding heart","lagenandra thwaitesii"]),
 ]
 
+MORE_ANIMALS += [
+ A("bandit-cory","Bandit Cory","Corydoras metae","fish","Callichthyidae","Meta River basin, Colombia","2.25 in",(72,79),(6.0,7.5),20,"Peaceful","Groups of 5+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","5-8 years",
+  "A small armored catfish named for the dark mask across its eyes. Like other corydoras it is happiest in a group on soft sand or smooth gravel, and it adds lively activity at the bottom of a community tank.",
+  ["Keep five or more together.","Use sand or smooth gravel to protect its barbels.","Feed sinking foods so it is not outcompeted."],aka=["bandit corydoras","bandit catfish","corydoras metae","bandit cory catfish"]),
+ A("black-ruby-barb","Black Ruby Barb","Pethia nigrofasciata","fish","Cyprinidae","Sri Lanka","2.5-3 in",(72,79),(6.0,7.5),30,"Peaceful to lively; may nip long fins","Schooling, keep 6+","Mid","Beginner","Omnivore: flakes, micro pellets, frozen foods, some vegetables","4-6 years",
+  "A small, active barb whose males turn deep ruby and black when settled and well fed. It is hardy and good in community tanks, but keep a group so the nipping is spread out, and avoid slow, long-finned tankmates.",
+  ["Keep a group of six or more.","Avoid long-finned, slow tankmates.","Give it plants and some open swimming space."],aka=["black ruby barbs","blackruby barb","pethia nigrofasciata","barbus nigrofasciatus"]),
+ A("cobalt-blue-zebra","Cobalt Blue Zebra Cichlid","Metriaclima callainos","fish","Cichlidae","Lake Malawi, East Africa","5 in",(76,82),(7.6,8.6),55,"Aggressive, territorial","One male with several females","All levels","Intermediate","Omnivore: cichlid pellets with some vegetable matter, spirulina flake","6-10 years",
+  "A bright blue mbuna that is active and territorial. It does best in a rock-heavy tank with hard, alkaline water, one male and several females, and other mbuna so the aggression is spread out.",
+  ["Do not keep a single female with a male; use a harem.","Stack rocks securely so they cannot collapse.","Overstock with mbuna of similar size to spread aggression."],aka=["cobalt blue zebra","cobalt zebra cichlid","cobalt zebra","metriaclima callainos","maylandia callainos","pseudotropheus callainos"]),
+ A("lemon-cichlid","Lemon Cichlid","Neolamprologus leleupi","fish","Cichlidae","Lake Tanganyika, East Africa","4 in",(74,82),(7.5,9.0),30,"Semi-aggressive, territorial","Pair or small group in a large tank","Bottom, around rocks","Intermediate","Carnivore-leaning omnivore: small pellets, frozen foods","6-8 years",
+  "A bright yellow-orange Tanganyikan cave spawner. It defends its cave from tankmates, so give it rockwork with plenty of hiding places, hard alkaline water and a tight-fitting lid.",
+  ["Provide caves; it breeds and defends in them.","Needs hard, alkaline water.","Choose tankmates that are not tiny or timid."],aka=["lemon cichlids","neolamprologus leleupi","leleupi","lemon cichlid leleupi"]),
+ A("brichardi-cichlid","Princess of Burundi","Neolamprologus pulcher","fish","Cichlidae","Lake Tanganyika, East Africa","4 in",(75,80),(7.5,9.0),30,"Semi-aggressive, territorial near its caves","Small family group","Bottom to mid","Intermediate","Omnivore: small pellets, flakes, frozen foods","6-10 years",
+  "A graceful Tanganyikan cichlid with long, lace-like fins that lives in family groups and tends fry together. Provide rockwork with caves, hard alkaline water and a long tank.",
+  ["Provide rockwork and caves.","Needs hard, alkaline water.","Offspring may stay with the parents and help guard the nest."],aka=["princess of burundi","princess cichlid","neolamprologus brichardi","neolamprologus pulcher","brichardi","fairy cichlid","lyretail cichlid"]),
+ A("celebes-rainbowfish","Celebes Rainbowfish","Marosatherina ladigesi","fish","Telmatherinidae","Sulawesi, Indonesia","3 in",(72,79),(7.0,8.0),30,"Peaceful, active","Schooling, keep 6+","Upper to mid","Intermediate","Omnivore: micro pellets, flakes, frozen foods","3-5 years",
+  "A slender, graceful fish with yellow-edged fins and an elegant sail on males. Related to rainbowfish but from Sulawesi, it prefers harder, alkaline water and a long tank with plenty of open swimming room.",
+  ["Keep a group of six or more.","Use a tight lid; they jump.","Prefers harder, alkaline water over soft tap water."],aka=["celebes rainbow","celebes sailfin rainbowfish","celebes rainbowfish sulawesi","marosatherina ladigesi","telmatherina ladigesi","sulawesi rainbowfish"]),
+ A("turquoise-rainbowfish","Turquoise Rainbowfish","Melanotaenia lacustris","fish","Melanotaeniidae","Lake Kutubu, Papua New Guinea","5 in",(75,82),(7.0,8.0),40,"Peaceful, active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","5-8 years",
+  "A deep-bodied rainbowfish with blue-turquoise color over a darker back. It is active, peaceful and good in a long community tank with hard, alkaline water, and it needs a lid.",
+  ["Keep a group of six or more.","Use a tight lid.","Give it a long tank, not just a tall one."],aka=["turquoise rainbow","turquoise rainbowfish melanotaenia","melanotaenia lacustris","lake kutubu rainbowfish","lake kutubu rainbow"]),
+ A("giraffe-cichlid","Giraffe Cichlid","Nimbochromis venustus","fish","Cichlidae","Lake Malawi, East Africa","10 in",(76,82),(7.5,8.6),125,"Predatory ambush hunter, aggressive to small fish","Solitary male with females in a very large tank","Mid to bottom","Advanced","Carnivore: large cichlid pellets, frozen fish and shrimp","8-10 years",
+  "A big Malawi predator with a giraffe-like pattern that lies still on its side to ambush small fish. Juveniles look harmless in the store, but adults reach about ten inches and eat any fish small enough to swallow.",
+  ["Plan for a tank of 125 gallons or larger before buying.","Do not mix with small tankmates.","Choose large, sturdy Malawi tankmates."],aka=["giraffe cichlids","nimbochromis venustus","venustus cichlid","venustus","giraffe hap"]),
+]
+
+MORE_PLANTS += [
+ P("stargrass","Stargrass","Heteranthera zosterifolia","Pontederiaceae","South America","6-16 in","Moderate to high","Optional","Background stem plant","Fast",(68,82),(6.0,7.5),"Intermediate","Cuttings",
+  "A fast, bright green stem plant with narrow star-shaped leaves. It grows quickly with enough light and nutrients, and benefits from regular trimming and replanting of the tops.",
+  ["Trim and replant the tops to keep it bushy.","Needs good light and nutrients to stay full at the bottom.","Add iron-rich fertilizer if the leaves pale."],aka=["stargrass","star grass","heteranthera zosterifolia","water stargrass"]),
+ P("pogostemon-stellatus","Pogostemon Stellatus","Pogostemon stellatus","Lamiaceae","India and Southeast Asia","12-20 in","Moderate to high","Recommended","Background stem plant","Moderate to fast",(72,82),(6.0,7.5),"Intermediate","Cuttings",
+  "A leafy stem plant whose whorls of narrow leaves give it a full, feathery look. It prefers good light, steady nutrients and stable conditions, and it can grow tall and bushy with trimming.",
+  ["Give it good light and steady nutrients.","Trim the tops and replant them to keep it full.","Avoid moving it once it is rooted."],aka=["pogostemon stellatus","pogostemon stellatus broad leaf","stellatus plant","pogostemon stellatus narrow leaf"]),
+]
+
 ALIAS_INTO = {
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],
 }
