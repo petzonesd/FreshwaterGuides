@@ -72,6 +72,16 @@ Next up: care_data2.py after flame-gourami (licorice-gourami was audited earlier
 - Alias bug: "lagenandra meeboldii"/"lagenandra bleeding heart" were hidden inside bucephalandra-varieties (different genus); moved to the new lagenandra guide.
 Next up: care_data2.py from geophagus onward (see list of unlogged slugs: python check vs this file).
 
+## 2026-10-17 (8 entries; care_data2.py: fahaka-puffer .. red-belly-pacu)
+- fahaka-puffer: lifespan 10+ -> 15-20 years (multiple sources agree captive fahakas commonly live well past 10 years with proper care).
+- bichir (genus-level): minimum tank 75 -> 90 gal (AquariumSource recommends ~90 gal for one fish of the larger species in this lumped entry, e.g. P. endlicheri).
+- knifefish (lumped Chitala/Notopterus/related): minimum tank 75 -> 250 gal. The entry's own size range already goes to 36 in (adult clown knifefish), and a 75 gal tank badly undersold that; added a tip calling out the adult clown knifefish by name so buyers of the small juvenile understand the real commitment.
+- elephant-nose-fish: minimum tank 55 -> 75 gal (Aquariadise/ThatPetPlace both recommend 75-120 gal for a solitary territorial fish this size; split the difference conservatively rather than jump straight to the higher figure).
+- silver-dollar: minimum tank 55 -> 75 gal (Tankflare's species profile gives 75 gal as the cycled minimum for a schooling group of 5+).
+- red-belly-pacu: size 24 in -> 24-35 in, minimum tank 400 -> 700 gal. SeriouslyFish lists wild fish to 35 in and a ~2,550-liter (~674 US gal) footprint as the real minimum for an adult; the old 24 in/400 gal figures were a significant undersell for a fish this site already (correctly) calls "not suitable for most homes."
+- mbu-puffer: checked against AquariumSource (22-30+ in, 500 gal minimum/1,000 preferred, 75-79°F, pH 7.0-8.0 ideal 7.5, ~10 yr lifespan) — site's existing 26 in/500 gal/75-82°F/7.0-8.0/10+ yr figures all sit within or match that range, no change needed.
+Next up: care_data2.py from datnoid onward.
+
 ## 2026-10-16 (8 entries; care_data2.py: peacock-bass .. green-spotted-puffer)
 - green-spotted-puffer: minimum tank 30 -> 55 gal, size 6 -> 6-7 in, tip now says adults need brackish to near-marine water (messy, long-lived).
 - peacock-bass: size 20 in -> 12-28 in by species, tip that the biggest species need far more than 300 gal.

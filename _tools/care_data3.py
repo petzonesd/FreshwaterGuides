@@ -395,6 +395,21 @@ MORE_PLANTS += [
   ["Give it good light and steady nutrients.","Trim the tops and replant them to keep it full.","Avoid moving it once it is rooted."],aka=["pogostemon stellatus","pogostemon stellatus broad leaf","stellatus plant","pogostemon stellatus narrow leaf"]),
 ]
 
+MORE_ANIMALS += [
+ A("kerri-danio","Kerri Danio","Danio kerri","fish","Danionidae","Islands and coastal mainland of southwestern Thailand","1.75 in",(64,79),(6.5,7.5),20,"Very peaceful, active","Schooling, keep 8+","Mid to upper","Beginner","Omnivore: flakes, micro pellets, frozen foods","3-4 years",
+  "A slim, blue-sheened danio from a small corner of coastal Thailand. It is calmer and less frantic than a zebra danio, and a bigger group brings out the males' color and settles the whole school down.",
+  ["Keep a group of eight or more.","Use a tight lid; it jumps like other danios.","Plants and some current suit its stream habitat."],aka=["blue danio","danio kerri","brachydanio kerri"]),
+ A("wrestling-halfbeak","Wrestling Halfbeak","Dermogenys pusilla","fish","Hemiramphidae","South and Southeast Asia, including slow and brackish-tinged waters","2.2 in",(75,82),(6.5,8.0),10,"Peaceful toward other species; males spar with each other","Groups; one male or several, not just two","Surface","Intermediate","Carnivore: fruit flies, small live and frozen foods; may ignore dry food","2-3 years",
+  "A livebearer that spends nearly all its time at the surface hunting small insects, with a pointed lower jaw unlike a guppy or platy. Males joust with each other over territory, so keep either a single male or a real group rather than two that will fixate on one another, and expect it to be flighty until it settles in.",
+  ["Feed from the surface; it rarely looks lower in the tank.","Use a tight lid and dense edge planting; it jumps and startles easily.","Prioritize surface area over depth when choosing a tank."],aka=["halfbeak","wrestling halfbeaks","dermogenys pusilla","silver wrestling halfbeak"]),
+ A("glass-knifefish","Glass Knifefish","Eigenmannia virescens","fish","Sternopygidae","South America","7 in",(75,86),(6.7,7.4),55,"Peaceful toward similar-sized fish, but will eat very small tankmates","Small group of its own kind","Mid to bottom","Intermediate","Carnivore: frozen bloodworms, brine shrimp, small sinking pellets","8-10 years",
+  "A translucent, nearly tail-less fish that swims with an undulating ribbon-like fin and senses its surroundings with a weak electric field. It is nocturnal and shy in bright light, so keep it with calm tankmates its own size or larger and give it shaded hiding spots.",
+  ["Keep several together rather than just one.","Provide dim lighting and plant cover or driftwood to hide in.","Avoid tankmates small enough to be eaten after dark."],aka=["glass knife fish","green knifefish","glass rattail knifefish","eigenmannia virescens"]),
+ A("blehers-rainbowfish","Bleher's Rainbowfish","Chilatherina bleheri","fish","Melanotaeniidae","Lake Holmes and feeder streams, Mamberamo region, Indonesia","4.5 in",(73,81),(7.0,8.0),55,"Peaceful, active","Schooling, keep 6+, more than one male","Upper to mid","Intermediate","Omnivore: flakes, pellets, frozen foods","4-6 years",
+  "A deep-bodied rainbowfish with an orange back fading to blue, from a single lake system in Indonesia. Keeping more than one male in the group brings out brighter color and more natural display behavior than a single male alone.",
+  ["Keep at least two males with several females.","Needs a long tank with open swimming room.","Likes hard, alkaline water, which suits San Diego tap well."],aka=["blehers rainbow","bleher's rainbow","chilatherina bleheri","bleher rainbowfish"]),
+]
+
 ALIAS_INTO = {
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],
 }

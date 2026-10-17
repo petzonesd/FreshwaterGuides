@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-17 update
+Guides: 341 (+4: kerri danio, wrestling halfbeak, glass knifefish, Bleher's rainbowfish). All four sourced and verified via SeriouslyFish/fishprofiles.com/aquariadise rather than copied from a single site. Extended build_care.py's HUBS so Hemiramphidae (halfbeak) falls under the livebearers hub and Sternopygidae (glass knifefish) falls under large-and-specialty-fish, matching the precedent of adding Nothobranchiidae/Apteronotidae for earlier additions. Still missing: L-number plecos, kitty tetra, garra gotyla, spotback mountain loach, persicaria, selaginella, rainbow krib types — left out again this run for the same taxonomy/accuracy-confidence reasons as prior updates.
+
 ## 2026-10-16 update
 Guides: 337 (+10: bandit cory, black ruby barb, cobalt blue zebra, lemon cichlid, Princess of Burundi, Celebes rainbowfish, turquoise rainbowfish, giraffe cichlid; plants stargrass, pogostemon stellatus). Petzonesd sitemap WebFetch blocked again (permission unanswered); picks from the coverage list. Skipped for accuracy/legal doubt: Sagittaria platyphylla (CA weed status unsure), foxtail/Myriophyllum (CA noxious weed), kerri danio (size unsure). Still missing: L-number plecos, kitty tetra, garra gotyla, spotback mountain loach, glass knifefish, persicaria, selaginella, halfbeak, Bleher's rainbowfish, kerri danio, rainbow krib types.
 
