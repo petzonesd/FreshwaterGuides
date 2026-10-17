@@ -3,6 +3,10 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Variatus Platy Assorted","variatus-platy"),("Platy Food Flakes",None),("African Butterfly Cichlid","african-butterfly-cichlid"),
+("Rainbow Krib Cichlid","rainbow-krib"),("Spotted Danio","spotted-danio"),("Ornate Tetra","ornate-tetra"),("Black Shark Labeo","black-shark"),
+("Bulldog Pleco L444","rubber-lip-pleco"),("Powder Blue Socolofi Cichlid","powder-blue-socolofi"),("Dwarf Gourami Powder Blue","dwarf-gourami"),
+("Pygmy Chain Sword Tissue Culture","pygmy-chain-sword"),("Kribensis Cichlid","kribensis"),("Rainbow Shark","rainbow-shark"),("Black Shark Food Wafers",None),
 ("Glowlight Tetra","glowlight-tetra"),("Glowlight Tetra Flake Food",None),("Mosquito Rasbora","mosquito-rasbora"),("Scissortail Rasbora","scissortail-rasbora"),
 ("Red Zebra Cichlid","red-zebra-cichlid"),("Demasoni Cichlid","demasoni-cichlid"),("Kenyi Cichlid","kenyi-cichlid"),("Cichlid Pellets Mbuna Formula",None),
 ("Weather Loach","weather-loach"),("Twig Catfish Farlowella","twig-catfish"),("Croaking Gourami","croaking-gourami"),("Threadfin Rainbowfish","threadfin-rainbowfish"),

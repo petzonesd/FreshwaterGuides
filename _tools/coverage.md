@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-17b update
+Guides: 349 (+8: variatus platy, African butterfly cichlid, rainbow krib, spotted danio, ornate tetra, black shark, powder blue socolofi, pygmy chain sword; bulldog pleco added as an alias of the existing rubber-lip pleco guide, same genus). Facts checked against SeriouslyFish/tropicalfreshwaterfish/fishprofiles/TFH pages. Petzonesd sitemap not re-fetched (no approval). Fewer than 10 added because SeriouslyFish fetches for brilliant rasbora and forktail blue-eye were blocked. Still missing: L-number plecos, kitty tetra, garra gotyla, spotback mountain loach, persicaria, selaginella. care/data.json is ~351 KB; slim embed-irrelevant fields before it passes ~400 KB. Guides with a real Pet Zone photo: see care/photos.json; all new guides use illustrations.
+
 ## 2026-10-17 update
 Guides: 341 (+4: kerri danio, wrestling halfbeak, glass knifefish, Bleher's rainbowfish). All four sourced and verified via SeriouslyFish/fishprofiles.com/aquariadise rather than copied from a single site. Extended build_care.py's HUBS so Hemiramphidae (halfbeak) falls under the livebearers hub and Sternopygidae (glass knifefish) falls under large-and-specialty-fish, matching the precedent of adding Nothobranchiidae/Apteronotidae for earlier additions. Still missing: L-number plecos, kitty tetra, garra gotyla, spotback mountain loach, persicaria, selaginella, rainbow krib types — left out again this run for the same taxonomy/accuracy-confidence reasons as prior updates.
 

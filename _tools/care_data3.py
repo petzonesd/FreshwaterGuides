@@ -410,6 +410,37 @@ MORE_ANIMALS += [
   ["Keep at least two males with several females.","Needs a long tank with open swimming room.","Likes hard, alkaline water, which suits San Diego tap well."],aka=["blehers rainbow","bleher's rainbow","chilatherina bleheri","bleher rainbowfish"]),
 ]
 
+MORE_ANIMALS += [
+ A("variatus-platy","Variatus Platy","Xiphophorus variatus","fish","Poeciliidae","Eastern Mexico","2.5-3 in",(68,79),(7.0,8.2),20,"Peaceful, active","Groups with more females than males","All levels","Beginner","Omnivore: flakes, micro pellets, frozen foods, blanched vegetables or algae","3-4 years",
+  "A hardy, colorful livebearer that tolerates cooler water than many tropical fish. Males chase females constantly, so keep two or three females per male, and expect fry in a planted tank.",
+  ["Keep more females than males.","Prefers harder, neutral to alkaline water, which suits San Diego tap water.","Give it plants and cover so fry and females can rest."],aka=["variatus platies","variatus platy fish","xiphophorus variatus","variegated platy","sunset platy","tuxedo variatus platy"]),
+ A("african-butterfly-cichlid","African Butterfly Cichlid","Anomalochromis thomasi","fish","Cichlidae","West Africa","3-4 in",(75,81),(6.0,7.8),20,"Peaceful; territorial only when breeding","Pair or small group","Bottom to mid","Intermediate","Omnivore: small pellets, flakes, frozen and live foods","5-8 years",
+  "A small, peaceful West African cichlid that forms strong pairs and cares for its young. It leaves plants alone and does well in a quiet planted tank, but pairs defend a cave when breeding.",
+  ["Provide caves or flowerpots for spawning.","Keep calm tankmates; boisterous fish stress it.","If a pair fights, separate the weaker fish."],aka=["african butterfly cichlids","butterfly cichlid","anomalochromis thomasi","thomasi cichlid","african butterfly"]),
+ A("rainbow-krib","Rainbow Krib","Pelvicachromis taeniatus","fish","Cichlidae","Nigeria and Cameroon, West Africa","3 in",(72,79),(6.0,7.5),20,"Peaceful, territorial around its cave","Pair","Bottom to mid","Intermediate","Omnivore: small pellets, flakes, frozen foods","5 years",
+  "A dwarf cichlid related to the kribensis, with a more colorful body that varies by collection locality. Keep a pair with a cave, soft to moderately hard water and calm tankmates.",
+  ["Provide a cave for each pair.","Keep gentle tankmates.","Locality names (Nigeria Red, Moliwe etc.) are collection points of the same species group."],aka=["rainbow krib cichlid","pelvicachromis taeniatus","taeniatus krib","nigerian red krib","nigeria red krib","green krib"]),
+ A("spotted-danio","Spotted Danio","Danio nigrofasciatus","fish","Danionidae","Myanmar (Burma)","1.5-2 in",(64,79),(6.0,7.5),15,"Very peaceful but timid","Schooling, keep 8-10+","Mid to upper","Beginner","Omnivore: micro pellets, flakes, frozen foods","3-4 years",
+  "A small, calm danio with a blue stripe and dark spots, quieter than the zebra danio. It does best in a group on its own or with similarly small, peaceful fish, and it jumps, so use a lid.",
+  ["Keep a group of eight or more.","Use a tight lid.","Best with small, calm tankmates, not boisterous fish."],aka=["dwarf spotted danio","danio nigrofasciatus","brachydanio nigrofasciatus","brachydanio nigrofasciata","spotted danios"]),
+ A("ornate-tetra","Ornate Tetra","Hyphessobrycon bentosi","fish","Characidae","Amazon basin, South America","1.75 in",(72,80),(5.5,7.5),30,"Peaceful","Schooling, keep 8+","Mid","Intermediate","Omnivore: micro pellets, flakes, frozen foods","3-5 years",
+  "A small tetra with a tall, white-edged dorsal fin on males. It is peaceful and does best in a group of eight or more in a planted tank with gentle flow, with live or frozen food for color and condition.",
+  ["Keep eight or more.","Gentle flow and plants suit it.","Avoid boisterous tankmates."],aka=["ornate tetras","bentosi tetra","hyphessobrycon bentosi","white fin ornate tetra","whitefin ornate tetra"]),
+ A("black-shark","Black Shark","Labeo chrysophekadion","fish","Cyprinidae","Southeast Asia (Mekong and Chao Phraya basins)","18-24 in",(72,79),(6.5,7.5),300,"Territorial, belligerent with similar-shaped fish","Solitary","All levels","Advanced","Omnivore: algae and vegetables (peas, cucumber), sinking pellets, frozen foods","10+ years",
+  "Sold as a sleek black juvenile, this fish becomes a large, territorial adult about two feet long that is best suited to public aquariums or the very largest home tanks. Do not buy it for a standard community tank.",
+  ["Plan for a tank at least 6 ft long before buying.","Keep only one; it is aggressive to similar-shaped fish.","Not a red-tail shark or rainbow shark; those stay far smaller."],aka=["black sharkminnow","black shark minnow","labeo chrysophekadion","black labeo"]),
+ A("powder-blue-socolofi","Powder Blue Socolofi Cichlid","Pseudotropheus socolofi","fish","Cichlidae","Lake Malawi, East Africa","5 in",(75,82),(7.6,8.6),55,"Territorial but milder than many mbuna","One male with several females","All levels","Intermediate","Mostly herbivore: spirulina flakes, vegetable pellets, some frozen foods","6-10 years",
+  "A soft blue mbuna that is calmer than many Malawi cichlids but still territorial. Keep one male with several females in hard, alkaline water with rockwork, and avoid pairing it with very aggressive mbuna.",
+  ["One male per tank unless it is large.","Needs hard, alkaline water and rock caves.","Feed plant-based foods; avoid red meats."],aka=["powder blue cichlid","powder blue mbuna","pindani","pindani cichlid","socolofi cichlid","albino socolofi","pseudotropheus socolofi"]),
+]
+
+MORE_PLANTS += [
+ P("pygmy-chain-sword","Pygmy Chain Sword","Helanthium tenellum","Alismataceae","The Americas","3-4 in","Low to moderate","Optional","Foreground carpet","Moderate to fast",(68,82),(6.0,7.5),"Beginner","Runners",
+  "A grass-like foreground plant that spreads by runners into a lawn. It adapts to many tanks, and stronger light and fertilizer give a thicker carpet and redder new growth.",
+  ["Plant small clumps spaced a few inches apart.","Trim runners to keep it from spreading everywhere.","Use root tabs for a thicker carpet."],aka=["pygmy chain sword","pygmy chain swords","dwarf chain sword","narrow leaf chain sword","helanthium tenellum","echinodorus tenellus","chain sword tenellus"]),
+]
+
 ALIAS_INTO = {
+ "rubber-lip-pleco": ["bulldog pleco","bulldog plecos","chaetostoma formosae","bulldog rubber mouth pleco","l444 bulldog pleco"],
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],
 }

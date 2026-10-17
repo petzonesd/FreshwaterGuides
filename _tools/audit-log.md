@@ -89,3 +89,13 @@ Next up: care_data2.py from datnoid onward.
 - firemouth-cichlid: size 6 -> 5-6 in. multies-shell-dweller: size 2 -> 1-2 in (shells are the colony unit).
 - blood-parrot-cichlid, uaru, german-gold-ram, apistogramma (genus-level), electric-blue-jack-dempsey: checked against general hobby references, OK.
 Next up: care_data2.py after electric-blue-jack-dempsey (67 entries unlogged by slug; see check script in README).
+
+## 2026-10-17b (8 entries; care_data2.py: datnoid .. ramshorn-snail)
+- datnoid: size 18 -> 16-20 in; added note that it passes a foot quickly and needs a 6-ft tank.
+- gar: noted that "hujeta gar"/"freshwater barracuda" aliases are pike characins (smaller than true gar) and that alligator gar reach 6 ft+ (pond-only; CA status to confirm).
+- pencilfish: size 2 -> 1.5-2.5 in (species vary), minimum tank 10 -> 15 gal for a group of 6+ (SeriouslyFish-type bases are ~14 gal).
+- assassin-snail: added that it sometimes eats nerites and breeds slowly.
+- ramshorn-snail: size 0.5 -> 0.5-1 in (red/giant forms).
+- dwarf-puffer-specialty: note now warns that fugu-type puffers may need brackish water as adults and Congo/Amazon puffers reach 5-6 in.
+- arowana-other, killifish: checked against general hobby references, OK.
+Next up: care_data2.py from trapdoor-snail onward (python check vs this file).
