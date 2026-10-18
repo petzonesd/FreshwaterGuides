@@ -440,6 +440,18 @@ MORE_PLANTS += [
   ["Plant small clumps spaced a few inches apart.","Trim runners to keep it from spreading everywhere.","Use root tabs for a thicker carpet."],aka=["pygmy chain sword","pygmy chain swords","dwarf chain sword","narrow leaf chain sword","helanthium tenellum","echinodorus tenellus","chain sword tenellus"]),
 ]
 
+MORE_ANIMALS += [
+ A("sunshine-pleco","Sunshine Pleco (L014)","Scobinancistrus aureatus","fish","Loricariidae","Rio Xingu, Brazil","10-12 in",(76,86),(6.0,7.5),80,"Relatively peaceful but can be territorial toward other bottom-dwellers; mostly nocturnal","Solitary, or one per very large tank","Bottom","Advanced","Omnivore: sinking pellets, bloodworms, shrimp, blanched vegetables; needs real protein, not just algae","10-15 years",
+  "A striking L-number pleco with a gold-speckled dark body, endemic to the Rio Xingu. It is sold small but grows into a large, long-lived fish that needs real swimming room and a varied, protein-rich diet, not just algae wafers.",
+  ["Plan for a tank of at least 80 gallons as an adult; some keepers recommend up to 125 gallons for a fully grown fish.","Feed real protein (bloodworms, shrimp) alongside vegetables; algae alone is not enough.","Keep only one per tank unless the tank is very large; it can be territorial with other bottom-dwellers."],aka=["sunshine plecos","l014","l-014","l14 pleco","golden pleco","gold spot pleco","scobinancistrus aureatus"]),
+ A("kitty-tetra","Kitty Tetra","Hyphessobrycon cf. loweae","fish","Characidae","Headwater streams of the Xingu and Araguaia basins, Mato Grosso, Brazil","1.2-1.6 in",(77,82),(5.8,7.2),20,"Peaceful, shy around larger tankmates","Schooling, keep 8-10+","Mid","Intermediate","Omnivore: micro pellets, flakes, daphnia, cyclops, frozen foods","3-4 years",
+  "A tiny, soft-water tetra from Brazil, sold in the trade as a tentative identification ('cf. loweae') rather than a fully settled species name. It is lively but shy, and hides near larger fish unless kept in a real group of its own.",
+  ["Keep eight or more; a lone or small group hides and stresses easily.","Soft, slightly acidic water suits it best, though it adapts to moderate hardness.","Avoid large or boisterous tankmates; it is easily outcompeted at feeding time."],aka=["kitty tetras","hyphessobrycon loweae","loweae tetra","lowes tetra"]),
+ A("spotback-loach","Spotback Loach","Schistura notostigma","fish","Nemacheilidae","Sri Lanka (Kanneliya Forest and Gin Ganga river system)","3 in",(72,79),(6.0,7.5),20,"Can be territorial; keep with robust, fast-swimming tankmates","Singly or a small group with room to spread out","Bottom","Intermediate","Omnivore: sinking pellets, bloodworms, brine shrimp, daphnia; avoid overfeeding, it is greedy","3-5 years",
+  "A small Sri Lankan stream loach, also sold as the banded mountain loach, built for fast, highly oxygenated water over a pebble bottom. It is more territorial than most small loaches, so give it space and strong flow rather than a crowded, still tank.",
+  ["Provide strong water flow and high oxygenation, like its fast hill-stream habitat.","Use fine sand plus smooth rounded pebbles so it can dig and perch.","Give it room; it can be territorial toward its own kind in a small tank."],aka=["spotback mountain loach","banded mountain loach","schistura notostigma"]),
+]
+
 ALIAS_INTO = {
  "rubber-lip-pleco": ["bulldog pleco","bulldog plecos","chaetostoma formosae","bulldog rubber mouth pleco","l444 bulldog pleco"],
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],

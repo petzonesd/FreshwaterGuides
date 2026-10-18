@@ -63,12 +63,14 @@
     document.title = 'Invoice ' + (d.no || '') + ' - ' + (b.name || '');
   }
 
+  function message(text) { doc.innerHTML = ''; add(doc, h('h1', null, 'Service Report or Invoice'), h('p', null, text)); }
+
   function init() {
     document.getElementById('print').addEventListener('click', function () { window.print(); });
     var token = location.hash.replace(/^#/, '');
-    if (!token) { doc.textContent = 'This link has no report or invoice in it.'; return; }
+    if (!token) { message('This link has no report or invoice in it.'); return; }
     FWGShare.decode(token).then(function (d) { if (d.t === 'invoice') invoice(d); else report(d); })
-      .catch(function () { doc.textContent = 'This link could not be read. It may have been cut off when copied; ask the sender to share it again.'; });
+      .catch(function () { message('This link could not be read. It may have been cut off when copied; ask the sender to share it again.'); });
   }
   init();
 })();
