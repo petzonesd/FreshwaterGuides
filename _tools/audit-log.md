@@ -99,3 +99,13 @@ Next up: care_data2.py after electric-blue-jack-dempsey (67 entries unlogged by 
 - dwarf-puffer-specialty: note now warns that fugu-type puffers may need brackish water as adults and Congo/Amazon puffers reach 5-6 in.
 - arowana-other, killifish: checked against general hobby references, OK.
 Next up: care_data2.py from trapdoor-snail onward (python check vs this file).
+
+## 2026-10-18 (8 entries; care_data2.py: rabbit-snail .. clam-freshwater)
+NOTE: WebFetch was blocked today (permission prompts unanswered) and WebSearch returns only titles/links, so these checks are from general hobby knowledge, not re-verified against a fetched page.
+- rabbit-snail: size 3 -> 3-4 in, minimum tank 10 -> 15 gal (large snails, heavy bioload for a colony).
+- inca-snail, bamboo-shrimp, neocaridina-color-shrimp: checked against general hobby ranges, OK.
+- crayfish: FLAG for Roger. Live crayfish are heavily restricted in California; the guide should probably be removed unless Pet Zone has confirmed legal stock. Not changed.
+- freshwater-crab: FLAG. Lumps small Geosesarma with large Cardisoma land crabs (4+ in); CA status unclear. Not changed.
+- hermit-crab-freshwater: marine species (Clibanarius) kept as an honest "not freshwater" warning guide; OK.
+- clam-freshwater: FLAG. Corbicula is a widely regulated invasive clam in many US states; confirm California status. Not changed.
+Next up: care_data2.py from bacopa-caroliniana onward.

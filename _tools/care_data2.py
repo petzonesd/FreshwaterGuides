@@ -316,7 +316,7 @@ MORE_ANIMALS = [
  A("trapdoor-snail","Trapdoor Snail","Viviparus species","invert","Viviparidae","Asia","1.5 in",(65,78),(7.0,8.0),10,"Peaceful","Groups","Bottom","Beginner","Algae, detritus","2-3 years",
   "A live-bearing snail with a sealable operculum. Prefers cooler water.",
   ["Prefers cool to moderate temperatures.","Does not eat plants."],aka=["japanese trapdoor snail","striped wizard trapdoor snail","white wizard trapdoor snail"]),
- A("rabbit-snail","Rabbit Snail","Tylomelania species","invert","Pachychilidae","Sulawesi, Indonesia","3 in",(76,84),(7.5,8.5),10,"Peaceful","Groups","Bottom","Beginner","Algae, detritus, sinking foods, vegetables","3 years",
+ A("rabbit-snail","Rabbit Snail","Tylomelania species","invert","Pachychilidae","Sulawesi, Indonesia","3-4 in",(76,84),(7.5,8.5),15,"Peaceful","Groups","Bottom","Beginner","Algae, detritus, sinking foods, vegetables","3 years",
   "A large, cone-shaped Sulawesi snail that produces only a few young at a time. Likes warm, hard, alkaline water.",
   ["Needs warm, hard water.","Safe with plants."],aka=["assorted rabbit snail","chocolate rabbit snail","golden rabbit snail","orange volcano rabbit snail","white spotted towuti rabbit snail","sulawesi snail"]),
  A("inca-snail","Inca Snail","Doryssa species","invert","Thiaridae","South America","1 in",(72,80),(7.0,8.5),5,"Peaceful","Groups","Bottom","Beginner","Algae, detritus, sinking foods","3 years",

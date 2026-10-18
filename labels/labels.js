@@ -55,7 +55,7 @@
   }
   function bestMatch(q) {
     q = String(q).replace(/\(.*?\)/g, ' ').replace(/tank[\s-]*(raised|bred)/ig, 'captive bred');
-    if (SUPPLY.test(q.replace(/head\s*(and|&)\s*tail\s*light/ig, 'headandtaillight'))) return -1;
+    if (SUPPLY.test(q.replace(/head\s*(and|&)\s*tail\s*light/ig, 'headandtaillight').replace(/blind\s+cave\s+(tetra|fish|cavefish)/ig, 'blindcavetetra'))) return -1;
     var best = null, bs = 0;
     ITEMS.forEach(function (e, i) {
       [e.name, e.sci].concat(e.aka || []).forEach(function (name) {

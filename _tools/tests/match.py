@@ -3,6 +3,13 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("African Butterflyfish Pantodon","african-butterflyfish"),("Butterfly Fish Food Sticks",None),
+("Skunk Loach","skunk-loach"),("Skunk Botia","skunk-loach"),("Loach Sinking Wafers",None),
+("Blind Cave Tetra","mexican-tetra"),("Mexican Tetra","mexican-tetra"),("Tetra Min Flakes Tropical",None),
+("Blue Dolphin Cichlid Moorii","blue-dolphin-cichlid"),("Dolphin Hap Cichlid","blue-dolphin-cichlid"),
+("Banded Archerfish","banded-archerfish"),("Archer Fish Food",None),
+("Bumblebee Goby","bumblebee-goby"),("Bumble Bee Goby (Brackish)","bumblebee-goby"),("Blind Cave Tetra Decor Cave",None),("Cave Decoration Resin",None),
+("Orange Chromide","orange-chromide"),("Dawn Tetra","dawn-tetra"),("Dawn Dish Soap",None),
 ("Variatus Platy Assorted","variatus-platy"),("Platy Food Flakes",None),("African Butterfly Cichlid","african-butterfly-cichlid"),
 ("Rainbow Krib Cichlid","rainbow-krib"),("Spotted Danio","spotted-danio"),("Ornate Tetra","ornate-tetra"),("Black Shark Labeo","black-shark"),
 ("Bulldog Pleco L444","rubber-lip-pleco"),("Powder Blue Socolofi Cichlid","powder-blue-socolofi"),("Dwarf Gourami Powder Blue","dwarf-gourami"),
