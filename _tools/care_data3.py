@@ -259,7 +259,7 @@ MORE_PLANTS = [
   ["Provide strong light, CO2 and regular fertilizer.","Keep water clean; it is sensitive to poor conditions.","Plant gently; stems are fragile."],aka=["tonina","tonina fluviatilis","tonina fluviatilis plant"]),
  P("nomaphila","Nomaphila","Nomaphila stricta","Acanthaceae","Southeast Asia","12-24 in","Moderate","Not required","Background","Fast",(72,82),(6.0,7.5),"Beginner","Stem cuttings",
   "A large, broad-leaved stem plant that grows quickly and soaks up nutrients. It is best for the back of a tank that is at least two feet tall.",
-  ["Trim and replant the tops often.","Give it space; it can shade smaller plants.","Easy in most water, including hard water."],aka=["nomaphila","nomaphila stricta","nomaphila corymbosa","giant hygrophila"]),
+  ["Trim and replant the tops often.","Give it space; it can shade smaller plants.","Easy in most water, including hard water."],aka=["nomaphila","nomaphila stricta","nomaphila corymbosa","giant hygrophila","nomaphila siamensis","nomaphila variegatus"]),
  P("golden-creeping-jenny","Golden Creeping Jenny","Lysimachia nummularia 'Aurea'","Primulaceae","Europe","4-8 in","Moderate to high","Not required","Foreground to midground","Moderate",(62,78),(6.0,7.5),"Intermediate","Cuttings",
   "A pond-edge plant with round, golden-green leaves that is sold for aquariums and paludariums. It does best with its leaves above water; fully underwater it tends to weaken over time.",
   ["Best grown emersed in a paludarium or at the water line.","Trim and replant healthy stems if grown underwater.","Never release it outdoors; it spreads aggressively."],aka=["golden creeping jenny","creeping jenny","lysimachia nummularia","lysimachia aurea","lysimachia nummularia aurea"]),
@@ -392,7 +392,7 @@ MORE_PLANTS += [
   ["Trim and replant the tops to keep it bushy.","Needs good light and nutrients to stay full at the bottom.","Add iron-rich fertilizer if the leaves pale."],aka=["stargrass","star grass","heteranthera zosterifolia","water stargrass"]),
  P("pogostemon-stellatus","Pogostemon Stellatus","Pogostemon stellatus","Lamiaceae","India and Southeast Asia","12-20 in","Moderate to high","Recommended","Background stem plant","Moderate to fast",(72,82),(6.0,7.5),"Intermediate","Cuttings",
   "A leafy stem plant whose whorls of narrow leaves give it a full, feathery look. It prefers good light, steady nutrients and stable conditions, and it can grow tall and bushy with trimming.",
-  ["Give it good light and steady nutrients.","Trim the tops and replant them to keep it full.","Avoid moving it once it is rooted."],aka=["pogostemon stellatus","pogostemon stellatus broad leaf","stellatus plant","pogostemon stellatus narrow leaf"]),
+  ["Give it good light and steady nutrients.","Trim the tops and replant them to keep it full.","Avoid moving it once it is rooted."],aka=["pogostemon stellatus","pogostemon stellatus broad leaf","stellatus plant","pogostemon stellatus narrow leaf","pogostemon stellata octopus","pogostemon octopus"]),
 ]
 
 MORE_ANIMALS += [
@@ -480,6 +480,31 @@ MORE_ANIMALS += [
  A("dawn-tetra","Dawn Tetra","Hyphessobrycon eos","fish","Characidae","Guyana, South America","1.5 in",(72,82),(5.5,7.5),15,"Peaceful","Schooling, keep 8+","Mid","Beginner","Omnivore: micro pellets, flakes, frozen foods","3-5 years",
   "A tiny, peaceful tetra with a golden-orange glow and a faint stripe through the tail. It is a good match for small planted community tanks and other gentle fish.",
   ["Keep a group of eight or more.","Choose small, calm tankmates.","Stable, clean water keeps the color bright."],aka=["dawn tetras","hyphessobrycon eos"]),
+]
+
+# ---- Batch added 2026-10-19 ----
+MORE_ANIMALS += [
+ A("brilliant-rasbora","Brilliant Rasbora","Rasbora borapetensis","fish","Danionidae","Thailand and the Malay Peninsula","2-2.5 in",(72,79),(6.0,7.5),20,"Peaceful, active","Schooling, keep 8+","Mid to upper","Beginner","Omnivore: micro pellets, flakes, small frozen foods","3-5 years",
+  "A slim, peaceful schooling rasbora with a bright red-orange tail and a dark stripe along the side. It is hardy and easy, shows best color in a group of eight or more, and likes a planted tank with open water for swimming.",
+  ["Keep a group of eight or more.","Use a snug lid; rasboras can jump.","Pair with other small, calm fish."],aka=["brilliant rasboras","rasbora borapetensis","redtail rasbora","red tailed rasbora"]),
+ A("forktail-blue-eye","Forktail Blue-Eye","Pseudomugil furcatus","fish","Pseudomugilidae","Eastern Papua New Guinea","1.5-2 in",(72,82),(7.0,8.0),10,"Peaceful, active","Schooling, keep 6+","Upper to mid","Intermediate","Micro pellets, baby brine shrimp, small frozen and live foods","2-4 years",
+  "A tiny, bright yellow-and-blue rainbowfish relative with a forked tail and pale blue eyes. It does best in a group in a planted tank with neutral to slightly alkaline, clean water, and it suits calm nano community setups.",
+  ["Keep a group of six or more, with more females than males.","Avoid soft, acidic water.","Feed small portions; it is a tiny mouth."],aka=["forktail blue eye","forktail rainbowfish","blue eye forktail rainbowfish","pseudomugil furcatus","forktail blue eyes"]),
+ A("cyprichromis","Cyprichromis (Blue Flash and Jumbo Cyps)","Cyprichromis species","fish","Cichlidae","Lake Tanganyika, Africa","3.5-5 in",(76,82),(8.0,9.0),75,"Peaceful, open-water schooling cichlid","Schooling, keep 10+","Upper","Intermediate","Omnivore: small cichlid pellets, flakes, frozen foods, mysis","6-8 years",
+  "A slim, active Tanganyikan cichlid that swims in schools in open water instead of hiding in caves. It needs a long tank, hard alkaline water and a good-sized group, and it should only be kept with other calm fish.",
+  ["Keep ten or more so the school looks natural.","Use a long tank with open swimming space and rock at the sides.","Keep with peaceful tankmates; rowdy cichlids stress it."],aka=["cyprichromis leptosoma","cyprichromis leptosoma blue flash","blue flash cyp","jumbo cyp","utinta cyp","cyprichromis cichlid","cyp cichlid"]),
+ A("peacock-gudgeon","Peacock Gudgeon","Tateurndina ocellicauda","fish","Eleotridae","Papua New Guinea","3 in",(68,79),(6.5,7.8),20,"Peaceful, shy","Pairs or small groups","Bottom to mid","Beginner","Omnivore: small pellets, frozen foods, live foods, crushed flakes","4-5 years",
+  "A small, colorful bottom-to-mid fish with a spotted tail and a pink-and-blue sheen. It is a calm, easy choice for a planted community tank with caves, and it will use a small cave to spawn.",
+  ["Provide small caves or pipes.","Choose calm tankmates; larger fish steal the food.","Offer sinking and frozen foods as well as flakes."],aka=["peacock gudgeons","tateurndina ocellicauda","peacock goby","new guinea peacock gudgeon"]),
+]
+
+MORE_PLANTS += [
+ P("pearl-weed","Pearl Weed","Micranthemum umbrosum","Linderniaceae","Central and South America","4-12 in","Medium to high","Helpful","Foreground to midground, stem plant","Moderate to fast",(68,82),(6.0,7.5),"Intermediate","Cuttings",
+  "A bright green stem plant with small round leaves that forms a dense, bushy patch when trimmed. Under strong light it sprinkles the leaves with tiny oxygen bubbles, the effect that gives it its name.",
+  ["Plant it in small clumps and trim often.","Give it strong light and some fertilizer for dense growth.","It is not dwarf baby tears; the two are different plants."],aka=["pearl weed","pearlweed","micranthemum umbrosum"]),
+ P("persicaria","Persicaria (Polygonum) Stem Plant","Persicaria species","Polygonaceae","Asia and tropical regions","8-20 in","Medium to high","Helpful","Midground to background, stem plant","Moderate to fast",(68,82),(6.0,7.5),"Intermediate","Cuttings",
+  "A hardy stem plant with narrow pointed leaves that can turn red-brown under strong light. It grows steadily, roots well, and tolerates a wide range of conditions if it gets light and nutrients.",
+  ["Trim and replant the tops to keep it bushy.","Stronger light brings out red tones.","Give it root tabs or a rich substrate."],aka=["persicaria kawagoeanum","persicaria sp kawagoeanum","persicaria praetermissa","polygonum kawagoeanum","persicaria plant"]),
 ]
 
 ALIAS_INTO = {

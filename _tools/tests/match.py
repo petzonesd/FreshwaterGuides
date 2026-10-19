@@ -160,6 +160,9 @@ CASES=[
 ("Princess of Burundi Cichlid","brichardi-cichlid"),("Celebes Rainbowfish","celebes-rainbowfish"),("Turquoise Rainbowfish","turquoise-rainbowfish"),("Giraffe Cichlid","giraffe-cichlid"),
 ("Stargrass Bunch","stargrass"),("Pogostemon Stellatus","pogostemon-stellatus"),
 ("Cichlid Pellets Cobalt Blue Zebra Formula",None),("Lemon Tetra","lemon-tetra"),("Black Ruby Barb Flake Food",None),("Bandit Cory Wafers",None),
+("Brilliant Rasbora","brilliant-rasbora"),("Forktail Blue Eye Rainbowfish","forktail-blue-eye"),("Blue Flash Cyprichromis","cyprichromis"),("Peacock Gudgeon","peacock-gudgeon"),
+("Pearl Weed Bunch","pearl-weed"),("Persicaria Kawagoeanum","persicaria"),("Pogostemon Octopus","pogostemon-stellatus"),("Nomaphila Stricta","nomaphila"),
+("Rasbora Flake Food",None),("Cichlid Pellets Tanganyika Formula",None),("Pearl Weed Fertilizer Tabs",None),("Peacock Cichlid",'peacock-cichlid'),
 ]
 with sync_playwright() as p:
     srv=serve(8791)

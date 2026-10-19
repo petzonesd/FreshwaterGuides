@@ -109,3 +109,10 @@ NOTE: WebFetch was blocked today (permission prompts unanswered) and WebSearch r
 - hermit-crab-freshwater: marine species (Clibanarius) kept as an honest "not freshwater" warning guide; OK.
 - clam-freshwater: FLAG. Corbicula is a widely regulated invasive clam in many US states; confirm California status. Not changed.
 Next up: care_data2.py from bacopa-caroliniana onward.
+
+## 2026-10-19 (8 entries; care_data2.py: ludwigia-red .. hornwort)
+NOTE: no fetched sources today (WebSearch returns titles only); checks are from general hobby/plant references.
+- pogostemon-helferi: removed "pogostemon stellata octopus"/"pogostemon octopus" aliases (Octopus is a stellatus form); moved to pogostemon-stellatus.
+- hygrophila: removed nomaphila stricta/siamensis/variegatus aliases; moved to the nomaphila guide.
+- ludwigia-red, alternanthera-reineckii, staurogyne-repens, dwarf-baby-tears, micro-sword, hornwort: ranges, family and size checked, OK. (dwarf-baby-tears CO2 "Required" is the conservative call.)
+Next up: care_data2.py from water-lettuce onward (CA noxious-weed flags for water-lettuce, parrots-feather, anacharis-egeria remain open for Roger).

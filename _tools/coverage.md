@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-19 update
+Guides: 367 (+6: brilliant rasbora, forktail blue-eye, Cyprichromis, peacock gudgeon, pearl weed, persicaria). Petzonesd sitemap not fetched (WebFetch unavailable), so picks came from the coverage list; fewer than 10 added to avoid unverified entries. Hubs: Pseudomugilidae and Eleotridae added to the rainbowfish/killifish hub. Guides with a real photo: 27 of 367 (340 use illustrations). Still missing: L-number plecos (L047, L114, L152, L155), slender tetra, garra gotyla, selaginella, scats, mudskippers, freshwater stingrays.
+
 ## 2026-10-18b update
 Guides: 360 (+8: African butterflyfish, skunk loach, Mexican/blind cave tetra, blue dolphin cichlid, banded archerfish, bumblebee goby, orange chromide, dawn tetra). Petzonesd sitemap and reference-site fetches were blocked again (permission prompts unanswered), and search returns titles only, so species were limited to ones with well-established hobby ranges and written conservatively; the brackish ones (archerfish, bumblebee goby, orange chromide) say so clearly. Hubs: Pantodontidae, Toxotidae, Gobiidae added to large-and-specialty. Bug fixed: "Blind Cave Tetra" was being rejected as a decor "cave" item by the labels matcher. Still missing: L-number plecos (L047, L114, L152, L155), slender tetra, garra gotyla, persicaria, selaginella, brilliant rasbora, forktail blue-eye, scats, mudskippers, freshwater stingrays.
 
