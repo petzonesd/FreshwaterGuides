@@ -1,4 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
+## 2026-10-20 update
+Guides: 377 (+10: sheepshead acara, golden dwarf cichlid, black belt cichlid, calvus cichlid, cuckoo catfish, Florida flagfish; plants Brazilian micro sword, Cryptocoryne pontederiifolia, water hedge, Cryptocoryne varieties). Petzonesd sitemap WebFetch blocked again (permission unanswered), so picks came from hobby staples. Venustus cichlid skipped: it is the existing giraffe-cichlid guide. Hubs: Cyprinodontidae added to the killifish hub. Guides with a real photo: 27 of 377. Still missing: L-number plecos (L047, L114, L152, L155), slender tetra, garra gotyla, selaginella, scats, mudskippers, freshwater stingrays.
+
+
 
 ## 2026-10-19 update
 Guides: 367 (+6: brilliant rasbora, forktail blue-eye, Cyprichromis, peacock gudgeon, pearl weed, persicaria). Petzonesd sitemap not fetched (WebFetch unavailable), so picks came from the coverage list; fewer than 10 added to avoid unverified entries. Hubs: Pseudomugilidae and Eleotridae added to the rainbowfish/killifish hub. Guides with a real photo: 27 of 367 (340 use illustrations). Still missing: L-number plecos (L047, L114, L152, L155), slender tetra, garra gotyla, selaginella, scats, mudskippers, freshwater stingrays.

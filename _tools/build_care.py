@@ -266,7 +266,7 @@ HUBS = [
  ("rainbowfish-killifish-medaka", "Rainbowfish, Killifish and Medaka Care", "Rainbowfish, Killifish and Medaka Care Guides", "Care facts for rainbowfish, killifish and medaka: tank size, temperature, pH, jumping risk and tankmates.",
   "These fish sit in different families but share needs a store customer should know: they like open top-level swimming space, many are jumpers, and each group has a preferred water type. Rainbowfish want hard, alkaline water and long tanks, killifish are often short-lived and prefer live or frozen foods, and medaka tolerate cool, unheated tanks.",
   ["Use a lid; most of these fish jump.","Rainbowfish do best in groups in harder water.","Check the exact killifish species before buying; needs vary."],
-  lambda e: e["family"] in ("Melanotaeniidae","Telmatherinidae","Aplocheilidae","Procatopodidae","Adrianichthyidae","Nothobranchiidae","Pseudomugilidae","Eleotridae")),
+  lambda e: e["family"] in ("Melanotaeniidae","Telmatherinidae","Aplocheilidae","Procatopodidae","Adrianichthyidae","Nothobranchiidae","Pseudomugilidae","Eleotridae","Cyprinodontidae")),
  ("livebearers", "Livebearer Care Guides", "Livebearer Care Guides: Guppy, Platy, Molly, Swordtail", "Care facts for guppies, platies, mollies, swordtails and Endler's livebearers: tank size, water needs and how to avoid overcrowding.",
   "Livebearers give birth to free-swimming young, so a small group can become a large population quickly. They like harder, alkaline water than many tropical fish and do well with plants and hiding spots for fry. Keep the sex ratio in mind: several females per male reduces constant chasing.",
   ["Keep more females than males.","Choose harder water over very soft water.","Plan what you will do with extra fry."],

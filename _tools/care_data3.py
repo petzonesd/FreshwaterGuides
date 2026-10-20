@@ -201,7 +201,7 @@ MORE_PLANTS = [
   ["Plant the bulb with the top half above the substrate.","Use root tabs.","Trim old leaves from the base and give it room."],aka=["crinum calamistratum","crinum thaianum","onion plant","crinum onion plant","aquarium crinum"]),
  P("cryptocoryne-lutea","Cryptocoryne Lutea","Cryptocoryne lutea","Araceae","Sri Lanka","6-12 in","Low to medium","Not needed","Midground","Slow",(72,82),(6.0,7.5),"Beginner","Runners",
   "A sturdy cryptocoryne with ruffled green leaves that holds up well in many tanks. It melts when moved, then regrows from the roots.",
-  ["Leave it undisturbed after planting.","Use root tabs for steady growth.","Expect leaf loss after any big change."],aka=["crypt lutea","cryptocoryne lutea","cryptocoryne lutea plant","cryptocoryne undulata"]),
+  ["Leave it undisturbed after planting.","Use root tabs for steady growth.","Expect leaf loss after any big change."],aka=["crypt lutea","cryptocoryne lutea","cryptocoryne lutea plant"]),
  # ---- 2026-10-11 batch ----
  P("banana-plant","Banana Plant (Nymphoides aquatica)","Nymphoides aquatica","Menyanthaceae","Southeastern United States","Leaves 4-12 in, floating or submerged","Medium","Not needed","Foreground to midground","Moderate",(68,82),(6.0,7.5),"Intermediate","Plantlets and division",
   "A lily-like plant with small, banana-shaped roots at the base and heart-shaped leaves that float or grow below the surface. Plant the root cluster in the substrate and leave the tops free.",
@@ -507,7 +507,48 @@ MORE_PLANTS += [
   ["Trim and replant the tops to keep it bushy.","Stronger light brings out red tones.","Give it root tabs or a rich substrate."],aka=["persicaria kawagoeanum","persicaria sp kawagoeanum","persicaria praetermissa","polygonum kawagoeanum","persicaria plant"]),
 ]
 
+# ---- Batch added 2026-10-20 ----
+MORE_ANIMALS += [
+ A("sheepshead-acara","Sheepshead Acara","Laetacara curviceps","fish","Cichlidae","Amazon basin, South America","3-3.5 in",(72,80),(6.0,7.5),30,"Peaceful for a cichlid, pairs defend a territory when breeding","Pair or small group in a large tank","Bottom to mid","Intermediate","Omnivore: small cichlid pellets, frozen foods, flakes","5-8 years",
+  "A small, calm South American dwarf cichlid with a tan to bluish body and a dark side spot. It is a good fit for a planted community tank with gentle, similar-sized fish, and a bonded pair will clean a flat stone or leaf and guard the eggs.",
+  ["Keep a pair rather than several males.","Very small fish and fry may be eaten, so choose tankmates of similar size.","Provide a flat rock or cave for spawning and keep the water clean."],aka=["sheepshead acara cichlid","laetacara curviceps","blue sheepshead acara","curviceps acara","sheepshead cichlid"]),
+ A("golden-dwarf-cichlid","Golden Dwarf Cichlid","Nannacara anomala","fish","Cichlidae","Guyana and Suriname, northern South America","2.5-3.5 in",(72,79),(6.0,7.5),20,"Peaceful out of breeding, males can be territorial","Pair or one male with several females","Bottom to mid","Intermediate","Omnivore: small pellets, frozen foods, live foods, flakes","4-5 years",
+  "A small dwarf cichlid with a golden-green body. Females turn bright yellow with dark bands when ready to breed, and they guard the eggs in a cave. Keep one male per tank unless it is large and well decorated.",
+  ["One male per tank; males fight.","Provide small caves and dense plants.","Needs a tight lid; males can jump when chasing."],aka=["golden dwarf cichlids","nannacara anomala","golden eyed dwarf cichlid","golden-eyed dwarf cichlid","neon dwarf cichlid"]),
+ A("black-belt-cichlid","Black Belt Cichlid","Vieja maculicauda","fish","Cichlidae","Atlantic slope of Central America","10-14 in",(72,82),(7.0,8.0),125,"Aggressive and territorial","Solitary or a mated pair in a very large tank","Bottom to mid","Intermediate","Omnivore: cichlid pellets, vegetable foods, frozen foods","10-15 years",
+  "A big, strong Central American cichlid sold small but growing to a foot or more. It is a digger with a bad temper toward other cichlids, so it needs a large tank, heavy equipment and tankmates that can handle it.",
+  ["Plan for a tank of 125 gallons or more for an adult.","Secure rocks and equipment; it digs and moves decor.","Do not mix with small or timid fish."],aka=["blackbelt cichlid","black belt cichlids","vieja maculicauda","cichlasoma maculicauda","blackbelt"]),
+ A("calvus-cichlid","Calvus Cichlid","Altolamprologus calvus","fish","Cichlidae","Lake Tanganyika, Africa","5-6 in",(75,82),(8.0,9.0),30,"Semi-aggressive toward its own kind, hunts tiny fish","Pair or small harem in a larger tank","Bottom to mid, around rock","Intermediate","Carnivore: small frozen foods such as mysis and brine shrimp, small pellets","8-10 years",
+  "A slender Tanganyikan cichlid with a tall back and bold white or black patterning. It lives among rock crevices, hunts small prey and breeds in caves. It needs hard, alkaline water and rock work with many hiding places.",
+  ["Build rock caves and crevices; it hides and ambushes from them.","Keep water hard and alkaline.","Do not mix with fry or very small fish."],aka=["altolamprologus calvus","calvus","black calvus","white pearl calvus","calvus cichlids"]),
+ A("cuckoo-catfish","Cuckoo Catfish","Synodontis multipunctatus","fish","Mochokidae","Lake Tanganyika, Africa","5-6 in",(75,82),(7.8,9.0),55,"Peaceful to semi-aggressive, may eat small fish","Groups of 3+ in a larger tank, or solitary","Bottom","Intermediate","Omnivore: sinking pellets, frozen foods, vegetable matter","10-15 years",
+  "A spotted, big-headed Tanganyikan catfish best known for laying its eggs among those of mouthbrooding cichlids. In a tank it does well with hard, alkaline water and cichlid tankmates, and needs caves to rest in during the day.",
+  ["Pair with Tanganyikan or Malawi cichlids, which like the same hard water.","Provide caves; it is more active at night.","Do not keep with tiny fish; the mouth is large."],aka=["cuckoo synodontis","synodontis multipunctatus","multipunctatus catfish","cuckoo cat"]),
+ A("florida-flagfish","Florida Flagfish","Jordanella floridae","fish","Cyprinodontidae","Florida, United States","2-2.5 in",(65,80),(6.5,8.0),20,"Peaceful to semi-aggressive; males are territorial","Pair or one male with several females","Mid to bottom","Beginner","Omnivore: flakes, pellets, plenty of algae and vegetable matter","3-5 years",
+  "A hardy native killifish relative from Florida with a red-spotted, greenish body and a dark tail spot. It eats soft algae and tolerates cool to warm water, but males can be pushy toward each other and other small fish.",
+  ["Keep one male with several females.","Offer vegetable foods or algae to keep it healthy.","May nip fins of long-finned tankmates."],aka=["flagfish","florida flag fish","jordanella floridae","american flagfish","american flag fish"]),
+]
+
+MORE_PLANTS += [
+ P("lilaeopsis-brasiliensis","Brazilian Micro Sword (Lilaeopsis)","Lilaeopsis brasiliensis","Apiaceae","Coastal Americas","1-3 in","Medium to high","Helpful","Foreground carpet","Moderate",(68,80),(6.0,7.5),"Intermediate","Runners",
+  "A fine, grass-like carpet plant with thin bright green blades. It spreads by runners across the foreground and looks best under good light in a tank with a nutrient-rich substrate.",
+  ["Plant in small tufts, a little apart, so runners can fill in.","Needs good light and a nutrient-rich substrate to carpet.","Trim gently; very short trimming can slow it."],aka=["lilaeopsis","brazilian micro sword","micro sword lilaeopsis","lilaeopsis brasiliensis"]),
+ P("cryptocoryne-pontederiifolia","Cryptocoryne pontederiifolia","Cryptocoryne pontederiifolia","Araceae","Sumatra and the Malay Peninsula","8-16 in","Low to medium","Not needed","Midground to background","Slow to moderate",(72,82),(6.0,7.5),"Beginner","Runners",
+  "A sturdy crypt with long, heart-shaped, bubbly-edged leaves on tall stems. It is tougher than many crypts, doing well in low to medium light in a nutrient-rich substrate, and may drop leaves (melt) after a move before regrowing.",
+  ["Expect some melting when first planted; it regrows.","Use root tabs; it feeds through the roots.","Do not move it once settled."],aka=["cryptocoryne pontederiifolia","crypt pontederiifolia","pontederiifolia"]),
+ P("water-hedge","Water Hedge (Didiplis diandra)","Didiplis diandra","Lythraceae","Eastern North America","4-14 in","Medium to high","Helpful","Midground to background, stem plant","Moderate to fast",(60,78),(6.0,7.5),"Intermediate","Cuttings",
+  "A fine-leaved stem plant with feathery, slender stems that tolerates cooler tanks than many tropical stem plants. Under strong light it turns reddish and makes a dense, soft-looking hedge.",
+  ["Plant bunches and trim tops to keep it bushy.","Strong light brings out red tones.","Handles cooler water, so it suits unheated room-temperature tanks."],aka=["didiplis diandra","didiplis","water hedge plant","water hedge didiplis"]),
+]
+
+MORE_PLANTS += [
+ P("cryptocoryne-varieties","Cryptocoryne Varieties","Cryptocoryne species","Araceae","Southeast Asia and Sri Lanka","4-24 in","Low to medium","Not needed","Foreground to background, rosette, depends on species","Slow",(72,82),(6.0,7.5),"Intermediate","Runners",
+  "Crypts such as undulata, spiralis, retrospiralis, crispatula, becketii, walkeri, petchii, nurii and usteriana share the same basic care: a nutrient-rich substrate with root tabs, steady conditions and patience. Size varies a lot by species, from compact 4-inch rosettes to leaves well over a foot long, so check the exact crypt before planting.",
+  ["Expect leaves to melt after planting or a change in conditions; they regrow from the roots.","Use root tabs; crypts feed through the roots.","Do not move them once settled."],aka=["cryptocoryne undulata","cryptocoryne spiralis","cryptocoryne retrospiralis","cryptocoryne crispatula","cryptocoryne becketii","cryptocoryne walkeri","cryptocoryne petchii","cryptocoryne nurii","cryptocoryne usteriana","cryptocoryne willisii","cryptocoryne albida","cryptocoryne costata","cryptocoryne axelrodi","cryptocoryne hudoroi","cryptocoryne mioya","cryptocoryne tropica","crypt blassii","cryptocoryne thwaitesii","crypt sri lanka"]),
+]
+
 ALIAS_INTO = {
+ "cryptocoryne-wendtii": ["cryptocoryne wendtii bronze","cryptocoryne wendtii brown","cryptocoryne wendtii green gecko","cryptocoryne wendtii red","cryptocoryne wendtii sindoor","cryptocoryne wendtii tropica","cryptocoryne wendtii green","cryptocoryne wendtii bronze crypt"],
  "rubber-lip-pleco": ["bulldog pleco","bulldog plecos","chaetostoma formosae","bulldog rubber mouth pleco","l444 bulldog pleco"],
  "emperor-tetra": ["palmeri black emperor tetra","palmeri emperor tetra"],
 }

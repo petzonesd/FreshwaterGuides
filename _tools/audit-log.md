@@ -116,3 +116,13 @@ NOTE: no fetched sources today (WebSearch returns titles only); checks are from 
 - hygrophila: removed nomaphila stricta/siamensis/variegatus aliases; moved to the nomaphila guide.
 - ludwigia-red, alternanthera-reineckii, staurogyne-repens, dwarf-baby-tears, micro-sword, hornwort: ranges, family and size checked, OK. (dwarf-baby-tears CO2 "Required" is the conservative call.)
 Next up: care_data2.py from water-lettuce onward (CA noxious-weed flags for water-lettuce, parrots-feather, anacharis-egeria remain open for Roger).
+
+## 2026-10-20 (8 entries; care_data2.py: water-lettuce .. cryptocoryne-parva)
+NOTE: WebFetch blocked again (permission prompt unanswered); checks from general hobby/plant knowledge, not re-verified against fetched pages.
+- water-lettuce: values OK; FLAG for Roger again: Pistia stratiotes is regulated as a noxious weed in California, so confirm Pet Zone may sell it before keeping the guide.
+- salvinia: removed misfit aliases "water mimosa" / "sensitive plant floater" (a different plant, Neptunia). Dwarf-vs-giant salvinia note kept.
+- red-root-floater: checked, OK.
+- christmas-moss: origin "Southeast Asia" -> "Tropical regions (often sold as an Asian moss)"; the species is not strictly Asian.
+- marimo-moss-ball, java-fern-varieties, bolbitis: checked, OK (bolbitis can pass 14 in in good conditions).
+- cryptocoryne-parva: BUG FIXED. It lumped about 30 crypt names, including large species (usteriana, spiralis, retrospiralis, undulata) and wendtii forms, under a 2-4 in foreground crypt. Now only parva/pygmaea/lucens; wendtii forms moved to cryptocoryne-wendtii; other species moved to the new cryptocoryne-varieties guide (4-24 in, by species). Also removed "cryptocoryne undulata" from the lutea guide (different species).
+Next up: care_data2.py from anubias-varieties onward.
