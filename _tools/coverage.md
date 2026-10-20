@@ -1,4 +1,7 @@
 # Coverage: species Pet Zone sells that still lack a guide
+
+## Roger's decision (2026-10-20)
+Roger reviewed the California flags for water-lettuce, crayfish, freshwater-crab and clam-freshwater and says they are fine to keep (they appear on fish wholesale lists). Keep those guides and stop re-flagging them in daily logs. Still do NOT add species that are clearly banned for private keeping in California (axolotl, African clawed frog, snakeheads, etc.).
 ## 2026-10-20 update
 Guides: 377 (+10: sheepshead acara, golden dwarf cichlid, black belt cichlid, calvus cichlid, cuckoo catfish, Florida flagfish; plants Brazilian micro sword, Cryptocoryne pontederiifolia, water hedge, Cryptocoryne varieties). Petzonesd sitemap WebFetch blocked again (permission unanswered), so picks came from hobby staples. Venustus cichlid skipped: it is the existing giraffe-cichlid guide. Hubs: Cyprinodontidae added to the killifish hub. Guides with a real photo: 27 of 377. Still missing: L-number plecos (L047, L114, L152, L155), slender tetra, garra gotyla, selaginella, scats, mudskippers, freshwater stingrays.
 
