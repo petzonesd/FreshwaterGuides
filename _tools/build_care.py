@@ -270,7 +270,7 @@ HUBS = [
  ("livebearers", "Livebearer Care Guides", "Livebearer Care Guides: Guppy, Platy, Molly, Swordtail", "Care facts for guppies, platies, mollies, swordtails and Endler's livebearers: tank size, water needs and how to avoid overcrowding.",
   "Livebearers give birth to free-swimming young, so a small group can become a large population quickly. They like harder, alkaline water than many tropical fish and do well with plants and hiding spots for fry. Keep the sex ratio in mind: several females per male reduces constant chasing.",
   ["Keep more females than males.","Choose harder water over very soft water.","Plan what you will do with extra fry."],
-  lambda e: e["family"] in ("Poeciliidae","Hemiramphidae")),
+  lambda e: e["family"] in ("Poeciliidae","Hemiramphidae","Goodeidae")),
  ("catfish-plecos-loaches", "Catfish, Pleco and Loach Care Guides", "Catfish, Pleco and Loach Care Guides", "Care facts for corydoras, plecos, loaches and other bottom-dwelling fish: tank size, substrate, diet and how big they get.",
   "Bottom-dwelling fish need more than leftover food. Give them a smooth sand or fine gravel substrate, hiding places and sinking foods. Corydoras and many loaches are social and do best in groups, while plecos can grow far larger than the juveniles sold in stores and need a tank sized for the adult.",
   ["Feed sinking foods so bottom fish actually eat.","Keep corydoras and most loaches in groups.","Look up the adult size of any pleco before buying."],

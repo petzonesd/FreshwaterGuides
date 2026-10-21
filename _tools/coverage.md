@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-21 update
+Guides: 387 (+10: Texas cichlid, rainbow cichlid, Livingston's cichlid, saulosi cichlid, redtail splitfin, butterfly goodeid, pagoda snail, Mexican oak leaf, willow moss, orchid plant/Barclaya). Added Goodeidae to the livebearers hub. Petzonesd sitemap not fetchable unattended; picks from hobby staples. Skipped as unsure for California: jaguar/Managua cichlid, freshwater stingrays, mosquitofish. Real photos: 27 of 387 (360 illustrations). data.json 397 KB: next step is slimming fields the embed does not use.
+
 ## Roger's decision (2026-10-20)
 Roger reviewed the California flags for water-lettuce, crayfish, freshwater-crab and clam-freshwater and says they are fine to keep (they appear on fish wholesale lists). Keep those guides and stop re-flagging them in daily logs. Still do NOT add species that are clearly banned for private keeping in California (axolotl, African clawed frog, snakeheads, etc.).
 ## 2026-10-20 update

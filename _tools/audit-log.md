@@ -126,3 +126,11 @@ NOTE: WebFetch blocked again (permission prompt unanswered); checks from general
 - marimo-moss-ball, java-fern-varieties, bolbitis: checked, OK (bolbitis can pass 14 in in good conditions).
 - cryptocoryne-parva: BUG FIXED. It lumped about 30 crypt names, including large species (usteriana, spiralis, retrospiralis, undulata) and wendtii forms, under a 2-4 in foreground crypt. Now only parva/pygmaea/lucens; wendtii forms moved to cryptocoryne-wendtii; other species moved to the new cryptocoryne-varieties guide (4-24 in, by species). Also removed "cryptocoryne undulata" from the lutea guide (different species).
 Next up: care_data2.py from anubias-varieties onward.
+
+## 2026-10-21 (8 entries; care_data2.py: anubias-varieties .. ammannia)
+NOTE: WebSearch returns titles only and WebFetch is not usable unattended, so checks are from general hobby/plant knowledge.
+- echinodorus-varieties: removed helanthium/tenellus/pygmy chain sword aliases (3-4 in foreground plant, has its own guide).
+- rotala-varieties: moved "rotala bonsai" alias to ammannia (Ammannia sp. Bonsai).
+- aponogeton: description and tips now warn that Madagascar lace is advanced (soft, clean, cooler water) while crispus/ulvaceus are easy.
+- anubias-varieties, vallisneria-varieties, marsilea, hydrocotyle, ammannia: ranges checked, OK. Note: floating marsh pennywort (H. ranunculoides) is a CA-regulated weed and is not aliased.
+Next up: care_data2.py from eleocharis onward.
