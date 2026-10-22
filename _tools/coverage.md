@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-22 update
+Guides: 397 (+10: banded leporinus, fire eel, pink-tail chalceus, royal farlowella, rosy bitterling, clown barb, Altolamprologus compressiceps, brevis shell dweller, bumblebee cichlid, maingano). Aliases added: coolie loach (kuhli), shubunkin (comet goldfish), sunset hygro (hygrophila). Petzonesd sitemap WebFetch blocked again (permission unanswered); picks from hobby staples, ranges conservative. Hubs: pink-tail chalceus and Anostomidae go to large-and-specialty; Acheilognathidae to rasbora/danio/barb. Real photos: 27 of 397. data.json 409 KB (over the ~400 KB line: slim fields the embed does not need). Still missing ideas: scats (brackish adult), mudskippers, climbing perch, spanner barb, sailfin/leaf fish, L-number plecos (L047, L114, L152, L155), selaginella, freshwater stingrays. Cabomba not added (CA weed check).
+
 ## 2026-10-21 update
 Guides: 387 (+10: Texas cichlid, rainbow cichlid, Livingston's cichlid, saulosi cichlid, redtail splitfin, butterfly goodeid, pagoda snail, Mexican oak leaf, willow moss, orchid plant/Barclaya). Added Goodeidae to the livebearers hub. Petzonesd sitemap not fetchable unattended; picks from hobby staples. Skipped as unsure for California: jaguar/Managua cichlid, freshwater stingrays, mosquitofish. Real photos: 27 of 387 (360 illustrations). data.json 397 KB: next step is slimming fields the embed does not use.
 

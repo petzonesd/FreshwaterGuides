@@ -170,6 +170,7 @@ CASES=[
 ("Texas Cichlid","texas-cichlid"),("Rainbow Cichlid","rainbow-cichlid"),("Livingstoni Cichlid","livingstonii-cichlid"),("Saulosi Cichlid","saulosi-cichlid"),
 ("Redtail Splitfin Goodeid","redtail-splitfin"),("Butterfly Goodeid","butterfly-goodeid"),("Pagoda Snail","pagoda-snail"),("Mexican Oak Leaf Plant","mexican-oak-leaf"),
 ("Willow Moss","willow-moss"),("Orchid Plant Barclaya Longifolia","orchid-plant-barclaya"),("Rainbow Shark","rainbow-shark"),
+("Banded Leporinus","banded-leporinus"),("Fire Eel Large","fire-eel"),("Pink Tail Chalceus 3 in","pink-tail-chalceus"),("Royal Farlowella Catfish","royal-farlowella"),("Rosy Bitterling","rosy-bitterling"),("Clown Barb","clown-barb"),("Altolamprologus Compressiceps Gold Head","compressiceps-cichlid"),("Neolamprologus Brevis","brevis-shell-dweller"),("Bumblebee Cichlid","bumblebee-cichlid"),("Maingano Cichlid","maingano-cichlid"),("Coolie Loach","kuhli-loach"),("Shubunkin Goldfish","comet-goldfish"),("Barclaya Longifolia","orchid-plant-barclaya"),("Fire Eel Food",None),("Cichlid Bumblebee Decor Ornament",None),("Maingano Cichlid Pellets",None),("Clown Barb Food",None),
 ("Rainbow Cichlid Pellets",None),("Texas Cichlid Food Sticks",None),("Willow Moss Fertilizer",None),("Pagoda Snail Food",None),("Indian Almond Catappa Oak Leaves",None),("Orchid Decor Ornament",None),("Saulosi Cichlid Flakes",None),
 ]
 with sync_playwright() as p:

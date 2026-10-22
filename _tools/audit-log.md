@@ -134,3 +134,13 @@ NOTE: WebSearch returns titles only and WebFetch is not usable unattended, so ch
 - aponogeton: description and tips now warn that Madagascar lace is advanced (soft, clean, cooler water) while crispus/ulvaceus are easy.
 - anubias-varieties, vallisneria-varieties, marsilea, hydrocotyle, ammannia: ranges checked, OK. Note: floating marsh pennywort (H. ranunculoides) is a CA-regulated weed and is not aliased.
 Next up: care_data2.py from eleocharis onward.
+
+## 2026-10-22 (8 entries; care_data2.py: eleocharis .. amazon-frogbit-floaters region, first 8 = eleocharis .. bucephalandra-varieties)
+NOTE: no fetched sources (WebFetch blocked, search titles only); checks from general hobby/plant knowledge.
+- bucephalandra-varieties: BUG FIXED, removed "barclaya"/"barclaya longifolia" aliases (they hijacked the Barclaya guide, a different plant). Test added.
+- whiptail-catfish: removed "royal farlowella catfish" alias (Sturisoma is larger, now its own guide).
+- parrots-feather: removed "foxtail" and "watermilfoil" aliases (ambiguous with hornwort / invasive spicatum). CA weed status of Myriophyllum aquaticum still open for Roger.
+- eleocharis: removed "eleocharis vivipara" alias (grows much taller than the 2-8 in range).
+- lotus-tiger: removed "dwarf lily" alias (own dwarf water lily guide); height 8-20 in -> 10-24 in.
+- najas-guppy-grass, limnophila, mayaca, pothos-emersed: ranges checked, OK.
+Next up: care_data2.py from anacharis-egeria onward.
