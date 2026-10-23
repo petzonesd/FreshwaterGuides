@@ -3,6 +3,14 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Mono Sebae","mono-moony"),("Mono Argentus","mono-moony"),("Ruby Scat","scat"),("Green Scat","scat"),("Graceful Mudskipper","graceful-mudskipper"),
+("Spotted Pike Characin False Gar","pike-characin"),("Milky Way Wood Catfish Tatia Galaxias","wood-catfish"),("Gold Ring Danio Danio Tinwini","golden-dwarf-danio"),
+("Garra Gotyla Sucker Head","garra-gotyla"),("L155 Polka Dot Lyretail Pleco Acanthicus Adonis","giant-cactus-pleco"),("Redtail Leopardus Pleco L-114","giant-cactus-pleco"),
+("Orange Face Stiphodon Goby","stiphodon-goby"),("Selaginella Wallichi Spike Moss","selaginella-wallichii"),("Ranalisma Rostratum","ranalisma-rostratum"),
+("Littorella Uniflora UNS Tissue Culture","littorella-uniflora"),("Myriophyllum Mattogrossense Red Stem Plant","myriophyllum-mattogrossense"),
+("Hedyotis Salzmannii Tissue Culture","hedyotis-salzmannii"),("Eriocaulon Cinereum","eriocaulon-cinereum"),
+("Spathiphyllum Wallisii","pothos-emersed"),
+("Mono Fish Food Flakes",None),("Scat Fish Pellets Brackish",None),("Mudskipper Habitat Kit",None),("Aquarium Salt Marine Mix",None),("Green Neon Tetra","green-neon-tetra"),
 ("Sheepshead Acara","sheepshead-acara"),("Golden Dwarf Cichlid","golden-dwarf-cichlid"),("Black Belt Cichlid","black-belt-cichlid"),("Calvus Cichlid Altolamprologus","calvus-cichlid"),
 ("Cuckoo Catfish Synodontis","cuckoo-catfish"),("Florida Flagfish","florida-flagfish"),("Lilaeopsis Brazilian Micro Sword","lilaeopsis-brasiliensis"),
 ("Cryptocoryne Pontederiifolia","cryptocoryne-pontederiifolia"),("Water Hedge Didiplis","water-hedge"),("Cryptocoryne Undulata","cryptocoryne-varieties"),

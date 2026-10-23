@@ -144,3 +144,13 @@ NOTE: no fetched sources (WebFetch blocked, search titles only); checks from gen
 - lotus-tiger: removed "dwarf lily" alias (own dwarf water lily guide); height 8-20 in -> 10-24 in.
 - najas-guppy-grass, limnophila, mayaca, pothos-emersed: ranges checked, OK.
 Next up: care_data2.py from anacharis-egeria onward.
+
+## 2026-10-23 (8 entries; care_data2.py: anacharis-egeria .. tissue-culture-plant, then care_data3.py first 5)
+NOTE: no fetched care sources (WebFetch only reached the Pet Zone sitemap); checks from general hobby knowledge. care_data2.py is now fully audited once.
+- amazon-frogbit-floaters: BUG FIXED, removed aliases "ranalisma rostratum" (new own guide), "rorippa aquatica" (lake cress guide) and "penthorum sedoides" (not a floater).
+- anacharis-egeria: ranges OK. FLAG for Roger: Egeria densa is a California-regulated noxious weed (like water lettuce); same decision as before applies.
+- tissue-culture-plant: OK.
+- green-neon-tetra: removed claim of a red area on the body (Paracheirodon simulans has none); text now says no red.
+- black-neon-tetra, redtail-catfish, ghost-shrimp, emerald-catfish: checked, OK.
+- gar: removed "spotted pike characin false gar" alias (a Boulengerella, now pike-characin).
+Next up: care_data3.py from dwarf-neon-rainbowfish onward.
