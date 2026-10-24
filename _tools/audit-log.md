@@ -154,3 +154,11 @@ NOTE: no fetched care sources (WebFetch only reached the Pet Zone sitemap); chec
 - black-neon-tetra, redtail-catfish, ghost-shrimp, emerald-catfish: checked, OK.
 - gar: removed "spotted pike characin false gar" alias (a Boulengerella, now pike-characin).
 Next up: care_data3.py from dwarf-neon-rainbowfish onward.
+
+## 2026-10-24 (8 entries; care_data3.py: dwarf-neon-rainbowfish .. columbian-tetra)
+NOTE: no fetched care sources (WebFetch only reached Pet Zone sitemap page 1); checks from general hobby knowledge.
+- sparkling-gourami: BUG FIXED, removed "croaking gourami" alias (it hijacked the separate Trichopsis vittata guide, croaking-gourami).
+- dwarf-neon-rainbowfish: minimum tank 20 -> 30 gal (active 3 in schooling rainbowfish need length).
+- pearl-danio: size 2.5 in -> 2.5-3 in.
+- blue-acara, keyhole-cichlid, red-eye-tetra, checker-barb, columbian-tetra: ranges checked, OK.
+Next up: care_data3.py from rosy-tetra onward.

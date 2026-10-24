@@ -17,7 +17,7 @@ MORE_ANIMALS = [
  A("emerald-catfish","Emerald Catfish","Brochis splendens","fish","Callichthyidae","Upper Amazon basin, South America","3 in",(72,79),(6.0,7.5),30,"Peaceful","Groups of 5+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","8-10 years",
   "A shimmering green armored catfish that is taller and longer than most corydoras. Keep a group on soft sand or smooth gravel and feed foods that sink.",
   ["Keep five or more together.","Use smooth sand or fine gravel.","Needs a larger tank than small corydoras."],aka=["emerald green cory","emerald cory","emerald corydoras","corydoras splendens","short body catfish","brochis splendens","emerald green catfish"]),
- A("dwarf-neon-rainbowfish","Dwarf Neon Rainbowfish","Melanotaenia praecox","fish","Melanotaeniidae","Northern New Guinea","3 in",(74,80),(6.5,7.8),20,"Peaceful, active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: micro pellets, flakes, frozen foods","4-5 years",
+ A("dwarf-neon-rainbowfish","Dwarf Neon Rainbowfish","Melanotaenia praecox","fish","Melanotaeniidae","Northern New Guinea","3 in",(74,80),(6.5,7.8),30,"Peaceful, active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: micro pellets, flakes, frozen foods","4-5 years",
   "A small, bright rainbowfish with a blue body and red fins. It is a good fit for medium community tanks, needs a group and open swimming space, and does best in clean, moderately hard water.",
   ["Keep a group of six or more.","Use a tight lid; rainbowfish jump.","Feed small portions, twice a day."],aka=["dwarf neon rainbow","neon dwarf rainbowfish","praecox rainbowfish","melanotaenia praecox"]),
  A("blue-acara","Blue Acara","Andinoacara pulcher","fish","Cichlidae","Panama, Colombia and Venezuela","6-8 in",(72,82),(6.5,7.8),55,"Semi-aggressive, territorial when breeding","Pair or solitary","Bottom to mid","Intermediate","Omnivore: cichlid pellets, frozen foods, vegetables","8-10 years",
@@ -28,8 +28,8 @@ MORE_ANIMALS = [
   ["Use calm tankmates; boisterous fish stress it.","Provide caves and plants.","Keep water clean and stable."],aka=["keyhole cichlids","cleithracara maronii","keyhole cichlid cleithracara maronii"]),
  A("sparkling-gourami","Sparkling Gourami","Trichopsis pumila","fish","Osphronemidae","Southeast Asia","1.5 in",(72,82),(6.0,7.5),10,"Peaceful, shy","Pairs or small groups","Upper to mid","Intermediate","Carnivore: micro pellets, baby brine shrimp, small frozen foods","3-4 years",
   "A tiny labyrinth fish with iridescent dots and the ability to make soft croaking sounds. It needs a calm, planted tank with floating plants and very gentle tankmates.",
-  ["Leave an air gap under the lid.","Use floating plants for cover.","Feed tiny live or frozen foods."],aka=["sparkling gouramis","croaking gourami","trichopsis pumila"]),
- A("pearl-danio","Pearl Danio","Danio albolineatus","fish","Danionidae","Thailand, Myanmar and Sumatra","2.5 in",(68,79),(6.0,8.0),20,"Peaceful, very active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","3-5 years",
+  ["Leave an air gap under the lid.","Use floating plants for cover.","Feed tiny live or frozen foods."],aka=["sparkling gouramis","trichopsis pumila","pygmy gourami trichopsis"]),
+ A("pearl-danio","Pearl Danio","Danio albolineatus","fish","Danionidae","Thailand, Myanmar and Sumatra","2.5-3 in",(68,79),(6.0,8.0),20,"Peaceful, very active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","3-5 years",
   "A fast, hardy schooling danio with a pearly sheen and a hint of pink or blue. It needs a long tank with open water and a secure lid.",
   ["Keep a group of six or more.","Use a tight lid; danios jump.","Choose a tank that is at least two feet long."],aka=["pearl danios","danio albolineatus","pearly danio"]),
  A("red-eye-tetra","Red Eye Tetra","Moenkhausia sanctaefilomenae","fish","Characidae","Paraguay River basin, South America","2.5 in",(72,80),(6.0,7.5),20,"Active, mostly peaceful, may nip long fins","Schooling, keep 6+","Mid to upper","Beginner","Omnivore: flakes, micro pellets, frozen foods","4-5 years",
@@ -676,3 +676,40 @@ MORE_PLANTS += [
 ]
 
 ALIAS_INTO["pothos-emersed"] = ["spathiphyllum","spathiphyllum wallisii","spathiphyllum wallishi","peace lily","spathiphyllum wallishi peace lily pot"]
+
+
+# ---- 2026-10-24 batch ----
+MORE_ANIMALS += [
+ A("bladder-snail","Bladder Snail","Physa acuta","invert","Physidae","Worldwide (originally North America)","0.5 in",(65,85),(7.0,8.2),5,"Peaceful","Colony","All levels","Beginner","Algae, detritus, leftover food, biofilm","1 year",
+  "A tiny, fast-breeding snail that arrives on plants and cleans up scraps and film. It is harmless to plants and fish but will multiply quickly if the tank is overfed.",
+  ["Feed less to slow population growth.","Needs calcium in the water for a healthy shell.","Avoid copper medications."],aka=["bladder snails","physa snail","physa acuta","pond snail bladder"]),
+ A("fathead-minnow","Rosy Red Minnow","Pimephales promelas","fish","Cyprinidae","North America","2.5-3 in",(50,75),(6.5,8.0),20,"Peaceful, active","Schooling, keep 6+","Mid to upper","Beginner","Omnivore: flakes, small pellets, frozen foods","2-3 years",
+  "The rosy red minnow is a pink color form of the fathead minnow. It is a hardy, cool-water fish that does well unheated and works in cool-water tanks and ponds, but it is not a fit for a warm tropical community.",
+  ["Keep a group of six or more.","Prefers cool water; avoid tropical heat.","Often sold as a feeder, but is a fine pet fish."],aka=["rosy red minnows","rosy red","rosy red feeder minnow","fathead minnows","pimephales promelas"]),
+ A("sailfin-tetra","Sailfin Tetra","Crenuchus spilurus","fish","Crenuchidae","Guianas and Amazon basin, South America","3 in",(75,82),(5.0,7.0),30,"Peaceful, males can squabble","Small groups or pairs","Mid to lower","Intermediate","Carnivore: small frozen and live foods, micro pellets","5-6 years",
+  "A tetra relative with a long sail-like dorsal fin and a dark tail spot. It prefers soft, acidic, tannin-tinted water with plenty of cover and gentle tankmates.",
+  ["Use plants, wood and subdued light.","Keep water soft and clean.","Males may display at each other; give hiding spots."],aka=["sailfin tetras","sail fin tetra","crenuchus spilurus","golden sailfin tetra"]),
+ A("splash-tetra","Splash Tetra","Copella arnoldi","fish","Lebiasinidae","Amazon delta, Guianas, South America","3 in",(74,82),(5.5,7.5),20,"Peaceful","Groups, keep 6+","Upper","Intermediate","Carnivore: micro pellets, flakes, small frozen and live foods","3-4 years",
+  "A surface-oriented fish famous for laying eggs on leaves above the water. It jumps, so it needs a snug lid with a little humid air gap, and it does best in soft, slightly acidic water.",
+  ["Keep a snug lid; it jumps.","Choose gentle tankmates.","Feed small foods at the surface."],aka=["splash tetras","copella arnoldi","jumping characin"]),
+ A("lionhead-cichlid","Lionhead Cichlid","Steatocranus casuarius","fish","Cichlidae","Congo River, Africa","4-5 in",(73,79),(6.5,7.8),40,"Semi-aggressive, territorial","Pair or solitary","Bottom","Intermediate","Omnivore: sinking cichlid pellets, frozen foods","8-10 years",
+  "A stocky, bottom-hugging Congo cichlid with a bump on the forehead. It lacks a normal swim bladder, so it hops across the bottom, and it likes rocks, caves and fast water flow.",
+  ["Provide caves and rockwork.","Use moderate to strong current.","Keep with similar-sized, sturdy fish; it guards its cave."],aka=["buffalohead cichlid","buffalo head cichlid","lionhead cichlids","steatocranus casuarius","blunthead cichlid"]),
+ A("goby-cichlid","Goby Cichlid","Eretmodus cyanostictus","fish","Cichlidae","Lake Tanganyika, Africa","3-4 in",(75,82),(7.8,9.0),30,"Territorial toward its own kind","Pairs or groups in a larger tank","Bottom, rocks","Intermediate","Omnivore: algae-based foods, small frozen foods, small pellets","6-8 years",
+  "A small Tanganyikan cichlid that perches on rocks and grazes algae, shaped much like a goby. It needs hard, alkaline water, rocky structure and good flow.",
+  ["Use rockwork with plenty of surfaces to graze.","Keep water hard, alkaline and well oxygenated.","Do not mix with soft-water fish."],aka=["goby cichlids","eretmodus cyanostictus","eretmodus","tanganyika goby cichlid","boulengerochromis"]),
+ A("cobalt-afra-cichlid","Afra Cichlid","Cynotilapia afra","fish","Cichlidae","Lake Malawi, Africa","4-5 in",(76,82),(7.8,8.6),55,"Aggressive, territorial","Groups in a well-rocked tank","Mid, around rocks","Intermediate","Omnivore: algae-based cichlid pellets, flakes, occasional frozen foods","8-10 years",
+  "A blue-barred mbuna from Lake Malawi, usually sold under collection-site names. Like other mbuna it is territorial and does best in a rocky tank with hard, alkaline water.",
+  ["Overstock lightly with other mbuna to spread aggression.","Use rock caves and hard, alkaline water.","Avoid mixing with peaceful community fish."],aka=["afra cichlid","cynotilapia afra","afra cobue","afra hai","white top afra"]),
+ A("kadango-red-fin","Kadango Red Fin Cichlid","Copadichromis borleyi","fish","Cichlidae","Lake Malawi, Africa","5-6 in",(76,82),(7.8,8.6),55,"Semi-aggressive","Group with one male and several females","Mid to upper","Intermediate","Omnivore: cichlid pellets, flakes, frozen foods","8-10 years",
+  "A Malawi hap with a blue body and bright red fins on males. It is calmer than mbuna but males squabble, so keep one male with several females in a roomy tank.",
+  ["Keep one male with several females.","Use hard, alkaline water.","Give open swimming space as well as rocks."],aka=["kadango","kadango cichlid","borleyi","copadichromis borleyi","red fin borleyi","red fin kadango"]),
+ A("emerald-cichlid","Emerald Cichlid","Hypselecara temporalis","fish","Cichlidae","Amazon basin, South America","10-12 in",(75,82),(6.0,7.5),125,"Semi-aggressive, can be calm","Pair or solitary","Bottom to mid","Intermediate","Omnivore: cichlid pellets, frozen foods, vegetables","10 years or more",
+  "A large, deep-bodied South American cichlid that is usually calmer than other big cichlids but will eat small fish. It needs a big tank, strong filtration and regular water changes.",
+  ["Plan for a tank of 125 gallons or more.","Do not keep with small fish.","Keep up with water changes; waste builds fast."],aka=["emerald cichlids","emerald green cichlid","hypselecara temporalis","cichla temporalis","emerald eye cichlid"]),
+]
+MORE_PLANTS += [
+ P("vesuvius-sword","Vesuvius Sword","Helanthium bolivianum 'Vesuvius'","Alismataceae","Cultivated form of a South American plant","8-16 in","Medium","Optional","Midground to background","Medium",(68,82),(6.0,7.5),"Beginner","Runners",
+  "A sword-type plant with long, wavy, ribbon-like leaves that give a dramatic grassy effect. It is a cultivar of Bolivian sword, easy to grow, and spreads by runners.",
+  ["Plant in nutrient-rich substrate.","Trim older leaves to keep it tidy.","Give it room; it fills a corner quickly."],aka=["vesuvius sword plant","vesuvius","helanthium vesuvius","helanthium bolivianum vesuvius","vesuvius sword"]),
+]

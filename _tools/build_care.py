@@ -258,7 +258,7 @@ HUBS = [
  ("tetras", "Tetra Care Guides", "Tetra Care Guides: Neon, Cardinal, Rummy Nose and More", "Care facts for popular tetras and other small characins: tank size, temperature, pH and tankmates for neon, cardinal, rummy nose, serpae and more.",
   "Tetras are small, schooling fish that suit most community tanks. Almost all of them look and behave best in groups of six or more, in a tank with plants, gentle flow and stable water. Differences matter: neons and cardinals like softer, cleaner water, serpae and bucktooth tetras can nip fins, and larger species such as congo tetras need a longer tank.",
   ["Buy a group, not a single fish.","Add them to a tank that is fully cycled.","Check fin-nipping species before mixing with bettas or long-finned fish."],
-  lambda e: e["family"] in ("Characidae","Alestidae","Gasteropelecidae","Lebiasinidae") and e["slug"] not in ("pink-tail-chalceus",)),
+  lambda e: e["family"] in ("Characidae","Alestidae","Gasteropelecidae","Lebiasinidae","Crenuchidae") and e["slug"] not in ("pink-tail-chalceus",)),
  ("rasboras-danios-barbs", "Rasbora, Danio and Barb Care Guides", "Rasbora, Danio and Barb Care Guides", "Care facts for rasboras, danios, barbs and sharks: tank size, temperature, pH, temperament and which ones outgrow a home tank.",
   "Rasboras, danios and barbs are active schooling fish from Asia. Many are hardy and good for beginners, but the group also includes fish that look small in the store and grow large, like bala sharks and tinfoil barbs. Match the schooling size, tank length and fin-nipping habits of each species to your tank.",
   ["Keep schooling species in groups of six or more.","Use a tight lid for danios and other jumpers.","Plan for adult size before buying sharks and tinfoil barbs."],
