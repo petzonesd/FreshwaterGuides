@@ -713,3 +713,16 @@ MORE_PLANTS += [
   "A sword-type plant with long, wavy, ribbon-like leaves that give a dramatic grassy effect. It is a cultivar of Bolivian sword, easy to grow, and spreads by runners.",
   ["Plant in nutrient-rich substrate.","Trim older leaves to keep it tidy.","Give it room; it fills a corner quickly."],aka=["vesuvius sword plant","vesuvius","helanthium vesuvius","helanthium bolivianum vesuvius","vesuvius sword"]),
 ]
+
+# ---- 2026-10-24b: approved by Roger (legal in CA per his knowledge) ----
+MORE_ANIMALS += [
+ A("jaguar-cichlid","Jaguar Cichlid (Managua Cichlid)","Parachromis managuensis","fish","Cichlidae","Honduras to Costa Rica, Central America","14-16 in",(75,84),(7.0,8.5),180,"Very aggressive, predatory","Solitary or a mated pair in a very large tank","Mid to bottom","Advanced","Carnivore: large cichlid pellets, fish, shrimp, earthworms","10-15 years",
+  "A powerful, spotted Central American predator that grows over a foot long. It is bold and intelligent but bullies and eats tankmates, so it needs a very large tank and heavy equipment.",
+  ["Plan for 180 gallons or more.","Keep only with similarly large, tough fish, or alone.","Use a secure lid and strong filtration; do regular big water changes."],aka=["jaguar cichlids","managua cichlid","managuense cichlid","parachromis managuensis","cichlasoma managuense","jaguar guapote"]),
+ A("african-lungfish","African Lungfish","Protopterus annectens","fish","Protopteridae","Africa","12-30 in",(75,86),(6.5,7.5),125,"Predatory, aggressive toward tankmates","Solitary","Bottom","Intermediate","Carnivore: shrimp, earthworms, chunks of fish, sinking carnivore pellets","10-20+ years",
+  "An eel-like air-breathing fish that grows far longer than juveniles in the store suggest. It can escape through small gaps and eats any fish it can swallow, so it needs a long tank with a heavy lid and an air gap above the water.",
+  ["Secure the lid; it climbs and escapes.","Leave an air gap so it can breathe at the surface.","Keep alone or with fish too large to eat."],aka=["african lungfish protopterus","protopterus annectens","protopterus dolloi","slender lungfish","marbled lungfish","protopterus"]),
+ A("african-tigerfish","African Tigerfish","Hydrocynus vittatus","fish","Alestidae","Central and southern Africa","20-30+ in",(75,82),(6.5,7.5),1000,"Fast, predatory, with razor-sharp teeth","Solitary or in a very large tank","Open water","Advanced","Carnivore: whole live or frozen fish, large prey foods","10+ years",
+  "A fast open-water predator with very sharp teeth. It is easily stressed, needs a huge long tank with strong flow and excellent water quality, and is not a fish for a typical home setup.",
+  ["Only for experienced keepers with a very large tank.","Handle nets and tank work carefully; the teeth cut.","Keep the tank long, open and spotless; it spooks and injures itself easily."],aka=["tiger fish","tigerfish","hydrocynus vittatus","hydrocynus","african tiger fish"]),
+]

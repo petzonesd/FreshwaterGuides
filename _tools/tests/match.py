@@ -159,7 +159,7 @@ CASES=[
 ("Siamese Algae Eater","ANY"),
 ("Otocinclus Catfish","ANY"),
 
-("Bladder Snail","bladder-snail"),("Croaking Gourami","croaking-gourami"),("Rosy Red Minnow","fathead-minnow"),("Rosy Red Minnow Food",None),("Sailfin Tetra","sailfin-tetra"),("Sailfin Molly","ANY"),("Splash Tetra","splash-tetra"),("Lionhead Cichlid","lionhead-cichlid"),("Lionhead Goldfish","ANY"),("Goby Cichlid Eretmodus Cyanostictus","goby-cichlid"),("Cynotilapia Afra Cobue","cobalt-afra-cichlid"),("Kadango Red Fin Borleyi","kadango-red-fin"),("Emerald Cichlid","emerald-cichlid"),("Emerald Green Cory","ANY"),("Vesuvius Sword Plant","vesuvius-sword"),("Bladder Snail Food",None),
+("Bladder Snail","bladder-snail"),("Jaguar Cichlid","jaguar-cichlid"),("African Lungfish","african-lungfish"),("African Tigerfish","african-tigerfish"),("Tiger Barb","ANY"),("Tiger Oscar","ANY"),("Croaking Gourami","croaking-gourami"),("Rosy Red Minnow","fathead-minnow"),("Rosy Red Minnow Food",None),("Sailfin Tetra","sailfin-tetra"),("Sailfin Molly","ANY"),("Splash Tetra","splash-tetra"),("Lionhead Cichlid","lionhead-cichlid"),("Lionhead Goldfish","ANY"),("Goby Cichlid Eretmodus Cyanostictus","goby-cichlid"),("Cynotilapia Afra Cobue","cobalt-afra-cichlid"),("Kadango Red Fin Borleyi","kadango-red-fin"),("Emerald Cichlid","emerald-cichlid"),("Emerald Green Cory","ANY"),("Vesuvius Sword Plant","vesuvius-sword"),("Bladder Snail Food",None),
 ("Aquarium Water Conditioner Betta",None),
 ("Tetra Betta Flakes",None),
 ("Fish Net Large",None),
