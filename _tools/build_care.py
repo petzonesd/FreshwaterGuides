@@ -120,8 +120,21 @@ def footer_html():
     m = re.search(r'<footer class="site-footer">.*?</footer>', src, re.S)
     return m.group(0)
 
-def head(title, desc, path, extra_ld=""):
+# Sitewide fallback social-share photo for generated pages that have no
+# species-specific photo of their own (hub pages, the /care/ index, and the
+# handful of species entries with no real photo at all) -- same convention
+# the homepage and glossary pages already use: always ship *some* og:image
+# rather than let the share-card come back blank. Already live and in use
+# on index.html, so this adds no new hotlink risk.
+DEFAULT_OG_IMAGE = "https://aquascapesupply.co/cdn/shop/files/DSCF1731_2048x.jpg?v=1613695471"
+
+def head(title, desc, path, extra_ld="", image=None):
     url = f"{BASE}{path}"
+    img = image or DEFAULT_OG_IMAGE
+    card = "summary_large_image" if img else "summary"
+    social = f"""<meta property="og:image" content="{E(img)}">
+<meta name="twitter:card" content="{card}">
+<meta name="twitter:image" content="{E(img)}">""" if img else '<meta name="twitter:card" content="summary">'
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -138,7 +151,7 @@ def head(title, desc, path, extra_ld=""):
 <meta property="og:description" content="{E(desc)}">
 <meta property="og:url" content="{url}">
 <meta property="og:type" content="article">
-<meta name="twitter:card" content="summary">
+{social}
 {extra_ld}
 </head>
 <body>
@@ -176,7 +189,7 @@ def page_for(e, by_slug):
         {"@type": "ListItem", "position": 3, "name": e["name"], "item": BASE + path}]}
     extra = (f'<script type="application/ld+json">{json.dumps(ld)}</script>\n'
              f'<script type="application/ld+json">{json.dumps(bc)}</script>')
-    out = [head(title, desc, path, extra), HEAD_NAV, '<main id="main">\n<div class="container narrow article">']
+    out = [head(title, desc, path, extra, image=photo_url(e["slug"])), HEAD_NAV, '<main id="main">\n<div class="container narrow article">']
     out.append(f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(e["name"])}</p>')
     out.append(f'<h1>{E(e["name"])} Care Guide</h1>')
     out.append(f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>2 min read</span></p>')
