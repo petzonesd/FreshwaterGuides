@@ -193,7 +193,7 @@
       tbl,
       h('h4', { text: 'Quick tips' }), h('ul', null, e.tips.map(function (t) { return h('li', { text: t }); })),
       h('h4', { text: 'Getting it home' }), h('ol', null, steps.map(function (t) { return h('li', { text: t }); })),
-      h('h4', { text: 'San Diego water' }), h('p', { class: 'sh-small', text: e.tapfit }),
+      h('h4', { text: 'San Diego water' }), h('p', { class: 'sh-small', text: (typeof e.tapfit === 'number' && DATA && DATA.tapset ? DATA.tapset[e.tapfit] : e.tapfit) || '' }),
       h('div', { class: 'sh-foot' }, [
         h('div', null, storeLine(false).map(function (t) { return h('div', { text: t }); }).concat([h('div', { text: 'petzonesd.com' })])),
         h('div', { class: 'lbl-qr' }, [qrSvg(careUrl(e)), h('div', { class: 'lbl-scan', text: 'Full care guide' })])

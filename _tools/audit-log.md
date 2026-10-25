@@ -162,3 +162,13 @@ NOTE: no fetched care sources (WebFetch only reached Pet Zone sitemap page 1); c
 - pearl-danio: size 2.5 in -> 2.5-3 in.
 - blue-acara, keyhole-cichlid, red-eye-tetra, checker-barb, columbian-tetra: ranges checked, OK.
 Next up: care_data3.py from rosy-tetra onward.
+
+## 2026-10-25 (8 entries; care_data3.py: rosy-tetra .. bumblebee-catfish)
+NOTE: no fetched care sources (WebFetch blocked/unanswered); checks from general hobby knowledge.
+- rosy-tetra: BUG FIXED, scientific name was H. bentosi (that is the Ornate tetra, own guide); now H. rosaceus, bentosi alias removed.
+- glowlight-danio: temp 72-79 -> 68-78, pH 6.5-7.5 -> 6.0-7.5 (cooler-water danio).
+- glass-catfish: removed "kryptopterus bicirrhis" alias (a larger, different species).
+- upside-down-catfish: temp upper 79 -> 82.
+- bumblebee-catfish: lifespan 8-12 -> 8-10 years.
+- ruby-tetra, gold-tetra, five-banded-barb: ranges checked, OK.
+Next up: care_data3.py from sailfin-pleco onward.
