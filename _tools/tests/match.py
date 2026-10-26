@@ -181,6 +181,12 @@ CASES=[
 ("Willow Moss","willow-moss"),("Orchid Plant Barclaya Longifolia","orchid-plant-barclaya"),("Rainbow Shark","rainbow-shark"),
 ("Banded Leporinus","banded-leporinus"),("Fire Eel Large","fire-eel"),("Pink Tail Chalceus 3 in","pink-tail-chalceus"),("Royal Farlowella Catfish","royal-farlowella"),("Rosy Bitterling","rosy-bitterling"),("Clown Barb","clown-barb"),("Altolamprologus Compressiceps Gold Head","compressiceps-cichlid"),("Neolamprologus Brevis","brevis-shell-dweller"),("Bumblebee Cichlid","bumblebee-cichlid"),("Maingano Cichlid","maingano-cichlid"),("Coolie Loach","kuhli-loach"),("Shubunkin Goldfish","comet-goldfish"),("Barclaya Longifolia","orchid-plant-barclaya"),("Fire Eel Food",None),("Cichlid Bumblebee Decor Ornament",None),("Maingano Cichlid Pellets",None),("Clown Barb Food",None),
 ("Rainbow Cichlid Pellets",None),("Texas Cichlid Food Sticks",None),("Willow Moss Fertilizer",None),("Pagoda Snail Food",None),("Indian Almond Catappa Oak Leaves",None),("Orchid Decor Ornament",None),("Saulosi Cichlid Flakes",None),
+("Red Line Rasbora","red-line-rasbora"),("Red Line Rasbora Flake Food",None),
+("African Brown Knifefish","african-brown-knifefish"),("Knifefish Sinking Pellets",None),
+("Hi-Fin Banded Shark","chinese-high-fin-banded-shark"),("Hifin Banded Shark Food Wafers",None),("Hi Fin Platy","platy"),
+("Lyretail Killifish Aphyosemion Australe","cape-lopez-lyretail"),("Blue Gularis Killifish","blue-gularis"),("Killifish Food Brine Shrimp Eggs",None),
+("Nicaragua Cichlid","nicaragua-cichlid"),("Leopard Bush Fish Ctenopoma","leopard-bush-fish"),("Amazon Leaf Fish","amazon-leaf-fish"),("Live Leaf Fish Food Pellets",None),
+("Red Flame Sword","echinodorus-varieties"),("Spiky Moss","java-moss"),("Rotala H'ra","rotala-varieties"),("Ruby Red Peacock Cichlid","peacock-cichlid"),
 ]
 with sync_playwright() as p:
     srv=serve(8791)

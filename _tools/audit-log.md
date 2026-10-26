@@ -172,3 +172,11 @@ NOTE: no fetched care sources (WebFetch blocked/unanswered); checks from general
 - bumblebee-catfish: lifespan 8-12 -> 8-10 years.
 - ruby-tetra, gold-tetra, five-banded-barb: ranges checked, OK.
 Next up: care_data3.py from sailfin-pleco onward.
+
+## 2026-10-26 (8 entries; care_data3.py: sailfin-pleco .. midas-cichlid)
+NOTE: no fetched care sources (WebFetch to petzonesd/other sites needs approval in this run); checks from general hobby knowledge.
+- sailfin-pleco: minimum tank 125 -> 150 gal (16-20 in adult).
+- kissing-gourami: minimum tank 55 -> 75 gal (adults reach 8-12 in).
+- midas-cichlid: minimum tank 125 -> 150 gal, tip text updated.
+- rubber-lip-pleco, chocolate-gourami, peppered-cory, iridescent-shark, jewel-cichlid: ranges checked, OK.
+Next up: care_data3.py from frontosa-cichlid onward (data.json is 395 KB, close to the 400 KB limit: slim fields before adding many more).
