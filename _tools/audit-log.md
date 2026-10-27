@@ -180,3 +180,12 @@ NOTE: no fetched care sources (WebFetch to petzonesd/other sites needs approval 
 - midas-cichlid: minimum tank 125 -> 150 gal, tip text updated.
 - rubber-lip-pleco, chocolate-gourami, peppered-cory, iridescent-shark, jewel-cichlid: ranges checked, OK.
 Next up: care_data3.py from frontosa-cichlid onward (data.json is 395 KB, close to the 400 KB limit: slim fields before adding many more).
+
+## 2026-10-27 (8 entries; care_data3.py: peacock-cichlid .. exclamation-point-rasbora)
+NOTE: no fetched care sources (WebSearch returns titles only); checks from general hobby knowledge.
+- moonlight-gourami: temp 77-84 -> 75-82 (84 F is too warm for a long-term range).
+- julidochromis: size 3-4 -> 3-6 in and a tip that J. regani/marlieri get bigger and want 55+ gal.
+- frontosa-cichlid: tip now says 125 gal for one or two fish, 180+ for a group.
+- peacock-cichlid, daffodil-cichlid, malaysian-trumpet-snail, rope-fish, exclamation-point-rasbora: ranges checked, OK.
+- Stale aliases removed from care_data2: "golden wonder killifish" (clown-killifish), "american flag fish" (hijacked florida-flagfish), "madagascar rainbowfish" (turquoise-rainbowfish); the first and last now have their own guides.
+Next up: care_data3.py from thick-lipped-gourami onward (then the tail batch).
