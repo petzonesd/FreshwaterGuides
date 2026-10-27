@@ -215,6 +215,8 @@ def page_for(e, by_slug):
     else:
         out.append('<h2>Before you buy</h2>')
         out.append('<p>Make sure your tank is cycled (<a href="/guides/cycle-a-fish-tank/">how to cycle a tank</a>), check your numbers with the <a href="/guides/water-parameters-testing/">water testing guide</a>, and use the <a href="/guides/freshwater-fish-compatibility/">compatibility guide</a> to check tankmates. These are general ranges; individual fish and local water vary.</p>')
+        if e["slug"] in ("fancy-goldfish", "comet-goldfish", "koi"):
+            out.append('<p>Thinking about keeping goldfish or koi with tropical fish? Read our <a href="/guides/goldfish-vs-tropical-fish/">goldfish vs. tropical fish guide</a> first — the two need different water temperatures and very different filtration, so they almost never belong in the same tank.</p>')
     out.append(store_block())
     rel = [x for x in by_slug.values() if x["slug"] != e["slug"] and x["family"] == e["family"]]
     rel += [x for x in by_slug.values() if x["slug"] != e["slug"] and x["kind"] == e["kind"] and x not in rel]
