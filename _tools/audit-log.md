@@ -189,3 +189,10 @@ NOTE: no fetched care sources (WebSearch returns titles only); checks from gener
 - peacock-cichlid, daffodil-cichlid, malaysian-trumpet-snail, rope-fish, exclamation-point-rasbora: ranges checked, OK.
 - Stale aliases removed from care_data2: "golden wonder killifish" (clown-killifish), "american flag fish" (hijacked florida-flagfish), "madagascar rainbowfish" (turquoise-rainbowfish); the first and last now have their own guides.
 Next up: care_data3.py from thick-lipped-gourami onward (then the tail batch).
+
+## 2026-10-28 (8 entries; care_data3.py: thick-lipped-gourami .. threadfin-acara)
+NOTE: no fetched care sources (WebFetch needs approval, WebSearch returns titles only); checks from general hobby knowledge.
+- red-terror: scientific name Amphilophus festae -> Mesoheros festae (current genus); old name stays as an alias.
+- thick-lipped-gourami, frogmouth-catfish, six-barred-distichodus, pike-cichlid (genus-level, ranges are broad on purpose), panda-garra, snowball-pleco, threadfin-acara: ranges checked, OK.
+- Bug caught while adding: tire track eel is Mastacembelus favus (fire eel is M. erythrotaenia); new guide uses favus.
+Next up: care_data3.py from the entry after threadfin-acara (the tail batches).

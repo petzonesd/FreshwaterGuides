@@ -188,6 +188,11 @@ CASES=[
 ("Lyretail Killifish Aphyosemion Australe","cape-lopez-lyretail"),("Blue Gularis Killifish","blue-gularis"),("Killifish Food Brine Shrimp Eggs",None),
 ("Nicaragua Cichlid","nicaragua-cichlid"),("Leopard Bush Fish Ctenopoma","leopard-bush-fish"),("Amazon Leaf Fish","amazon-leaf-fish"),("Live Leaf Fish Food Pellets",None),
 ("Red Flame Sword","echinodorus-varieties"),("Spiky Moss","java-moss"),("Rotala H'ra","rotala-varieties"),("Ruby Red Peacock Cichlid","peacock-cichlid"),
+("Spotted Blue Eye Rainbowfish Pseudomugil Gertrudae","spotted-blue-eye"),("Tire Track Eel","tire-track-eel"),("Fire Eel","fire-eel"),
+("Spanner Barb","spanner-barb"),("Cuming's Barb","cumings-barb"),("Jellybean Tetra","jellybean-tetra"),("Emerald Betta Smaragdina","emerald-betta"),
+("Mayan Cichlid","mayan-cichlid"),("Banded Rainbowfish","banded-rainbowfish"),("Blue Badis","blue-badis"),("Amazon Puffer","amazon-puffer"),
+("Tire Track Eel Food Pellets",None),("Betta Fish Food Emerald Green Formula",None),("Puffer Fish Food Snail Treat",None),("Scarlet Badis","scarlet-badis"),
+("Dwarf Puffer Pea Puffer","pea-puffer"),("Halfmoon Betta Male","betta"),("Rainbowfish Flakes",None),
 ]
 with sync_playwright() as p:
     srv=serve(8791)
