@@ -16,6 +16,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Your First Planted Tank](https://freshwaterguides.com/aquascaping/beginner-planted-tank/): A realistic beginner plan for substrate, light, CO2, and plant selection.
 - [Beginner Freshwater Fish](https://freshwaterguides.com/fish/beginner-freshwater-fish/): Species that are genuinely beginner-appropriate, and why some "easy" fish aren't.
 - [Understanding Aquarium Algae](https://freshwaterguides.com/guides/aquarium-algae-guide/): How to diagnose the type and cause of algae before treating it.
+- [Why Is My Aquarium Water Cloudy, Brown, or Foamy?](https://freshwaterguides.com/guides/cloudy-aquarium-water/): Diagnosing white bacterial blooms, brown tannins, surface film, and green algae water by what they actually look like.
 - [Freshwater Fish Compatibility](https://freshwaterguides.com/guides/freshwater-fish-compatibility/): How to evaluate temperament, water needs, and adult size before stocking.
 - [Goldfish vs. Tropical Fish](https://freshwaterguides.com/guides/goldfish-vs-tropical-fish/): Why goldfish and most tropical fish can't share a tank — temperature, bioload, size, and lifespan compared.
 - [Aquarium Plant Fertilizer Guide](https://freshwaterguides.com/guides/aquarium-plant-fertilizing/): Diagnosing plant nutrient deficiencies by leaf symptom, plus liquid fertilizer, root tab, and EI dosing routines.
