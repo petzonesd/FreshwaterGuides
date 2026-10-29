@@ -3,6 +3,7 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Wolf Cichlid Parachromis Dovii","wolf-cichlid"),("T-Bar Cichlid","t-bar-cichlid"),("Flier Cichlid","flier-cichlid"),("Red Cheek Tropheops","tropheops-red-cheek"),("Electra Hap Cichlid","electra-hap"),("Featherfin Cichlid Ophthalmotilapia","featherfin-cichlid"),("Checkerboard Cichlid","checkerboard-cichlid"),("Nothobranchius Guentheri Killifish","nothobranchius-killifish"),("Spraying Characin","splash-tetra"),("Earth Eater Cichlid","geophagus"),("Synodontis Featherfin Squeaker","synodontis-catfish"),("Wolf Cichlid Food Pellets",None),("Annual Killifish Peat Moss",None),("Cichlid Food Red Cheek Formula",None),
 ("Mono Sebae","mono-moony"),("Mono Argentus","mono-moony"),("Ruby Scat","scat"),("Green Scat","scat"),("Graceful Mudskipper","graceful-mudskipper"),
 ("Spotted Pike Characin False Gar","pike-characin"),("Milky Way Wood Catfish Tatia Galaxias","wood-catfish"),("Gold Ring Danio Danio Tinwini","golden-dwarf-danio"),
 ("Garra Gotyla Sucker Head","garra-gotyla"),("L155 Polka Dot Lyretail Pleco Acanthicus Adonis","giant-cactus-pleco"),("Redtail Leopardus Pleco L-114","giant-cactus-pleco"),
@@ -147,7 +148,7 @@ CASES=[
 ("Discus Red Turquoise 3 in","ANY"),
 ("Ram Cichlid German Blue","ANY"),
 ("African Dwarf Frog","african-dwarf-frog"),
-("Ghost Shrimp","ghost-shrimp"),("Black Neon Tetra","black-neon-tetra"),("Green Neon Tetra","green-neon-tetra"),("Redtail Catfish","redtail-catfish"),("Sagittaria Platyphylla",None),
+("Ghost Shrimp","ghost-shrimp"),("Black Neon Tetra","black-neon-tetra"),("Green Neon Tetra","green-neon-tetra"),("Redtail Catfish","redtail-catfish"),("Sagittaria Platyphylla","sagittaria-platyphylla"),
 ("Amano Shrimp","ANY"),
 ("Goldfish Comet","ANY"),
 ("Ryukin Goldfish","ANY"),

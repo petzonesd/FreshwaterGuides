@@ -196,3 +196,9 @@ NOTE: no fetched care sources (WebFetch needs approval, WebSearch returns titles
 - thick-lipped-gourami, frogmouth-catfish, six-barred-distichodus, pike-cichlid (genus-level, ranges are broad on purpose), panda-garra, snowball-pleco, threadfin-acara: ranges checked, OK.
 - Bug caught while adding: tire track eel is Mastacembelus favus (fire eel is M. erythrotaenia); new guide uses favus.
 Next up: care_data3.py from the entry after threadfin-acara (the tail batches).
+
+## 2026-10-29 (8 entries; care_data3.py: green-phantom-pleco .. cryptocoryne-balansae)
+NOTE: no fetched care sources (WebFetch needs approval, WebSearch returns titles only); checks from general hobby knowledge.
+- green-phantom-pleco: origin "Brazil, Amazon basin" was doubtful (L200 comes from the Orinoco region) -> "Northern South America (sold under trade code L200)"; size 5-7 -> 6-8 in.
+- head-and-tail-light-tetra, glowlight-rasbora, salt-and-pepper-cory, vampire-shrimp, dwarf-sagittaria, water-sprite, cryptocoryne-balansae: ranges checked, OK.
+Next up: care_data3.py from rotala-wallichii onward.
