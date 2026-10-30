@@ -202,3 +202,8 @@ NOTE: no fetched care sources (WebFetch needs approval, WebSearch returns titles
 - green-phantom-pleco: origin "Brazil, Amazon basin" was doubtful (L200 comes from the Orinoco region) -> "Northern South America (sold under trade code L200)"; size 5-7 -> 6-8 in.
 - head-and-tail-light-tetra, glowlight-rasbora, salt-and-pepper-cory, vampire-shrimp, dwarf-sagittaria, water-sprite, cryptocoryne-balansae: ranges checked, OK.
 Next up: care_data3.py from rotala-wallichii onward.
+
+## 2026-10-30 (8 entries; care_data3.py: rotala-wallichii .. banana-plant)
+NOTE: no fetched care sources (WebSearch returns titles only); checks from general hobby knowledge.
+- rotala-wallichii, ludwigia-arcuata, bacopa-monnieri, subwassertang, duckweed, crinum, cryptocoryne-lutea, banana-plant: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after banana-plant (glossostigma onward).

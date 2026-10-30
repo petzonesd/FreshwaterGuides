@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-30 update
+Guides: 479 (+9: blue neon cichlid, Xenotilapia, Telmatochromis, banded jewel cichlid, trimac cichlid, green chromide, flag tetra, queen arabesque pleco L260, Cryptocoryne nevillii; aliases: blue jelly / orange sakura shrimp -> neocaridina-color-shrimp; gold nugget pleco -> golden-nugget-pleco). Mistake caught: I first wrote a duplicate "gold nugget pleco" guide because my gap check searched "gold nugget" and the existing guide says "golden nugget"; now also check scientific names before adding. Petzonesd sitemap still not fetched; picks from hobby staples. Held (unsure): blue phantom pleco L128 (origin/size not confident), bronze featherback, jaguar catfish, bowfin, tambaqui (CA?), Macrobrachium prawns. Snakeheads/Channa never (banned in CA). data.json 438 KB raw (over the 400 KB line, ~100 KB gzipped): slim `tapfit` with a labels.js change.
+
 ## 2026-10-29 update
 Guides: 470 (+9: wolf cichlid, T-bar cichlid, flier cichlid, red cheek Tropheops, electra hap, featherfin cichlid, checkerboard cichlid, Nothobranchius killifish; plant Sagittaria platyphylla). Aliases: spraying characin -> splash-tetra (same species), earth eater -> geophagus. Dropped as already covered: tiger botia, hujeta gar, spiky/peacock/phoenix moss. Petzonesd sitemap WebFetch still needs approval; picks from hobby staples. Held (unsure, CA status or data): climbing perch, freshwater stingrays, Hong Kong newt, flagtail prochilodus. Staples are now mostly saturated; real gaps need the Pet Zone product list. data.json 427 KB raw / ~96 KB gzipped (GitHub Pages serves gzip), so the 400 KB line is low priority.
 
