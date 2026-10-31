@@ -207,3 +207,10 @@ Next up: care_data3.py from rotala-wallichii onward.
 NOTE: no fetched care sources (WebSearch returns titles only); checks from general hobby knowledge.
 - rotala-wallichii, ludwigia-arcuata, bacopa-monnieri, subwassertang, duckweed, crinum, cryptocoryne-lutea, banana-plant: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after banana-plant (glossostigma onward).
+
+## 2026-10-31 (8 entries; care_data3.py: glossostigma .. salvini-cichlid)
+NOTE: no fetched care sources (WebSearch/WebFetch need approval); checks from general hobby knowledge.
+- hemigraphis-exotica (purple waffle): tips now say it is often best with tops above the waterline; fully submerged plants decline over time.
+- salvini-cichlid: size 6-7 -> 6-8 in (males reach about 8 in).
+- glossostigma, lobelia-cardinalis, proserpinaca-palustris, cardamine-lyrata, lake-cress, clasping-leaf-pondweed, blyxa-japonica: ranges, origin and scientific names checked, OK.
+Next up: care_data3.py from peacock-eel onward.

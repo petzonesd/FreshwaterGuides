@@ -229,7 +229,7 @@ MORE_PLANTS = [
   ["Plant the crown above the substrate.","Does best in soft water with CO2.","Do not move it once settled."],aka=["blyxa","blyxa japonica","blyxa aubertii","blyxa japonica plant"]),
  P("hemigraphis-exotica","Purple Waffle (Hemigraphis exotica)","Hemigraphis exotica","Acanthaceae","Southeast Asia","6-12 in","Medium to high","Optional","Midground","Moderate",(70,82),(6.0,7.5),"Intermediate","Cuttings",
   "A plant with crinkled, purple-green leaves that is often sold grown above water. It can be grown fully submerged, but the first leaves may melt before new underwater growth appears.",
-  ["Expect some leaf loss at first when it is moved underwater.","Needs good light for color.","Trim and replant healthy tops."],aka=["purple waffle","purple waffle plant","hemigraphis exotica","hemigraphis"]),
+  ["Expect some leaf loss at first when it is moved underwater.","Often does best with the tops growing above the waterline; fully submerged plants can decline over time.","Needs good light for color."],aka=["purple waffle","purple waffle plant","hemigraphis exotica","hemigraphis"]),
  A("salvini-cichlid","Salvini Cichlid","Trimitochromis salvini","fish","Cichlidae","Southern Mexico to Guatemala and Belize, Central America","6-7 in",(72,82),(6.5,7.8),75,"Aggressive, territorial","Pair or solitary","Bottom to mid","Intermediate","Carnivore: cichlid pellets, frozen foods, live foods","10-12 years",
   "A bold yellow, red and black Central American cichlid. It is a strong, feisty fish that defends caves and will bully or eat smaller tankmates, so give it a roomy tank and sturdy neighbors.",
   ["Use a tank of 75 gallons or more with caves and rockwork.","Do not mix with small or timid fish.","Keep the lid secure and the filtration strong."],aka=["salvini","salvini cichlids","trimitochromis salvini","cichlasoma salvini","tricolor cichlid"]),
@@ -930,3 +930,43 @@ MORE_PLANTS += [
 ]
 ALIAS_INTO.setdefault("neocaridina-color-shrimp", []).extend(["blue jelly shrimp","orange sakura shrimp"])
 ALIAS_INTO.setdefault("golden-nugget-pleco", []).extend(["gold nugget pleco","l085 pleco","l018 pleco","l177 pleco","l081 pleco","gold nugget plecostomus"])
+
+# ---- Batch 2026-10-31 ----
+MORE_ANIMALS += [
+ A("malayan-combtail","Malayan Combtail","Belontia hasselti","fish","Osphronemidae","Malay Peninsula, Sumatra and Borneo","6-8 in",(74,82),(6.0,7.5),75,"Semi-aggressive, nips fins and bullies small fish","Solitary or a pair in a large, well-planted tank","Mid","Intermediate","Omnivore leaning carnivore: pellets, frozen foods, live foods, some vegetable matter","5-8 years",
+  "A long-bodied labyrinth fish with comb-like extensions on its fins. It is hardier than many gouramis but more aggressive, and adults can chase or nip smaller tankmates. Give it a long tank with cover and a tight lid with an air gap.",
+  ["Do not keep with tiny or long-finned fish.","Leave an air gap under the lid; it breathes at the surface.","Use plants and wood to break up sight lines; watch for squabbles with its own kind."],aka=["combtail","combtail paradise fish","belontia hasselti","comb tail","comb-tail"]),
+ A("porthole-catfish","Porthole Catfish","Dianema longibarbis","fish","Callichthyidae","Amazon basin, South America","4 in",(72,79),(6.0,7.5),30,"Peaceful","Groups of 5+","Bottom to mid","Beginner","Omnivore: sinking pellets, wafers, frozen foods","8-10 years",
+  "A calm armored catfish with a row of small light dots along each side, and it often swims higher in the tank than corydoras. It needs a group, soft sand or smooth gravel, and a gently flowing, planted tank.",
+  ["Keep five or more together.","Use smooth sand or fine gravel and offer sinking foods.","Gulps air at the surface; keep the lid close but leave an air gap."],aka=["porthole catfish","dianema longibarbis","porthole cat"]),
+ A("four-eyed-fish","Four-Eyed Fish","Anableps anableps","fish","Anablepidae","Estuaries and coastal rivers of northern South America","8-12 in",(75,82),(7.5,8.5),100,"Peaceful with similar-sized fish","Groups in a large, wide tank","Top","Advanced","Carnivore: insects, flake and pellets that float, small live and frozen foods","5-8 years",
+  "A surface-hunting livebearer with eyes divided so it can look above and below the water at once. It is usually kept in brackish water, needs a wide shallow tank with a lot of surface area, and a tight lid and low water level suit its habits.",
+  ["Use brackish water and measure salinity.","Choose a wide, shallow tank with lots of surface; they spend their time at the top.","Cover tightly; they jump."],aka=["four eyed fish","4 eyed fish","anableps","anableps anableps","foureyes"]),
+ A("violet-goby","Violet Goby (Dragon Goby)","Gobioides broussonnetii","fish","Gobiidae","Estuaries of the western Atlantic, Americas","12-20 in",(72,82),(7.5,8.5),75,"Peaceful but a poor competitor","Solitary or small groups in a large tank","Bottom","Advanced","Carnivore: sinking pellets, frozen foods, bloodworms, brine shrimp","5-10 years",
+  "A long, eel-like goby sold young in freshwater but best in brackish water as it grows. It is gentle, has poor eyesight and is slow at feeding time, and it sifts sand for food, so choose soft sand and calm tankmates.",
+  ["Use fine sand and brackish water.","Target-feed sinking foods so faster fish do not starve it.","Plan for a long tank; adults get much bigger than juveniles."],aka=["dragon goby","violet gobies","gobioides broussonnetii","violet dragon goby","dragon fish goby"]),
+ A("burtons-mouthbrooder","Burton's Mouthbrooder","Astatotilapia burtoni","fish","Cichlidae","Lake Tanganyika region and rivers, East Africa","3-4 in",(73,82),(7.5,9.0),40,"Semi-aggressive, territorial males","Harem: one male with several females","Mid to bottom","Intermediate","Omnivore: cichlid pellets, frozen foods, flakes","5-8 years",
+  "A small, hardy African cichlid whose females carry eggs in their mouths. Males are colorful and territorial, so keep one male with several females and give rocks, caves and hard, alkaline water.",
+  ["Keep one male with several females.","Use hard, alkaline water and rock caves.","Choose tankmates that can hold their own."],aka=["burtoni","burtoni mouthbrooder","astatotilapia burtoni","haplochromis burtoni","burton's mouthbrooder","burtons mouthbrooder","burton's cichlid"]),
+ A("kyathit-danio","Orange-Spotted Danio","Danio kyathit","fish","Danionidae","Myanmar","2 in",(68,77),(6.0,7.8),15,"Peaceful, active","Schooling, keep 6+","Mid to upper","Beginner","Omnivore: flakes, micro pellets, frozen foods","3-5 years",
+  "A small, active danio with orange spots and blue stripes. It does well in cooler, unheated or lightly heated community tanks, in a school of six or more.",
+  ["Keep six or more.","Use a tight lid; danios jump.","Give open swimming space and some plants."],aka=["kyathit danio","orange spotted danio","danio kyathit","orange-spotted danio","spotted danio"]),
+ A("parotocinclus-jumbo","Dwarf Suckermouth (Parotocinclus)","Parotocinclus jumbo","fish","Loricariidae","Northeastern Brazil","2 in",(73,80),(6.0,7.5),10,"Peaceful","Groups of 4+","Bottom and plants","Intermediate","Herbivore: algae, blanched vegetables, algae wafers, biofilm","3-5 years",
+  "A tiny algae-grazing armored catfish that looks like an otocinclus with a bit more bulk. It needs a mature, algae-bearing tank, oxygen-rich water and a group, and is sensitive to dirty or unstable water.",
+  ["Add only to a mature tank with some algae.","Feed blanched vegetables or wafers if algae runs short.","Keep a small group and keep the water clean."],aka=["parotocinclus jumbo","parotocinclus","jumbo otocinclus catfish"]),
+]
+
+MORE_PLANTS += [
+ P("cryptocoryne-affinis","Cryptocoryne Affinis","Cryptocoryne affinis","Araceae","Malay Peninsula","8-12 in","Low to medium","Not needed","Midground to background","Slow",(72,82),(6.0,8.0),"Beginner","Runners",
+  "A sturdy crypt with dark green, ribbed leaves that are reddish underneath. It is one of the easier cryptocorynes, though leaves may melt after planting and regrow.",
+  ["Do not move it once planted.","Use root tabs.","Expect some melt when conditions change."],aka=["crypt affinis","cryptocoryne affinis","cryptocoryne affinis plant"]),
+ P("cryptocoryne-beckettii","Cryptocoryne Beckettii","Cryptocoryne beckettii","Araceae","Sri Lanka","4-8 in","Low to medium","Not needed","Foreground to midground","Slow",(72,82),(6.0,7.5),"Beginner","Runners",
+  "A compact crypt with olive-brown leaves and a purple-pink underside. It tolerates a range of conditions and spreads by runners into a low thicket.",
+  ["Plant in nutrient-rich substrate or with root tabs.","Do not move it once planted.","Be patient; it grows slowly."],aka=["crypt beckettii","cryptocoryne beckettii","cryptocoryne becketti","crypt becketti"]),
+ P("nitella","Nitella","Nitella species","Characeae","Worldwide, freshwater","6-24 in","Low to medium","Not needed","Midground to background, or floating","Moderate",(60,80),(6.0,7.5),"Intermediate","Fragments",
+  "A feathery, fragile macroalgae sold as a plant. It soaks up nutrients, hides shrimp and fry, and can melt in poor or warm water.",
+  ["Handle gently; it breaks easily.","Does best in cooler, clean water.","Remove dead strands to avoid fouling the tank."],aka=["nitella","nitella algae","nitella plant","nitella flexilis"]),
+ P("anubias-gracilis","Anubias Gracilis","Anubias gracilis","Araceae","West Africa","8-12 in","Low","Not needed","Midground, attached to wood or rock","Slow",(72,82),(6.0,7.5),"Beginner","Rhizome division",
+  "A tough anubias with narrow, arrow-shaped leaves on a creeping rhizome. Attach it to wood or rock and do not bury the rhizome.",
+  ["Do not bury the rhizome.","Low light is enough.","Clean algae from leaves as it grows slowly."],aka=["anubias gracilis","anubias gracilis plant"]),
+]

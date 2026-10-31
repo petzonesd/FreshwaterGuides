@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-10-31 update
+Guides: 490 (+11: Malayan combtail, porthole catfish, four-eyed fish (brackish), violet/dragon goby (brackish), Burton's mouthbrooder, orange-spotted danio, Parotocinclus jumbo; plants Cryptocoryne affinis, C. beckettii, Nitella, Anubias gracilis). Mini pellia already existed. Petzonesd sitemap WebFetch still needs approval (permission request unanswered); picks from hobby staples, which are now close to saturated. Held for Roger/CA check: walking catfish (banned in several states), electric catfish, Macrobrachium prawns, climbing perch, cabomba (noxious weed status). Anablepidae added to the livebearers hub.
+
 ## 2026-10-30 update
 Guides: 479 (+9: blue neon cichlid, Xenotilapia, Telmatochromis, banded jewel cichlid, trimac cichlid, green chromide, flag tetra, queen arabesque pleco L260, Cryptocoryne nevillii; aliases: blue jelly / orange sakura shrimp -> neocaridina-color-shrimp; gold nugget pleco -> golden-nugget-pleco). Mistake caught: I first wrote a duplicate "gold nugget pleco" guide because my gap check searched "gold nugget" and the existing guide says "golden nugget"; now also check scientific names before adding. Petzonesd sitemap still not fetched; picks from hobby staples. Held (unsure): blue phantom pleco L128 (origin/size not confident), bronze featherback, jaguar catfish, bowfin, tambaqui (CA?), Macrobrachium prawns. Snakeheads/Channa never (banned in CA). data.json 438 KB raw (over the 400 KB line, ~100 KB gzipped): slim `tapfit` with a labels.js change.
 
