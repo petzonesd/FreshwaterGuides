@@ -214,3 +214,10 @@ NOTE: no fetched care sources (WebSearch/WebFetch need approval); checks from ge
 - salvini-cichlid: size 6-7 -> 6-8 in (males reach about 8 in).
 - glossostigma, lobelia-cardinalis, proserpinaca-palustris, cardamine-lyrata, lake-cress, clasping-leaf-pondweed, blyxa-japonica: ranges, origin and scientific names checked, OK.
 Next up: care_data3.py from peacock-eel onward.
+
+## 2026-11-01 (8 entries; care_data3.py: peacock-eel .. tonina-fluviatilis)
+NOTE: no fetched care sources (WebFetch/WebSearch need approval); checks from general hobby knowledge.
+- cyperus-helferi: height 8-16 -> 8-20 in (upper end matters for tank-height planning).
+- peacock-eel, half-banded-spiny-eel, normans-lampeye, taiwan-moss, flame-moss, fissidens-moss, tonina-fluviatilis: ranges, origin and scientific names checked, OK.
+- Match fix: removed "gardneri killifish" from the generic killifish guide now that Gardner's killifish has its own guide.
+Next up: care_data3.py from the entry after tonina-fluviatilis (utricularia onward).

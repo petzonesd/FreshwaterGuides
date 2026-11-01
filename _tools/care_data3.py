@@ -251,7 +251,7 @@ MORE_PLANTS = [
  P("fissidens-moss","Fissidens Moss","Fissidens fontanus","Fissidentaceae","North America","1-3 in","Low to moderate","Not required","Attach to wood or rock","Slow",(68,78),(6.0,7.5),"Intermediate","Division",
   "A small, feathery moss with flat, fern-like fronds that form neat tufts on hardscape. It grows slowly and likes clean water, so keep algae and debris off it.",
   ["Attach to rock or wood and do not bury it.","Keep water clean and flow gentle.","Be patient; growth is slow."],aka=["fissidens","fissidens fontanus","phoenix moss","fissidens moss"]),
- P("cyperus-helferi","Cyperus Helferi","Cyperus helferi","Cyperaceae","Thailand and Southeast Asia","8-16 in","Moderate","Not required","Midground to background","Moderate",(68,82),(6.0,7.5),"Beginner","Division",
+ P("cyperus-helferi","Cyperus Helferi","Cyperus helferi","Cyperaceae","Thailand and Southeast Asia","8-20 in","Moderate","Not required","Midground to background","Moderate",(68,82),(6.0,7.5),"Beginner","Division",
   "A grass-like plant with long, flat leaves that sway in the current. It is easy to grow, spreads slowly, and works well as a background or side plant in moderate light.",
   ["Plant in substrate with root tabs.","Trim older leaves to keep it tidy.","Give it room as it spreads."],aka=["cyperus helferi","cyperus helferi plant","helfers cyperus","helfer's cyperus"]),
  P("tonina-fluviatilis","Tonina Fluviatilis","Tonina fluviatilis","Eriocaulaceae","Central and South America","6-12 in","High","Recommended","Midground to background","Slow to moderate",(72,80),(5.5,7.0),"Advanced","Cuttings and side shoots",
@@ -970,3 +970,34 @@ MORE_PLANTS += [
   "A tough anubias with narrow, arrow-shaped leaves on a creeping rhizome. Attach it to wood or rock and do not bury the rhizome.",
   ["Do not bury the rhizome.","Low light is enough.","Clean algae from leaves as it grows slowly."],aka=["anubias gracilis","anubias gracilis plant"]),
 ]
+
+# ---- 2026-11-01 batch ----
+MORE_ANIMALS += [
+ A("emerald-eye-rasbora","Emerald Eye Rasbora","Brevibora dorsiocellata","fish","Danionidae","Malay Peninsula, Sumatra and Borneo","2 in",(73,79),(6.0,7.5),15,"Peaceful","Schooling, keep 8+","Mid to upper","Beginner","Omnivore: micro pellets, crushed flakes, frozen foods","3-5 years",
+  "A small, calm rasbora with a coppery body and a shiny green-gold spot above the eye. It shows its best color in a school over dark substrate with plants, and it suits quiet community tanks with other small fish.",
+  ["Keep a school of eight or more.","Pair with other small, gentle fish.","Use a lid; small rasboras can jump."],aka=["emerald eye rasboras","emerald eyed rasbora","brevibora dorsiocellata","rasbora dorsiocellata"]),
+ A("dwarf-cory","Dwarf Cory (Hastatus)","Corydoras hastatus","fish","Callichthyidae","Paraguay River basin and southern Amazon, South America","1.5 in",(72,79),(6.0,7.5),10,"Peaceful","Groups of 6+","Mid to bottom","Intermediate","Omnivore: micro pellets, crushed sinking foods, baby brine shrimp, frozen foods","3-5 years",
+  "A tiny corydoras that spends much of its time swimming in mid-water in a tight shoal, unlike most of its bottom-hugging cousins. It is sensitive to dirty water and needs a calm tank with small tankmates.",
+  ["Keep six or more together.","Do not house with large or boisterous fish.","Feed tiny foods that sink slowly."],aka=["dwarf cory","dwarf corydoras","hastatus cory","hastatus corydoras","corydoras hastatus","dwarf catfish hastatus"]),
+ A("elegant-cory","Elegant Cory","Corydoras elegans","fish","Callichthyidae","Upper Amazon basin, South America","2.5 in",(72,79),(6.0,7.5),20,"Peaceful","Groups of 6+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","5-8 years",
+  "A small, quiet corydoras with a dark band running through the tail and body markings that look like a bold stripe. It behaves like most corys: it wants a group, soft substrate and clean water.",
+  ["Keep six or more together.","Use sand or smooth gravel so barbels stay healthy.","Feed foods that sink to the bottom."],aka=["elegant corydoras","elegant cory catfish","corydoras elegans","elegans cory"]),
+ A("blue-panchax","Blue Panchax","Aplocheilus panchax","fish","Aplocheilidae","India and Southeast Asia","3 in",(72,82),(6.5,7.8),20,"Peaceful with similar-size fish, eats fry and tiny fish","Small groups; males squabble","Top","Intermediate","Carnivore: live and frozen foods, flakes, small insects","2-3 years",
+  "A slim surface-dwelling killifish with a yellow-gold body and a bright blue-edged tail. It will swallow baby fish and very small shrimp, and it jumps, so it needs a snug lid and floating plants for cover.",
+  ["Use a tight lid; it jumps readily.","Do not mix with tiny fish or fry.","Keep one male with a few females to reduce squabbling."],aka=["blue panchax killifish","aplocheilus panchax","blue panchax killifish","blue panchax aplocheilus"]),
+ A("red-nose-shrimp","Red Nose Shrimp","Caridina gracilirostris","invert","Atyidae","Indo-Pacific coastal streams and estuaries","2-2.5 in",(72,82),(7.0,8.0),10,"Peaceful","Groups of 3+","All levels","Intermediate","Algae, biofilm, sinking pellets, blanched vegetables","1-2 years",
+  "A long, slim shrimp with a pointed red-orange snout that grazes algae and biofilm. It is often wild-collected and more delicate than cherry shrimp, and its larvae normally need brackish water, so do not expect it to breed in a freshwater tank.",
+  ["Acclimate slowly over an hour or more.","Avoid copper-based medications.","Keep it with small, peaceful tankmates that will not hunt it."],aka=["red nose shrimp","rhino shrimp","red rhino shrimp","caridina gracilirostris","red nosed shrimp"]),
+ A("brown-ghost-knifefish","Brown Ghost Knifefish","Apteronotus leptorhynchus","fish","Apteronotidae","Northern South America","10-14 in",(73,82),(6.0,7.5),75,"Peaceful but will eat fish that fit its mouth","Solitary or compatible group","Mid to bottom","Intermediate","Carnivore: frozen bloodworms and blackworms, sinking pellets, chopped seafood","10-15 years",
+  "A graceful, nocturnal knifefish that glides with its long fin and hunts at night. It has no scales, so it is sensitive to medication and salt, and it needs hiding places, dim light, and tankmates that are neither tiny nor nippy.",
+  ["Provide caves or pipes for daytime hiding.","Be careful with medication and salt; it has no scales.","Cover the tank; it can leap or wedge into gaps."],aka=["brown ghost knife","brown ghost knifefish","brown ghost","apteronotus leptorhynchus","brown ghost knife fish"]),
+ A("five-bar-cichlid","Five-Bar Cichlid","Neolamprologus tretocephalus","fish","Cichlidae","Lake Tanganyika, East Africa","5-6 in",(75,82),(8.0,9.0),55,"Semi-aggressive, territorial","Pair or one male with females","Bottom to mid","Intermediate","Omnivore: cichlid pellets, frozen foods","8-10 years",
+  "A Tanganyikan cichlid with five dark bars on a silver-blue body. It digs, defends its rock territory and bullies shy fish, and it needs hard, alkaline water with plenty of caves.",
+  ["Stack rocks into caves and leave open sand.","Use hard, alkaline water.","Choose tankmates that can hold their own."],aka=["five bar cichlid","five-bar cichlid","five bar tanganyikan cichlid","neolamprologus tretocephalus","lamprologus tretocephalus","tretocephalus"]),
+ A("gardners-killifish","Gardner's Killifish","Fundulopanchax gardneri","fish","Nothobranchiidae","West Africa (Nigeria and Cameroon)","3 in",(68,77),(6.0,7.5),15,"Peaceful, males squabble","One male with several females","Top to mid","Intermediate","Carnivore: live and frozen foods, small pellets, flakes","2-3 years",
+  "A colorful West African killifish with a blue-green body, red spots and a bold tail. Males spar with each other, so keep one male with a few females in a covered, planted tank with floating plants.",
+  ["Keep a lid on; killifish jump.","Keep one male per tank unless it is large and well planted.","Feed live and frozen foods for best color."],aka=["gardneri killifish","gardner's killifish","gardners killifish","fundulopanchax gardneri"]),
+]
+
+ALIAS_INTO.setdefault("julii-cory", []).extend(["leopard cory","three line cory","three-line cory"])
+ALIAS_INTO.setdefault("crayfish", []).extend(["electric blue crayfish","florida blue crayfish","procambarus alleni"])

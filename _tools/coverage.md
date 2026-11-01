@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-01 update
+Guides: 498 (+8: emerald eye rasbora, dwarf cory (C. hastatus), elegant cory, blue panchax, red nose shrimp, brown ghost knifefish, five-bar cichlid, Gardner's killifish). Aliases: leopard cory -> julii-cory, electric/Florida blue crayfish -> crayfish. Petzonesd sitemap WebFetch still needs approval (unanswered); picks from hobby staples, which are nearly saturated, so fewer than 10 added rather than pad. Skipped as saturated/covered: Pakistani loach (= yoyo loach), Azolla (alias of salvinia), jewel tetra (= serpae). Held (unsure CA status): banded/pygmy sunfish (Centrarchidae/Elassomatidae), Macrobrachium prawns, walking catfish. Real photos: 27 of 498 guides (471 use illustrations). data.json ~450 KB raw (~100 KB gzipped).
+
 ## 2026-10-31 update
 Guides: 490 (+11: Malayan combtail, porthole catfish, four-eyed fish (brackish), violet/dragon goby (brackish), Burton's mouthbrooder, orange-spotted danio, Parotocinclus jumbo; plants Cryptocoryne affinis, C. beckettii, Nitella, Anubias gracilis). Mini pellia already existed. Petzonesd sitemap WebFetch still needs approval (permission request unanswered); picks from hobby staples, which are now close to saturated. Held for Roger/CA check: walking catfish (banned in several states), electric catfish, Macrobrachium prawns, climbing perch, cabomba (noxious weed status). Anablepidae added to the livebearers hub.
 

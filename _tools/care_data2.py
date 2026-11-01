@@ -300,7 +300,7 @@ MORE_ANIMALS = [
  # ---- Killifish, rainbowfish, misc ----
  A("killifish","Killifish","Aphyosemion, Aplocheilus and related species","fish","Aplocheilidae","Africa, Asia, Americas","2-4 in",(70,78),(6.0,7.5),10,"Peaceful to semi-aggressive","Pairs or trios","Upper","Intermediate","Small live and frozen foods, micro pellets","1-5 years",
   "Often brightly colored, jump-prone fish that sit near the surface. Many are short-lived. Use a tight lid.",
-  ["Use a tight lid.","Offer live or frozen foods."],aka=["lamp eye killifish","clown killifish","gardneri killifish","blue lyretail killifish","indian lamp eye killifish","normans lampeye killifish","iridescent toothcarp","blue lyretail"]),
+  ["Use a tight lid.","Offer live or frozen foods."],aka=["lamp eye killifish","clown killifish","blue lyretail killifish","indian lamp eye killifish","normans lampeye killifish","iridescent toothcarp","blue lyretail"]),
  A("rainbowfish","Rainbowfish","Melanotaenia and related species","fish","Melanotaeniidae","Australia and New Guinea","4 in",(72,80),(7.0,8.0),30,"Peaceful, active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, pellets, frozen foods","5-8 years",
   "Active, colorful schooling fish that need long tanks and hard, alkaline water.",
   ["Keep a group of six or more.","Give it room to swim.","Prefers harder water."],aka=["turquoise rainbowfish","celebes rainbowfish","red irian rainbowfish","featherfin rainbowfish","threadfin rainbow","paska red neon rainbow","paskai rainbowfish","pacific signifier blue eye rainbowfish","red neon blue eye rainbowfish","rainbow shiner"]),
