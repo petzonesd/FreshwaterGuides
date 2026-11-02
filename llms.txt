@@ -25,6 +25,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [San Diego Tap Water and Your Aquarium](https://freshwaterguides.com/san-diego/tap-water/): Official city water-quality numbers for hardness, pH, TDS, and chloramine, and what they mean for local stocking choices.
 - [Aquarium and Fish Stores in San Diego](https://freshwaterguides.com/san-diego/aquarium-stores/): Who specializes in what, addresses and hours, local clubs, and buying online.
 - [How to Prepare Driftwood and Rocks for Your Aquarium](https://freshwaterguides.com/aquascaping/driftwood-and-rocks-prep/): Curing driftwood until it sinks, telling safe inert rock from reactive stone with the vinegar test, and cleaning both before they go in a tank.
+- [Biotope Aquariums: A Practical Guide](https://freshwaterguides.com/guides/biotope-aquarium/): What makes a tank a real biotope, water parameters and hardscape for Amazon blackwater, Southeast Asian peat swamp, Congo River, and African Rift Lake setups, and how to stock one honestly.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
