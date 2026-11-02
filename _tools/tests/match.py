@@ -3,6 +3,12 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Glass Bloodfin Tetra","glass-bloodfin-tetra"),("Bloodfin Tetra","bloodfin-tetra"),("Glass Bloodfin Tetra Flakes",None),
+("Coral Red Pencilfish","coral-red-pencilfish"),("Pencilfish Golden","pencilfish"),("Hognose Brochis","hognose-brochis"),("Emerald Green Cory Brochis Splendens","emerald-catfish"),
+("Bengal Danio","bengal-danio"),("Zebra Danio","zebra-danio"),("Danio Flakes",None),("Knife Livebearer Alfaro Cultratus","knife-livebearer"),
+("Spotted Headstander Chilodus","spotted-headstander"),("Striped Headstander","striped-headstander"),
+("Riccia Fluitans on Stone","ANY"),("Riccia Fluitans Tissue Culture","riccia-fluitans"),("Lucky Bamboo Stalk","lucky-bamboo"),("Lucky Bamboo Fertilizer",None),
+("Water Violet Hottonia Palustris","hottonia-palustris"),
 ("Emerald Eye Rasbora","emerald-eye-rasbora"),("Emerald Dwarf Rasbora","emerald-dwarf-rasbora"),("Emerald Eye Rasbora Flakes",None),
 ("Hastatus Cory Corydoras","dwarf-cory"),("Pygmy Cory","pygmy-cory"),("Elegant Cory","elegant-cory"),("Elegant Cory Wafers",None),
 ("Blue Panchax Aplocheilus","blue-panchax"),("Golden Wonder Killifish","golden-wonder-killifish"),("Red Nose Shrimp","red-nose-shrimp"),("Red Nose Shrimp Food",None),

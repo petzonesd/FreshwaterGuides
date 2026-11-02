@@ -1001,3 +1001,36 @@ MORE_ANIMALS += [
 
 ALIAS_INTO.setdefault("julii-cory", []).extend(["leopard cory","three line cory","three-line cory"])
 ALIAS_INTO.setdefault("crayfish", []).extend(["electric blue crayfish","florida blue crayfish","procambarus alleni"])
+
+# ---- 2026-11-02 batch ----
+MORE_ANIMALS += [
+ A("glass-bloodfin-tetra","Glass Bloodfin Tetra","Prionobrama filigera","fish","Characidae","Paraguay and Amazon basins, South America","2.5 in",(72,79),(6.0,7.5),20,"Peaceful, active","Schooling, keep 6+","Mid to upper","Beginner","Omnivore: flakes, micro pellets, frozen foods","4-5 years",
+  "A clear, silvery tetra with a splash of red in the fins. It is hardy and active, looks best in a school against dark plants, and is a different fish from the regular bloodfin tetra.",
+  ["Keep a group of six or more.","Give it open swimming room.","Pair with other small, peaceful fish."],aka=["glass bloodfin","glass bloodfin tetras","prionobrama filigera","glass blood fin tetra"]),
+ A("coral-red-pencilfish","Coral Red Pencilfish","Nannostomus mortenthaleri","fish","Lebiasinidae","Upper Amazon basin, Peru","1.25 in",(75,82),(5.5,7.0),10,"Peaceful, shy","Schooling, keep 8+","Upper to mid","Intermediate","Micro pellets, baby brine shrimp, tiny frozen foods","2-4 years",
+  "A tiny pencilfish with a bright red belly and a gold stripe. It is shy and does best in a calm, planted tank with dim light, floating plants and only very gentle tankmates.",
+  ["Keep eight or more.","Feed tiny foods; large pellets are ignored.","Do not add to a new, unstable tank."],aka=["coral red pencilfish","coral pencilfish","nannostomus mortenthaleri","red pencilfish coral"]),
+ A("hognose-brochis","Hognose Brochis","Brochis multiradiatus","fish","Callichthyidae","Upper Amazon basin, South America","3.5-4 in",(72,79),(6.0,7.5),30,"Peaceful","Groups of 5+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","8-10 years",
+  "A long-snouted armored catfish with a tall dorsal fin, closely related to corydoras but larger. Keep a group on soft sand and feed foods that sink.",
+  ["Keep five or more together.","Use sand or smooth gravel.","Needs more room than small corydoras."],aka=["hognose brochis","hog nose brochis","hog nose catfish","brochis multiradiatus","hognose catfish brochis"]),
+ A("bengal-danio","Bengal Danio","Devario devario","fish","Danionidae","India, Nepal and Bangladesh","3.5-4 in",(65,78),(6.5,8.0),30,"Peaceful, very active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","4-5 years",
+  "A fast, hardy danio with a silvery body and faint stripes. It is larger than a zebra danio and does well in cooler tropical water with a lid and plenty of swimming space.",
+  ["Keep a group of six or more.","Use a tight lid; danios jump.","Choose a tank at least three feet long for a full school."],aka=["bengal danios","devario devario","sind danio","hora danio"]),
+ A("knife-livebearer","Knife Livebearer","Alfaro cultratus","fish","Poeciliidae","Costa Rica and Panama","2-3.5 in",(72,82),(7.0,8.0),20,"Peaceful, may eat tiny fry","Small groups, females larger","Upper to mid","Intermediate","Omnivore: flakes, micro pellets, live and frozen foods","3-4 years",
+  "A slim, gold-bodied livebearer whose females grow noticeably larger than the males. It likes hard, clean water and a planted tank with floating cover, and it may eat its own fry.",
+  ["Keep one male with several females.","Use hard, slightly alkaline water.","Provide floating plants for fry."],aka=["knife livebearers","alfaro cultratus","knifefish livebearer","knife live bearer"]),
+ A("spotted-headstander","Spotted Headstander","Chilodus punctatus","fish","Chilodontidae","Guianas and northern Amazon basin, South America","3-3.5 in",(73,82),(5.5,7.0),30,"Peaceful, may squabble in small groups","Groups of 5+","Mid","Intermediate","Omnivore: flakes, micro pellets, frozen foods, blanched vegetables","5-8 years",
+  "A calm characin that hangs head-down at a slant and picks at surfaces. It does best in a planted tank with soft, slightly acidic water and may nibble soft plants and algae.",
+  ["Keep a group of five or more.","Use a lid; it can jump when startled.","Add some vegetable matter to its diet."],aka=["spotted headstander","spotted headstanders","chilodus punctatus","spotted headstander tetra"]),
+]
+MORE_PLANTS += [
+ P("riccia-fluitans","Riccia","Riccia fluitans","Ricciaceae","Worldwide, freshwater","Floating mat or tied down","Medium to high","Not needed","Floating, or tied to stone or wood","Fast",(64,82),(6.0,7.5),"Intermediate","Fragments",
+  "A bright green liverwort that forms a floating cloud or a dense carpet when tied down. It is great shelter for fry and shrimp, but it needs good light, and a floating mat blocks light for plants below.",
+  ["Thin a floating mat often.","Tie it down with thread to carpet.","Remove stray pieces from filters."],aka=["riccia","riccia fluitans","crystalwort","riccia plant"]),
+ P("lucky-bamboo","Lucky Bamboo","Dracaena sanderiana","Asparagaceae","West Africa (cultivated worldwide)","12-24 in above the water","Low","Not needed","Emersed: roots in water, leaves above","Slow",(65,82),(6.0,7.5),"Beginner","Stem cuttings",
+  "Sold as a houseplant, lucky bamboo is not a true aquatic plant: its stalks rot if fully submerged. Keep the leaves above the water with the base and roots in the tank, where it absorbs nutrients. It is toxic to cats and dogs if chewed.",
+  ["Keep the leaves out of the water.","Use dechlorinated water.","Keep away from pets that chew plants."],aka=["lucky bamboo","dracaena sanderiana","lucky bamboo stalk","curly bamboo"]),
+ P("hottonia-palustris","Water Violet","Hottonia palustris","Primulaceae","Europe and western Asia","8-16 in","Medium to high","Helpful","Midground to background","Moderate",(59,72),(6.0,7.5),"Advanced","Cuttings",
+  "A feathery European stem plant that prefers cool, soft, clean water. It melts in warm tropical tanks, so it suits unheated or cool-water setups better than a typical community tank.",
+  ["Keep water below the low 70s F.","Provide good light and clean water.","Do not move it once rooted."],aka=["water violet","hottonia palustris","hottonia"]),
+]

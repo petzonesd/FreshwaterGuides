@@ -221,3 +221,9 @@ NOTE: no fetched care sources (WebFetch/WebSearch need approval); checks from ge
 - peacock-eel, half-banded-spiny-eel, normans-lampeye, taiwan-moss, flame-moss, fissidens-moss, tonina-fluviatilis: ranges, origin and scientific names checked, OK.
 - Match fix: removed "gardneri killifish" from the generic killifish guide now that Gardner's killifish has its own guide.
 Next up: care_data3.py from the entry after tonina-fluviatilis (utricularia onward).
+
+## 2026-11-02 (8 entries; care_data3.py: nomaphila .. mosquito-rasbora)
+NOTE: no fetched care sources (WebFetch needs approval; search returns titles only); checks from general hobby knowledge.
+- nomaphila, golden-creeping-jenny, utricularia-graminifolia, pogostemon-erectus, weeping-moss, hygrophila-pinnatifida, glowlight-tetra, mosquito-rasbora: ranges, origin and scientific names checked, OK; no changes.
+- Match fix: "riccia"/"riccia fluitans" removed from the Christmas moss aliases (different plant); Riccia now has its own guide.
+Next up: care_data3.py from scissortail-rasbora onward.

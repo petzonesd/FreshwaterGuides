@@ -107,3 +107,6 @@ Existing guides that may be restricted/regulated in CA and should be checked aga
 - Iridescent shark added as a "plan for adult size" warning guide; remove if you would rather not promote it.
 - Vampire shrimp (Atya gabonensis) is aliased into the bamboo-shrimp guide, but it grows larger (to ~6 in) than that guide says; consider its own guide.
 - Still no sitemap access; catalog list is hobby staples.
+
+## 2026-11-02
+Guides: 507 pages built (+9 today: glass bloodfin tetra, coral red pencilfish, hognose brochis, Bengal danio, knife livebearer, spotted headstander, Riccia, lucky bamboo (emersed only), water violet). Sitemap WebFetch still needs approval; list from hobby staples. Most staples now covered; remaining ideas: one-spot livebearer (Phalloceros; CA status unknown, left out), red-tailed rasbora, Hengel's rasbora, Myloplus (red hook) own guide, pond fish (orfe, tench, rudd; CA status unknown), Lindernia, Nuphar. data.json is ~455 KB (over the 400 KB target): see slimming proposal in log.
