@@ -227,3 +227,11 @@ NOTE: no fetched care sources (WebFetch needs approval; search returns titles on
 - nomaphila, golden-creeping-jenny, utricularia-graminifolia, pogostemon-erectus, weeping-moss, hygrophila-pinnatifida, glowlight-tetra, mosquito-rasbora: ranges, origin and scientific names checked, OK; no changes.
 - Match fix: "riccia"/"riccia fluitans" removed from the Christmas moss aliases (different plant); Riccia now has its own guide.
 Next up: care_data3.py from scissortail-rasbora onward.
+
+## 2026-11-03 (8 entries; care_data3.py: scissortail-rasbora .. threadfin-rainbowfish)
+NOTE: no fetched care sources (WebFetch needs approval; search returns titles only); checks from general hobby knowledge.
+- scissortail-rasbora: min tank 30 -> 40 gal (6 in, very active schooler wants a long tank).
+- kenyi-cichlid: min tank 55 -> 75 gal (aggressive harem needs more room to spread aggression).
+- weather-loach: size 8-10 -> 8-12 in. Note for Roger: Misgurnus anguillicaudatus is restricted in some US states; I could not confirm California status, left as is.
+- red-zebra-cichlid, demasoni-cichlid, twig-catfish, croaking-gourami, threadfin-rainbowfish: ranges, origin and scientific names checked, OK.
+Next up: care_data3.py from the entry after threadfin-rainbowfish (red-rainbowfish onward).

@@ -3,6 +3,11 @@ import sys;sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 from common import *
 # (title, expected slug or None) -- expected None means must NOT match anything (supply) ; 'ANY' means unmatched or the slug ok
 CASES=[
+("Flying Barb Esomus","flying-barb"),("Flying Barb Fish Food",None),("Flying Fox","ANY"),("Purple Spotted Gudgeon","purple-spotted-gudgeon"),("Peacock Gudgeon","peacock-gudgeon"),
+("Ornate Rainbowfish","ornate-rainbowfish"),("Red Eyed Characin","red-eyed-characin"),("One Striped African Characin","one-striped-african-characin"),("Chameleon Cichlid","chameleon-cichlid"),("Chanchito Cichlid","chameleon-cichlid"),
+("Paraguay Eartheater","paraguay-eartheater"),("Cupid Cichlid","cupid-cichlid"),("Makobe Island Red Cichlid","makobe-island-cichlid"),("Barbatus Cory","barbatus-cory"),("Marble Goby","marble-goby"),
+("Spined Loach","spined-loach"),("Dwarf Sweet Flag","dwarf-sweet-flag"),("Dwarf Sweet Flag Fertilizer",None),("Cupid Cichlid Sinking Pellets",None),("Marble Goby Food",None),("Spined Loach Wafers",None),("Barbatus Cory Wafers",None),
+("Panda Cory Catfish","ANY"),("Bronze Cory","bronze-corydoras"),("Kuhli Loach","kuhli-loach"),("Clown Loach","clown-loach"),
 ("Glass Bloodfin Tetra","glass-bloodfin-tetra"),("Bloodfin Tetra","bloodfin-tetra"),("Glass Bloodfin Tetra Flakes",None),
 ("Coral Red Pencilfish","coral-red-pencilfish"),("Pencilfish Golden","pencilfish"),("Hognose Brochis","hognose-brochis"),("Emerald Green Cory Brochis Splendens","emerald-catfish"),
 ("Bengal Danio","bengal-danio"),("Zebra Danio","zebra-danio"),("Danio Flakes",None),("Knife Livebearer Alfaro Cultratus","knife-livebearer"),
