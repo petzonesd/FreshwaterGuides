@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## Roger's decision (2026-11-03)
+Roger confirmed Pet Zone carries and sells these in California, so they are approved to add and stop being flagged: weather loach, African arowana (Heterotis), giant ramshorn snail (Marisa), native sunfish (Enneacanthus/Elassoma/Lepomis), Macrobrachium prawns. Still never add: hydrilla, water hyacinth, water spinach, water chestnut, Senegal tea, grass carp, walking catfish, swamp eel, stone moroko, snakeheads, piranha, axolotl, African clawed frog. Next runs: add guides for the approved species (give Heterotis a very large adult-size warning).
+
 ## 2026-11-03 update
 Guides: 520 (+13: flying barb, purple-spotted gudgeon, ornate rainbowfish, red-eyed characin, one-striped African characin, chameleon cichlid, Paraguay eartheater, cupid cichlid, Makobe Island red cichlid, barbatus cory, marble goby, spined loach; plant dwarf sweet flag). Petzonesd sitemap WebFetch needs approval again (unanswered); picks from a genus-level gap scan of data.json against hobby staples, which is nearly saturated. Never add (CA/federal noxious or banned): hydrilla, water hyacinth, water spinach, water chestnut, Senegal tea, grass carp, walking catfish, swamp eel, stone moroko. Held: Heterotis (African arowana, huge), Marisa/giant ramshorn (pest-snail restrictions in several states), sunfish (Enneacanthus/Elassoma/Lepomis, CA unsure), Macrobrachium prawns, bowfin. Still missing: freshwater flounder, pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, pistol shrimp, Aphanius toothcarp, quillwort (Isoetes), Juncus repens, gangetic leaffish (Nandus). Real photos: 27 of 520 (493 illustrations).
 
