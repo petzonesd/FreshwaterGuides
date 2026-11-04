@@ -235,3 +235,10 @@ NOTE: no fetched care sources (WebFetch needs approval; search returns titles on
 - weather-loach: size 8-10 -> 8-12 in. Note for Roger: Misgurnus anguillicaudatus is restricted in some US states; Roger confirmed (2026-11-03) it is fine in California.
 - red-zebra-cichlid, demasoni-cichlid, twig-catfish, croaking-gourami, threadfin-rainbowfish: ranges, origin and scientific names checked, OK.
 Next up: care_data3.py from the entry after threadfin-rainbowfish (red-rainbowfish onward).
+
+## 2026-11-04 (8 entries; care_data3.py: red-rainbowfish .. black-ghost-knifefish)
+NOTE: no fetched care sources (WebSearch returns titles only); checks from general hobby knowledge.
+- red-rainbowfish: min tank 40 -> 55 gal (6 in, very active schooler wants a 4 ft tank).
+- black-ghost-knifefish: min tank 100 -> 125 gal (adult approaches 20 in).
+- sulawesi-cardinal-shrimp, mini-pellia, ranunculus-inundatus, red-eye-puffer, clown-killifish, african-banded-barb: ranges, origin and scientific names checked, OK.
+Next up: care_data3.py from auratus-cichlid onward.

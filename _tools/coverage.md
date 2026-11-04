@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-04 update
+Guides: 530 (+10: African arowana/Heterotis, Marisa snail, banded sunfish, bluespotted sunfish, Everglades pygmy sunfish, giant freshwater prawn, hogchoker, gangetic leaffish, creeping rush, quillwort). Roger-approved set now covered except Lepomis sunfish (live bluegill/green sunfish possession is restricted in CA; left out, needs Roger). "giant ramshorn snail" alias moved off the pest ramshorn guide to Marisa. Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp. Petzonesd sitemap not re-tried. Real photos: 27 of 530.
+
 ## Roger's decision (2026-11-03)
 Roger confirmed Pet Zone carries and sells these in California, so they are approved to add and stop being flagged: weather loach, African arowana (Heterotis), giant ramshorn snail (Marisa), native sunfish (Enneacanthus/Elassoma/Lepomis), Macrobrachium prawns. Still never add: hydrilla, water hyacinth, water spinach, water chestnut, Senegal tea, grass carp, walking catfish, swamp eel, stone moroko, snakeheads, piranha, axolotl, African clawed frog. Next runs: add guides for the approved species (give Heterotis a very large adult-size warning).
 
