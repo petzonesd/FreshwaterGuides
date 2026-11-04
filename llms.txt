@@ -27,6 +27,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [How to Prepare Driftwood and Rocks for Your Aquarium](https://freshwaterguides.com/aquascaping/driftwood-and-rocks-prep/): Curing driftwood until it sinks, telling safe inert rock from reactive stone with the vinegar test, and cleaning both before they go in a tank.
 - [Biotope Aquariums: A Practical Guide](https://freshwaterguides.com/guides/biotope-aquarium/): What makes a tank a real biotope, water parameters and hardscape for Amazon blackwater, Southeast Asian peat swamp, Congo River, and African Rift Lake setups, and how to stock one honestly.
 - [Aquarium Lighting Guide: LED, Kelvin & PAR Explained](https://freshwaterguides.com/guides/aquarium-lighting-guide/): LED vs. fluorescent compared, Kelvin color temperature by aesthetic, PAR benchmarks by light level, and a photoperiod recommendation that fits your tank type without feeding algae.
+- [Aquarium Heater Guide: Sizing, Placement & Safety](https://freshwaterguides.com/guides/aquarium-heater-guide/): Heater wattage sizing by tank size using two methods, when to split wattage across two heaters, placement for even heat circulation, and the GFCI, drip-loop, and backup-thermometer safety habits that prevent a stuck heater from becoming a disaster.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
