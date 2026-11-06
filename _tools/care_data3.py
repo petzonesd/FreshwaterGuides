@@ -1173,3 +1173,30 @@ MORE_PLANTS += [
   "A pond plant with round, floating leaves and yellow poppy-like flowers. It does best in a pond, tub or very bright open-top aquarium and is not a true submerged aquarium plant.",
   ["Give it full light and warmth.","Trim runners to control spread.","Check local plant rules and never release it into waterways."],aka=["water poppy","hydrocleys nymphoides","water poppies"]),
 ]
+
+# Batch 3 2026-11-06 (Roger asked to add the remaining held species).
+MORE_ANIMALS += [
+ A("electric-catfish","Electric Catfish","Malapterurus electricus","fish","Malapteruridae","Tropical Africa","18-30 in",(75,82),(6.0,7.5),180,"Predatory; can deliver a strong electric shock","Solitary","Bottom","Advanced","Carnivore: fish, shrimp, worms, large sinking foods","10-15 years",
+  "A thick-bodied African catfish that stuns prey and defenders with an electric discharge. The shock can be painful or dangerous, so it is a species for experienced keepers with a large, secure tank.",
+  ["Unplug equipment or use a net and long tools for any hand-in-tank work; the shock can be strong.","Keep it alone and do not mix with fish it can swallow.","Provide a large cave and a very secure lid."],aka=["electric catfish","malapterurus electricus","african electric catfish"]),
+ A("river-stingray","Freshwater River Stingray","Potamotrygon spp.","fish","Potamotrygonidae","Amazon and Orinoco basins, South America","12-24 in disc",(75,82),(6.0,7.5),400,"Peaceful but has a venomous tail spine","Solitary or pair in a very large tank","Bottom","Advanced","Carnivore: shrimp, earthworms, small whole fish, sinking foods","10-15 years",
+  "A flat, wide-bodied ray that needs a wide, shallow footprint, fine sand and spotless, very stable water. The tail has a venomous spine, and rays are sensitive to ammonia, nitrite, salt and many medications.",
+  ["Use fine sand and a wide tank, not a tall one.","Keep water spotless; rays are sensitive to poor water and salt.","Handle only with great care; the tail spine can cause painful wounds."],aka=["freshwater stingray","freshwater stingrays","river stingray","potamotrygon","potamotrygon motoro","ocellate river stingray","motoro stingray"]),
+ A("climbing-perch","Climbing Perch","Anabas testudineus","fish","Anabantidae","South and Southeast Asia","6-9 in",(68,86),(6.0,8.0),55,"Semi-aggressive, eats small fish","Single or small group in a large tank","Mid to bottom","Intermediate","Omnivore leaning carnivore: pellets, frozen foods, worms, insects","6-8 years",
+  "A tough labyrinth fish that can gulp air and cross damp ground in the wild. It is an escape artist and will eat smaller tankmates, so a tight lid and robust companions are needed.",
+  ["Use a tight lid; it will climb out of open tanks.","Do not keep with small fish.","Leave an air gap between the water and the lid."],aka=["climbing perch","anabas testudineus","climbing perch anabas"]),
+ A("bronze-featherback","Bronze Featherback","Notopterus notopterus","fish","Notopteridae","South and Southeast Asia","12-20 in",(72,82),(6.5,7.5),150,"Predatory; eats small fish","Solitary or a group in a large tank","Mid","Advanced","Carnivore: fish, shrimp, worms, large frozen foods","8-10 years",
+  "A long, flattened knifefish-type predator that glides with a rippling fin. It grows much larger than the juveniles sold and eats small tankmates, so it needs a long tank with a secure lid.",
+  ["Plan for 150 gallons or more and a long footprint.","Do not keep with small fish.","Feed meaty foods; it may prefer live or frozen."],aka=["bronze featherback","bronze feather back","notopterus notopterus","bronze featherback knifefish"]),
+ A("jaguar-catfish","Jaguar Catfish","Liosomadoras oncinus","fish","Auchenipteridae","Amazon basin, South America","6-8 in",(75,82),(6.0,7.5),55,"Predatory, mostly nocturnal","Solitary or small group with hiding places","Bottom","Intermediate","Carnivore: frozen foods, worms, small fish and shrimp","8-10 years",
+  "A spotted, nocturnal catfish that hides by day and hunts after dark. It will eat small tankmates, so choose fish too big to swallow and give it shaded caves.",
+  ["Provide caves and low light.","Keep with larger fish only.","Offer meaty sinking foods in the evening."],aka=["jaguar catfish","liosomadoras oncinus","spotted jaguar catfish","jaguar cat"]),
+ A("blue-phantom-pleco","Blue Phantom Pleco","Hemiancistrus sp. (L128)","fish","Loricariidae","Orinoco basin, Venezuela","6-8 in",(78,86),(6.0,7.5),55,"Peaceful, territorial with other plecos","Single or pair","Bottom","Intermediate","Omnivore leaning carnivore: sinking wafers, frozen foods, vegetables","8-10 years",
+  "A dark pleco with fine blue spots on the head and body. It likes warm, oxygen-rich water, caves and driftwood, and a protein-rich diet.",
+  ["Provide caves and strong flow.","Keep water warm and clean.","Offer sinking wafers and frozen foods, not only algae."],aka=["blue phantom pleco","blue phantom plecos","l128","l128 pleco","l128 blue phantom pleco"]),
+]
+MORE_PLANTS += [
+ P("cabomba","Cabomba","Cabomba caroliniana","Cabombaceae","Southeastern United States and South America","20-40 in","High","Helpful","Background; stems planted or floated","Fast",(65,82),(5.5,7.5),"Intermediate","Stem cuttings",
+  "A feathery, fan-leaved stem plant that grows quickly in bright, clean water. It is easily damaged and needs good light, and it is an invasive aquatic weed where released.",
+  ["Give it bright light and regular trimming.","Never release it into any waterway or pond.","Check local plant rules before buying."],aka=["cabomba","cabomba caroliniana","carolina fanwort","fanwort","green cabomba"]),
+]
