@@ -1146,3 +1146,30 @@ MORE_ANIMALS += [
   "A large Tanganyikan algae grazer that guards its rock territory fiercely. Keep it in very hard, alkaline, well-oxygenated water with a long tank, and feed mainly vegetable foods.",
   ["Feed mostly vegetable foods; avoid heavy meat.","Provide rock territories and strong filtration.","Expect aggression; stock carefully."],aka=["trewavasae petrochromis","petrochromis trewavasae","trewavas petrochromis","petrochromis"]),
 ]
+
+# Batch 2 2026-11-06 (Roger asked to add the held species). Original text; conservative ranges.
+MORE_ANIMALS += [
+ A("pike-livebearer","Pike Livebearer","Belonesox belizanus","fish","Poeciliidae","Southern Mexico to Costa Rica","Males 3-4 in, females 5-8 in",(72,82),(7.0,8.5),55,"Predatory; eats any fish it can swallow","Single, or a pair in a large tank","Top to mid","Advanced","Carnivore: live and frozen fish, shrimp, large insects","3-5 years",
+  "A pike-shaped livebearer that ambushes smaller fish near the surface. Females are much larger than males, and the species lives on live or whole-fish foods, so it suits a species tank rather than a community.",
+  ["Keep it only with fish too large to swallow, or alone.","Offer whole or live prey; it will not thrive on flake alone.","Check local rules before buying and never release it; it is invasive where introduced."],aka=["pike livebearer","pike killifish","belonesox belizanus","pike topminnow"]),
+ A("mosquitofish","Mosquitofish","Gambusia affinis","fish","Poeciliidae","Central and eastern United States","Males 1.5 in, females 2.5-3 in",(60,82),(7.0,8.0),10,"Semi-aggressive, nips fins","Groups, more females than males","Top to mid","Beginner","Omnivore: flakes, small frozen and live foods, insect larvae","2-3 years",
+  "A hardy livebearer used in the past for mosquito control. It tolerates a very wide temperature range but nips long fins and breeds fast.",
+  ["Do not keep with long-finned fish.","Never release into the wild; it is invasive and harms native species.","Plan for large broods; add plants for cover."],aka=["mosquitofish","mosquito fish","gambusia affinis","gambusia","western mosquitofish"]),
+ A("bowfin","Bowfin","Amia calva","fish","Amiidae","Eastern and central North America","18-30 in",(60,80),(6.0,8.0),300,"Predatory ambush hunter","Solitary","Mid to bottom","Advanced","Carnivore: fish, shrimp, crayfish, worms","10-15 years",
+  "A prehistoric-looking North American predator that gulps air and eats anything it can swallow. It grows to an arm's length or more and needs a pond-sized tank with a heavy, secure lid.",
+  ["Plan for a tank of 300 gallons or more.","Use a very strong lid; bowfin jump and push.","Keep it alone or with fish too large to swallow."],aka=["bowfin","bowfins","amia calva","dogfish bowfin"]),
+ A("tambaqui","Tambaqui","Colossoma macropomum","fish","Serrasalmidae","Amazon and Orinoco basins, South America","24-36 in",(75,84),(5.5,7.5),1000,"Peaceful when young; big, strong, may eat small tankmates","Solitary or a group in a pond","Mid to bottom","Advanced","Omnivore: fruit, vegetables, pellets, whole foods","20+ years",
+  "A deep-bodied cousin of the pacu that grows to a yard long and can live for decades. It is often sold small, so buy only if you can provide a pond-sized tank for the adult.",
+  ["Plan for 1,000 gallons or a pond before buying.","Feed fruit, vegetables and large pellets.","Do not keep with small fish."],aka=["tambaqui","colossoma macropomum","colossoma","black pacu","tambaqui pacu"]),
+ A("green-sunfish","Green Sunfish","Lepomis cyanellus","fish","Centrarchidae","Central and eastern North America","6-8 in",(55,78),(6.5,8.0),55,"Aggressive, predatory toward small fish","Solitary or species tank","Mid","Intermediate","Carnivore: pellets, frozen and live foods, worms, small fish","6-8 years",
+  "A tough, pugnacious native sunfish with a big mouth and blue-green markings. It does fine unheated and eats smaller fish, so keep it with similar-sized tankmates or alone.",
+  ["Keep unheated or cool; it dislikes warm tropical tanks.","Do not mix with small fish.","Check local rules and never release it."],aka=["green sunfish","green sunfish lepomis","lepomis cyanellus"]),
+ A("bluegill","Bluegill","Lepomis macrochirus","fish","Centrarchidae","Eastern and central North America","8-10 in",(55,78),(6.5,8.0),75,"Semi-aggressive, eats small fish","Groups in large tanks or ponds","Mid","Intermediate","Omnivore: pellets, frozen and live foods, insects","6-8 years",
+  "A familiar pond sunfish with a dark ear flap and bluish gill cover. It is hardy and cool-tolerant but grows large, so it is better suited to a big tank or pond than a small aquarium.",
+  ["Keep unheated or cool.","Give it a big tank or pond.","Check local rules and never release it."],aka=["bluegill","bluegill sunfish","lepomis macrochirus"]),
+]
+MORE_PLANTS += [
+ P("water-poppy","Water Poppy","Hydrocleys nymphoides","Alismataceae","Tropical South America","Floating leaves, 4-12 in stems","High","Not needed","Pond or tub; floating leaves; keep roots in substrate","Fast in warmth",(65,82),(6.0,7.5),"Beginner","Runners and cuttings",
+  "A pond plant with round, floating leaves and yellow poppy-like flowers. It does best in a pond, tub or very bright open-top aquarium and is not a true submerged aquarium plant.",
+  ["Give it full light and warmth.","Trim runners to control spread.","Check local plant rules and never release it into waterways."],aka=["water poppy","hydrocleys nymphoides","water poppies"]),
+]
