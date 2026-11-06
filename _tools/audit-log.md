@@ -249,3 +249,10 @@ NOTE: no fetched care sources (WebSearch returns titles only); checks from gener
 - lagenandra: height 8-16 -> 8-20 in (emersed plants run taller; matters for tank-height planning).
 - auratus-cichlid, johanni-cichlid, acei-cichlid, electric-blue-hap, snakeskin-gourami, dwarf-water-lily: ranges, origin and scientific names checked, OK.
 Next up: care_data3.py from the entry after bandit-cory onward.
+
+## 2026-11-06 (second pass; 8 entries; care_data3.py: black-ruby-barb .. stargrass)
+NOTE: no fetched care sources (WebFetch needs approval; search returns titles only); checks from general hobby knowledge.
+- black-ruby-barb, cobalt-blue-zebra, lemon-cichlid, brichardi-cichlid, celebes-rainbowfish, turquoise-rainbowfish, giraffe-cichlid, stargrass: ranges, origin and scientific names checked, OK; no changes.
+- Duplicate-species scan (same scientific name, two guides): ruby-barb/black-ruby-barb (both Pethia nigrofasciata), chili-rasbora/mosquito-rasbora (Boraras brigittae), pearl-weed/giant-baby-tears (M. umbrosum), anacharis/anacharis-egeria, java-fern/java-fern-varieties, micro-sword/lilaeopsis-brasiliensis. Not merged unattended (URLs already indexed); consider merging with redirects.
+- Process: my first draft added "poropanchax-normani" but normans-lampeye already existed; removed before commit. Check names AND "lampeye"-style common words before adding.
+Next up: care_data3.py from the entry after stargrass.

@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-06 (third update)
+Guides: 564 (+9: false rummynose tetra, bluefin killifish, Schomburgk's leaffish, Rachow's pyrrhulina, Cairns rainbowfish, Rhamphochromis, blunthead cichlid, debauwi catfish; plant Limnophila aromatica). Hubs: Fundulidae -> killifish hub, Schilbeidae -> catfish hub. Petzonesd sitemap WebFetch still needs approval; picks from a genus scan (hobby staples nearly saturated). Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, guntea loach, Rhinogobius, Callochromis, Hemibates, Benthochromis, Trematocara, Cyathopharynx. Real photos: 27 of 564 (537 illustrations).
+
 ## 2026-11-06 (later) - Roger asked to add held species
 Guides: 555 (+7 earlier, then +7 more: electric catfish, freshwater stingray, climbing perch, bronze featherback, jaguar catfish, blue phantom pleco L128, cabomba; earlier +7: pike livebearer, mosquitofish, bowfin, tambaqui, green sunfish, bluegill, water poppy). Each guide carries an "check local rules, never release" tip. Still held (not added): cabomba, electric catfish, freshwater stingrays, climbing perch, bronze featherback, jaguar catfish, blue phantom pleco L128 (CA status or data unsure). Never: hydrilla, water hyacinth, water spinach, water chestnut, Senegal tea, grass carp, walking catfish, swamp eel, stone moroko, snakeheads, piranha, axolotl, African clawed frog.
 
