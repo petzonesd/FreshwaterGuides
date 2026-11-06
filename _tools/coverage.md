@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-06 update
+Guides: 541 (+11: one-spot livebearer, metallic livebearer, golden skiffia, blackfin goodea, Celebes halfbeak, Playfair's panchax, knight goby, spotfin goby cichlid, slender lamprologus, rostratus cichlid, Trewavas's petrochromis). Dropped demon eartheater (Satanoperca): already covered by the geophagus guide. Petzonesd sitemap not fetched (WebFetch needs approval in unattended runs). Held for Roger: belonesox/pike livebearer and Gambusia (invasive-species status in CA unclear), Lagarosiphon (federal noxious, never). Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, Callochromis, Hemibates, Benthochromis, Trematocara, Cyathopharynx. Real photos: 27 of 541. data.json ~495 KB raw (~110 KB gzipped).
+
 ## 2026-11-04 update
 Guides: 530 (+10: African arowana/Heterotis, Marisa snail, banded sunfish, bluespotted sunfish, Everglades pygmy sunfish, giant freshwater prawn, hogchoker, gangetic leaffish, creeping rush, quillwort). Roger-approved set now covered except Lepomis sunfish (live bluegill/green sunfish possession is restricted in CA; left out, needs Roger). "giant ramshorn snail" alias moved off the pest ramshorn guide to Marisa. Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp. Petzonesd sitemap not re-tried. Real photos: 27 of 530.
 

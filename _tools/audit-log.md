@@ -242,3 +242,10 @@ NOTE: no fetched care sources (WebSearch returns titles only); checks from gener
 - black-ghost-knifefish: min tank 100 -> 125 gal (adult approaches 20 in).
 - sulawesi-cardinal-shrimp, mini-pellia, ranunculus-inundatus, red-eye-puffer, clown-killifish, african-banded-barb: ranges, origin and scientific names checked, OK.
 Next up: care_data3.py from auratus-cichlid onward.
+
+## 2026-11-06 (8 entries; care_data3.py: auratus-cichlid .. bandit-cory)
+NOTE: no fetched care sources (WebSearch returns titles only); checks from general hobby knowledge.
+- bandit-cory: size 2.25 -> 2.25-2.5 in (adults of C. metae reach about 2.5 in).
+- lagenandra: height 8-16 -> 8-20 in (emersed plants run taller; matters for tank-height planning).
+- auratus-cichlid, johanni-cichlid, acei-cichlid, electric-blue-hap, snakeskin-gourami, dwarf-water-lily: ranges, origin and scientific names checked, OK.
+Next up: care_data3.py from the entry after bandit-cory onward.
