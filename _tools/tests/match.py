@@ -215,6 +215,8 @@ CASES=[
 ("Mayan Cichlid","mayan-cichlid"),("Banded Rainbowfish","banded-rainbowfish"),("Blue Badis","blue-badis"),("Amazon Puffer","amazon-puffer"),
 ("Tire Track Eel Food Pellets",None),("Betta Fish Food Emerald Green Formula",None),("Puffer Fish Food Snail Treat",None),("Scarlet Badis","scarlet-badis"),
 ("Dwarf Puffer Pea Puffer","pea-puffer"),("Halfmoon Betta Male","betta"),("Rainbowfish Flakes",None),
+("Vietnamese Cardinal Minnow Tanichthys micagemmae","vietnamese-cardinal-minnow"),("Porthole Rasbora","porthole-rasbora"),("Blue Axelrodi Rasbora Sundadanio","blue-axelrodi-rasbora"),("Guntea Loach","guntea-loach"),("Galaxy Pleco L007","galaxy-pleco"),("Rhinogobius Rhino Goby","rhinogobius"),("Silver Hemiodus","silver-hemiodus"),("Borneo Sucker Loach Gastromyzon","borneo-sucker-loach"),("Thai Micro Crab","thai-micro-crab"),("Cryptocoryne cordata Bunch","cryptocoryne-cordata"),("Madagascar Lace Plant Bulb","aponogeton"),
+("Galaxy Pleco Sinking Wafers",None),("Cardinal Tetra","cardinal-tetra"),("Hillstream Loach Food Pellets",None),("Micro Crab Food Powder",None),("Algae Wafers for Plecos",None),
 ]
 with sync_playwright() as p:
     srv=serve(8791)

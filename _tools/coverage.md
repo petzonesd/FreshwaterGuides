@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-07 update
+Guides: 574 (+10: Vietnamese cardinal minnow, porthole rasbora, blue axelrodi rasbora, guntea loach, galaxy pleco L007, Rhinogobius, silver hemiodus, Borneo sucker loach, Thai micro crab, Cryptocoryne cordata). Hubs: Oxudercidae and Hemiodontidae -> large/specialty, Gastromyzontidae -> catfish/loach. Dropped Madagascar lace plant (aponogeton guide already carries the aliases). Removed stale care/poropanchax-normani page. Held for Roger: water starwort (Callitriche; unsure CA weed status), Senegal tea never. Petzonesd sitemap not fetched (WebFetch needs approval unattended). Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, Callochromis, Hemibates, Benthochromis, Trematocara, Cyathopharynx, Candy cichlid, banded knifefish (Gymnotus). Real photos: 27 of 574. data.json 530 KB raw (over the 400 KB line; ~120 KB gzipped): slim fields the embed does not need.
+
 ## 2026-11-06 (third update)
 Guides: 564 (+9: false rummynose tetra, bluefin killifish, Schomburgk's leaffish, Rachow's pyrrhulina, Cairns rainbowfish, Rhamphochromis, blunthead cichlid, debauwi catfish; plant Limnophila aromatica). Hubs: Fundulidae -> killifish hub, Schilbeidae -> catfish hub. Petzonesd sitemap WebFetch still needs approval; picks from a genus scan (hobby staples nearly saturated). Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, guntea loach, Rhinogobius, Callochromis, Hemibates, Benthochromis, Trematocara, Cyathopharynx. Real photos: 27 of 564 (537 illustrations).
 

@@ -256,3 +256,14 @@ NOTE: no fetched care sources (WebFetch needs approval; search returns titles on
 - Duplicate-species scan (same scientific name, two guides): ruby-barb/black-ruby-barb (both Pethia nigrofasciata), chili-rasbora/mosquito-rasbora (Boraras brigittae), pearl-weed/giant-baby-tears (M. umbrosum), anacharis/anacharis-egeria, java-fern/java-fern-varieties, micro-sword/lilaeopsis-brasiliensis. Not merged unattended (URLs already indexed); consider merging with redirects.
 - Process: my first draft added "poropanchax-normani" but normans-lampeye already existed; removed before commit. Check names AND "lampeye"-style common words before adding.
 Next up: care_data3.py from the entry after stargrass.
+
+## 2026-11-07 (8 entries; care_data3.py: pogostemon-stellatus .. rainbow-krib)
+NOTE: no fetched care sources (WebFetch needs approval; search returns titles only); checks from general hobby knowledge.
+- wrestling-halfbeak: size 2.2 -> 2.5-3 in (females reach about 3 in); min tank 10 -> 15 gal (surface group).
+- glass-knifefish: size 7 -> 8-12 in (Eigenmannia virescens passes a foot); min tank 55 -> 75 gal; temp 75-86 -> 73-82 F; pH 6.7-7.4 widened to 6.0-7.5 (narrow range was too tight to print on a label).
+- blehers-rainbowfish: size 4.5 -> 5 in (males run bigger than listed).
+- rainbow-krib: size 3 -> 3-4 in (males approach 4 in).
+- pogostemon-stellatus, kerri-danio, variatus-platy, african-butterfly-cichlid: ranges, origin and scientific names checked, OK.
+- Cleanup: removed stale care/poropanchax-normani page (duplicate of normans-lampeye, never in sitemap).
+- Dropped a draft "Madagascar lace plant" guide: the existing aponogeton guide already carries "madagascar lace"/"lace plant" aliases.
+Next up: care_data3.py from the entry after rainbow-krib.
