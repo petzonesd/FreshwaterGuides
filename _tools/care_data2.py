@@ -474,7 +474,7 @@ ALIAS_INTO = {
  "otocinclus": ["zebra otocinclus","otocinclus affinis","otocinclus catfish","otocinclus cocama","otocinclus marinae"],
  "neon-tetra": ["jumbo neon tetra","gold neon tetra","golden neon tetra","platinum neon tetra","diamond head neon tetra"],
  "celestial-pearl-danio": ["galaxy rasbora","galaxy rasbora celestial pearl danio"],
- "harlequin-rasbora": ["purple harlequin rasbora","green kubotai rasbora","kubotai rasbora"],
+ "harlequin-rasbora": ["purple harlequin rasbora"],
  "tiger-barb": ["green tiger barb","golden tiger barb","albino tiger barb","platinum green tiger barb","albino blushing tiger barb","xl golden tiger barb","large tiger barb"],
  "cherry-barb": ["long fin cherry barb","albino cherry barb"],
  "congo-tetra": ["long fin congo tetra","albino congo tetra"],

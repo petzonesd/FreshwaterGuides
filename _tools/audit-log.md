@@ -267,3 +267,9 @@ NOTE: no fetched care sources (WebFetch needs approval; search returns titles on
 - Cleanup: removed stale care/poropanchax-normani page (duplicate of normans-lampeye, never in sitemap).
 - Dropped a draft "Madagascar lace plant" guide: the existing aponogeton guide already carries "madagascar lace"/"lace plant" aliases.
 Next up: care_data3.py from the entry after rainbow-krib.
+
+## 2026-11-08 (8 entries; care_data3.py: spotted-danio .. scarlet-badis)
+NOTE: no fetched care sources (WebFetch needs approval; search returns titles only); checks from general hobby knowledge.
+- spotted-danio, ornate-tetra, black-shark, powder-blue-socolofi, sunshine-pleco, kitty-tetra, spotback-loach, scarlet-badis: ranges, origin and scientific names checked, OK; no changes.
+- Alias fix: "kubotai rasbora" / "green kubotai rasbora" removed from harlequin-rasbora (Microdevario kubotai is a different species, now its own guide).
+Next up: care_data3.py from the entry after scarlet-badis.

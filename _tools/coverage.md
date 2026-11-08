@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-08 update
+Guides: 586 (+12: Aspidoras, Callochromis, bigmouth cichlid (Lobochilotes), Simochromis, Chalinochromis, banded knifefish (Gymnotus), merry widow livebearer, Kubotai rasbora, armored catfish (Callichthys), Ansorge's neolebias, Malayan leaf fish (Pristolepis), African long-finned tetra). Hubs: Distichodontidae -> tetras; Gymnotidae, Pristolepididae -> large/specialty. Petzonesd sitemap WebFetch still needs approval. Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, Benthochromis, Trematocara, Cyathopharynx, Hemibates, Spathodus, Cunningtonia, Hoplias (CA status unsure, held). data.json ~540 KB raw. Real photos: 27 of 586.
+
 ## 2026-11-07 update
 Guides: 574 (+10: Vietnamese cardinal minnow, porthole rasbora, blue axelrodi rasbora, guntea loach, galaxy pleco L007, Rhinogobius, silver hemiodus, Borneo sucker loach, Thai micro crab, Cryptocoryne cordata). Hubs: Oxudercidae and Hemiodontidae -> large/specialty, Gastromyzontidae -> catfish/loach. Dropped Madagascar lace plant (aponogeton guide already carries the aliases). Removed stale care/poropanchax-normani page. Held for Roger: water starwort (Callitriche; unsure CA weed status), Senegal tea never. Petzonesd sitemap not fetched (WebFetch needs approval unattended). Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, Callochromis, Hemibates, Benthochromis, Trematocara, Cyathopharynx, Candy cichlid, banded knifefish (Gymnotus). Real photos: 27 of 574. data.json 530 KB raw (over the 400 KB line; ~120 KB gzipped): slim fields the embed does not need.
 
