@@ -30,6 +30,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Aquarium Heater Guide: Sizing, Placement & Safety](https://freshwaterguides.com/guides/aquarium-heater-guide/): Heater wattage sizing by tank size using two methods, when to split wattage across two heaters, placement for even heat circulation, and the GFCI, drip-loop, and backup-thermometer safety habits that prevent a stuck heater from becoming a disaster.
 - [Aquarium Fish Feeding Guide: How Much & How Often](https://freshwaterguides.com/guides/aquarium-fish-feeding-guide/): Portion sizing by the two-to-five-minute rule, feeding frequency by fish type, food types explained, why goldfish are agastric and easy to overfeed, and the overfeeding signs that cause more tank problems than disease.
 - [Aquarium Substrate Guide: Gravel, Sand & Aquasoil Compared](https://freshwaterguides.com/guides/aquarium-substrate-guide/): Cation exchange capacity explained, why aquasoil spikes ammonia before it cycles out, sand and gravel cleaning technique, capping and mixing layouts, and depth guidance for root growth.
+- [Easy Aquarium Plants for Beginners: 14 Compared](https://freshwaterguides.com/guides/easy-aquarium-plants-for-beginners/): 14 beginner-friendly plants compared by placement, light, and CO2 need, the floating-plant light trap, and why duckweed is a trap of its own.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
