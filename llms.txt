@@ -32,6 +32,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 - [Aquarium Substrate Guide: Gravel, Sand & Aquasoil Compared](https://freshwaterguides.com/guides/aquarium-substrate-guide/): Cation exchange capacity explained, why aquasoil spikes ammonia before it cycles out, sand and gravel cleaning technique, capping and mixing layouts, and depth guidance for root growth.
 - [Easy Aquarium Plants for Beginners: 14 Compared](https://freshwaterguides.com/guides/easy-aquarium-plants-for-beginners/): 14 beginner-friendly plants compared by placement, light, and CO2 need, the floating-plant light trap, and why duckweed is a trap of its own.
 - [Fish Breeding Basics: Conditioning, Spawning & Fry Care](https://freshwaterguides.com/guides/fish-breeding-basics/): The five ways freshwater fish reproduce — livebearers, egg-scatterers, cave spawners, mouthbrooders, and bubble-nest builders — plus conditioning, breeding tank setup, and raising fry without losing them.
+- [How to Move an Aquarium Without Losing Fish or Your Cycle](https://freshwaterguides.com/guides/moving-an-aquarium/): Draining and packing a tank the right way — keeping filter media wet instead of rinsed or dried — bagging and transporting fish by trip length, and restarting the tank at a new address without a mini-cycle.
 
 - [Freshwater Aquarium Glossary](https://freshwaterguides.com/glossary/): Plain-language definitions of cycling, GH/KH, bioload, Neocaridina, low-tech tanks, PAR and algae types.
 
