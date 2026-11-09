@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-09 update
+Guides: 597 (+11: Asian redtail catfish, marbled headstander, African leaf fish, Cyathopharynx, Lethrinops, Nanochromis, Mento cichlid, Pfeffer's cichlid; plants floating bladderwort, Taiwan lily, watermeal). Bagridae added to the large/specialty hub. Petzonesd sitemap WebFetch still needs approval unattended. Held for Roger: tilapia (Oreochromis/Sarotherodon; on California's restricted list as far as I know), stinging catfish (Heteropneustes), Marmorkrebs/marbled crayfish (restricted in many places), desert pupfish (Cyprinodon; protected), topmouth gudgeon. Skipped as too rare/uncertain: Malpulutta, Benthochromis, Dardenne's cichlid, Danionella. Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius, Trematocara, Hemibates, Spathodus, Cunningtonia. Real photos: 27 of 597. data.json ~553 KB raw (over the 400 KB line; gzip ~125 KB).
+
 ## 2026-11-08 update
 Guides: 586 (+12: Aspidoras, Callochromis, bigmouth cichlid (Lobochilotes), Simochromis, Chalinochromis, banded knifefish (Gymnotus), merry widow livebearer, Kubotai rasbora, armored catfish (Callichthys), Ansorge's neolebias, Malayan leaf fish (Pristolepis), African long-finned tetra). Hubs: Distichodontidae -> tetras; Gymnotidae, Pristolepididae -> large/specialty. Petzonesd sitemap WebFetch still needs approval. Still missing: pipefish, Homalomena Sekadau, Callicostella moss, chopstick snail, Aphanius toothcarp, Benthochromis, Trematocara, Cyathopharynx, Hemibates, Spathodus, Cunningtonia, Hoplias (CA status unsure, held). data.json ~540 KB raw. Real photos: 27 of 586.
 

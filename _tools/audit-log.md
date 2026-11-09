@@ -273,3 +273,9 @@ NOTE: no fetched care sources (WebFetch needs approval; search returns titles on
 - spotted-danio, ornate-tetra, black-shark, powder-blue-socolofi, sunshine-pleco, kitty-tetra, spotback-loach, scarlet-badis: ranges, origin and scientific names checked, OK; no changes.
 - Alias fix: "kubotai rasbora" / "green kubotai rasbora" removed from harlequin-rasbora (Microdevario kubotai is a different species, now its own guide).
 Next up: care_data3.py from the entry after scarlet-badis.
+
+## 2026-11-09 (8 entries; care_data3.py: african-butterflyfish .. dawn-tetra)
+NOTE: no fetched care sources (WebFetch needs approval unattended; search returns titles only); checks from general hobby knowledge.
+- banded-archerfish: size 6-10 -> 8-12 in (adults of T. jaculatrix approach a foot); min tank 100 -> 125 gal.
+- african-butterflyfish, skunk-loach, mexican-tetra, blue-dolphin-cichlid, bumblebee-goby, orange-chromide, dawn-tetra: ranges, origin and scientific names checked, OK; brackish notes already present.
+Next up: care_data3.py from the entry after dawn-tetra.
