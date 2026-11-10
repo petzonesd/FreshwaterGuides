@@ -281,7 +281,7 @@ MORE_ANIMALS = [
   ["Use soft sand.","Offer worms; it is often a picky eater."],aka=["elephantnose","elephant nose fish","elephant nose","blunt jawed elephantnose fish"]),
  A("silver-dollar","Silver Dollar","Metynnis species","fish","Serrasalmidae","South America","6 in",(72,82),(6.0,7.5),75,"Peaceful, skittish","Schooling, keep 5+","Mid","Beginner","Herbivore leaning omnivore: vegetables, pellets, flakes","10 years",
   "A disc-shaped schooling fish that eats plants and needs a roomy, long tank.",
-  ["Keep a group of five or more.","Offer vegetables; it eats soft plants."],aka=["silver dollar fish","red hook silver dollar fish","blue hook silver dollar fish","spotted silver dollar fish"]),
+  ["Keep a group of five or more.","Offer vegetables; it eats soft plants."],aka=["silver dollar fish","blue hook silver dollar fish","spotted silver dollar fish"]),
  A("red-belly-pacu","Red Belly Pacu","Piaractus brachypomus","fish","Serrasalmidae","Amazon basin, South America","24-35 in",(72,82),(6.0,7.5),700,"Large, skittish","Solitary","Mid","Advanced","Omnivore: vegetables, fruit, pellets","15+ years",
   "Pacu are sold small but grow large and fast, with some individuals reaching close to three feet, and need a tank measured in the hundreds of gallons, not a standard community tank.",
   ["Not suitable for most homes.","Needs a huge tank, several hundred gallons or more for a full-grown fish."],aka=["pacu","red belly pacu","red-bellied pacu"]),

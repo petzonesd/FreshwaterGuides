@@ -180,7 +180,7 @@ def page_for(e, by_slug):
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": title, "description": desc,
           "author": {"@type": "Organization", "name": "Pet Zone SD Team"},
           "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": BASE + "/"},
-          "datePublished": original_date_published(e["slug"], TODAY), "dateModified": TODAY, "mainEntityOfPage": BASE + path}
+          "datePublished": original_date_published(e["slug"], TODAY), "dateModified": "@@MODISO@@", "mainEntityOfPage": BASE + path}
     if photo_url(e["slug"]):
         ld["image"] = [photo_url(e["slug"])]
     bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -192,7 +192,7 @@ def page_for(e, by_slug):
     out = [head(title, desc, path, extra, image=photo_url(e["slug"])), HEAD_NAV, '<main id="main">\n<div class="container narrow article">']
     out.append(f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(e["name"])}</p>')
     out.append(f'<h1>{E(e["name"])} Care Guide</h1>')
-    out.append(f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>2 min read</span></p>')
+    out.append(f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated @@MODLONG@@</span><span>2 min read</span></p>')
     ph = photo_url(e["slug"])
     if ph:
         out.append(f'<figure class="care-photo"><img src="{ph}" alt="{E(e["name"])} at Pet Zone Tropical Fish in San Diego" width="400" height="400" loading="eager" onerror="this.parentNode.remove()"><figcaption>Photo: {E(PH["credit"])}</figcaption></figure>')
@@ -242,7 +242,7 @@ def index_page(by_slug):
            '<main id="main">\n<div class="container article care-index">',
            '<p class="breadcrumb"><a href="/">Home</a> / Care Guides</p>',
            '<h1>Aquarium Care Guides</h1>',
-           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>{len(by_slug)} guides</span></p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated @@MODLONG@@</span><span>{len(by_slug)} guides</span></p>',
            '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails, frogs, newts and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
            '<label class="care-search"><span>Search the guides</span><input id="care-q" type="search" placeholder="Try neon, betta, java fern…" autocomplete="off"></label>',
            '<p id="care-none" class="care-none" hidden>No guides match that search yet. Ask us in store and we will add it.</p>']
@@ -346,7 +346,7 @@ def hub_page(h, by_slug):
            '<main id="main">\n<div class="container article care-index">',
            f'<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / {E(h1)}</p>',
            f'<h1>{E(h1)}</h1>',
-           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated {TODAY_LONG}</span><span>{len(items)} guide{"" if len(items) == 1 else "s"}</span></p>',
+           f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated @@MODLONG@@</span><span>{len(items)} guide{"" if len(items) == 1 else "s"}</span></p>',
            f'<p class="lede-line"><strong>{E(intro)}</strong></p>',
            '<h2>Quick rules of thumb</h2><ul>' + "".join(f"<li>{E(b)}</li>" for b in bullets) + "</ul>",
            f'<section class="care-group"><h2>{E(h1.replace(" Care Guides","").replace(" Care",""))} guides</h2><ul class="care-grid">']
@@ -362,9 +362,41 @@ def hub_page(h, by_slug):
     out.append("</body>\n</html>\n")
     return "\n".join(out)
 
+def page_lastmod(p):
+    """lastmod for a care URL = the page's own (content-aware) modified date."""
+    try:
+        t = open(os.path.join(ROOT, p.lstrip("/"), "index.html"), encoding="utf-8").read()
+        m = _MOD_ISO_RE.search(t)
+        if m:
+            return m.group(0).split('"')[3]
+        m = _MOD_LONG_RE.search(t)
+        if m:
+            return datetime.datetime.strptime(m.group(0)[8:], "%B %d, %Y").date().isoformat()
+    except Exception:
+        pass
+    return TODAY
+
+_MOD_ISO_RE = re.compile(r'"dateModified": "\d{4}-\d{2}-\d{2}"')
+_MOD_LONG_RE = re.compile(r'Updated [A-Z][a-z]+ \d{1,2}, \d{4}')
+
 def write(path, content):
+    """Write a file. Pages carry @@MODISO@@/@@MODLONG@@ markers: when the page is
+    otherwise identical to what is already on disk, keep its old modified date
+    (so unchanged pages are not re-stamped 'Updated today' on every build)."""
     full = os.path.join(ROOT, path.lstrip("/"))
     os.makedirs(os.path.dirname(full), exist_ok=True)
+    if "@@MOD" in content:
+        iso, long_ = TODAY, TODAY_LONG
+        if os.path.exists(full):
+            old = open(full, encoding="utf-8").read()
+            norm = _MOD_LONG_RE.sub("Updated @@MODLONG@@", _MOD_ISO_RE.sub('"dateModified": "@@MODISO@@"', old))
+            if norm == content:
+                m1 = _MOD_ISO_RE.search(old); m2 = _MOD_LONG_RE.search(old)
+                if m1:
+                    iso = m1.group(0).split('"')[3]
+                if m2:
+                    long_ = m2.group(0)[len("Updated "):]
+        content = content.replace("@@MODISO@@", iso).replace("@@MODLONG@@", long_)
     with open(full, "w", encoding="utf-8") as f:
         f.write(content)
 
@@ -396,7 +428,15 @@ def main():
             d["photo"] = f"{BASE}/care/art/{e['slug']}.svg"
             d["illustration"] = True
         data.append(d)
-    write("/care/data.json", json.dumps({"updated": TODAY, "stores": STORES, "tapset": tapset, "items": data}, separators=(",", ":")))
+    _dj = os.path.join(ROOT, "care/data.json")
+    _upd = TODAY
+    try:
+        _old = json.load(open(_dj, encoding="utf-8"))
+        if {k: v for k, v in _old.items() if k != "updated"} == json.loads(json.dumps({"stores": STORES, "tapset": tapset, "items": data})):
+            _upd = _old.get("updated", TODAY)
+    except Exception:
+        pass
+    write("/care/data.json", json.dumps({"updated": _upd, "stores": STORES, "tapset": tapset, "items": data}, separators=(",", ":")))
 
     # sitemap
     # Note: only /care/* urls are rebuilt here, since this script runs
@@ -411,7 +451,7 @@ def main():
     sm = open(sm_path, encoding="utf-8").read()
     sm = re.sub(r"<url><loc>https://freshwaterguides\.com/care/.*?</url>\n?", "", sm)
     new = [("/care/", "0.8")] + [(f"/care/{h[0]}/", "0.7") for h in HUBS] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
-    block = "".join(f"<url><loc>{BASE}{p}</loc><lastmod>{TODAY}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>\n" for p, pr in new)
+    block = "".join(f"<url><loc>{BASE}{p}</loc><lastmod>{page_lastmod(p)}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>\n" for p, pr in new)
     sm = sm.replace("</urlset>", block + "</urlset>")
     open(sm_path, "w", encoding="utf-8").write(sm)
 

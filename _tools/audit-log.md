@@ -279,3 +279,10 @@ NOTE: no fetched care sources (WebFetch needs approval unattended; search return
 - banded-archerfish: size 6-10 -> 8-12 in (adults of T. jaculatrix approach a foot); min tank 100 -> 125 gal.
 - african-butterflyfish, skunk-loach, mexican-tetra, blue-dolphin-cichlid, bumblebee-goby, orange-chromide, dawn-tetra: ranges, origin and scientific names checked, OK; brackish notes already present.
 Next up: care_data3.py from the entry after dawn-tetra.
+
+## 2026-11-10 (8 entries; care_data3.py: brilliant-rasbora .. golden-dwarf-cichlid)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- peacock-gudgeon: temp 68-79 -> 72-79 F (68 F is below the range hobby sources use for this tropical New Guinea fish).
+- brilliant-rasbora, forktail-blue-eye, cyprichromis, pearl-weed, persicaria, sheepshead-acara, golden-dwarf-cichlid: ranges, origin and scientific names checked, OK; no changes.
+- silver-dollar: removed the alias "red hook silver dollar fish" -- the redhook silver dollar is Myloplus rubripinnis, which reaches 10-14 in and needs 150+ gal, so it now has its own guide (redhook-myleus) instead of being labelled with the 6 in Metynnis guide.
+Next up: care_data3.py from the entry after golden-dwarf-cichlid.
