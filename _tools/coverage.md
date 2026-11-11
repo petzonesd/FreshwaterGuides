@@ -140,3 +140,6 @@ Existing guides that may be restricted/regulated in CA and should be checked aga
 
 ## 2026-11-02
 Guides: 507 pages built (+9 today: glass bloodfin tetra, coral red pencilfish, hognose brochis, Bengal danio, knife livebearer, spotted headstander, Riccia, lucky bamboo (emersed only), water violet). Sitemap WebFetch still needs approval; list from hobby staples. Most staples now covered; remaining ideas: one-spot livebearer (Phalloceros; CA status unknown, left out), red-tailed rasbora, Hengel's rasbora, Myloplus (red hook) own guide, pond fish (orfe, tench, rudd; CA status unknown), Lindernia, Nuphar. data.json is ~455 KB (over the 400 KB target): see slimming proposal in log.
+
+## 2026-11-11 update
+Guides: 611 pages built (+6: Bengal loach, tiger botia, Congo puffer, striped panchax, filament barb, Lindernia rotundifolia). Catalog sitemap WebFetch still blocked (needs approval) and site: search returns nothing for petzonesd.com, so additions come from hobby staples; hobby staples are close to exhausted (many new ideas were already aliased into existing guides: Hengel's rasbora in glowlight-rasbora, bulldog pleco in rubber-lip-pleco, spiky moss in christmas-moss). Further growth needs the real Pet Zone product list; if Roger can allow WebFetch of petzonesd.com/xmlsitemap.php or paste the species list, coverage can be matched exactly.

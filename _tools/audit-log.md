@@ -286,3 +286,12 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - brilliant-rasbora, forktail-blue-eye, cyprichromis, pearl-weed, persicaria, sheepshead-acara, golden-dwarf-cichlid: ranges, origin and scientific names checked, OK; no changes.
 - silver-dollar: removed the alias "red hook silver dollar fish" -- the redhook silver dollar is Myloplus rubripinnis, which reaches 10-14 in and needs 150+ gal, so it now has its own guide (redhook-myleus) instead of being labelled with the 6 in Metynnis guide.
 Next up: care_data3.py from the entry after golden-dwarf-cichlid.
+
+## 2026-11-11 (8 entries; care_data3.py: black-belt-cichlid .. cryptocoryne-varieties)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- black-belt-cichlid: size 10-14 -> 12-16 in (adults reach about 16 in); min tank 125 -> 180 gal.
+- calvus-cichlid, cuckoo-catfish, florida-flagfish, lilaeopsis-brasiliensis, cryptocoryne-pontederiifolia, water-hedge, cryptocoryne-varieties: ranges, origin and scientific names checked, OK.
+- glofish-tetra: text said "selectively bred"; GloFish are genetically modified (fluorescent-protein gene). Corrected wording and added a California check note (see log for Roger).
+- Alias moves: "congo puffer"/"tetraodon miurus" out of specialty puffers into the new congo-puffer guide; "tiger botia" out of botia-loach (adults 8+ in) into new tiger-botia guide.
+Next up: care_data3.py from the entry after cryptocoryne-varieties (continue in file order).
+
