@@ -295,3 +295,8 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - Alias moves: "congo puffer"/"tetraodon miurus" out of specialty puffers into the new congo-puffer guide; "tiger botia" out of botia-loach (adults 8+ in) into new tiger-botia guide.
 Next up: care_data3.py from the entry after cryptocoryne-varieties (continue in file order).
 
+
+## 2026-11-12 (8 entries; care_data3.py: mexican-oak-leaf .. hedyotis-salzmannii)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- mexican-oak-leaf, willow-moss, orchid-plant-barclaya, selaginella-wallichii, ranalisma-rostratum, littorella-uniflora, myriophyllum-mattogrossense, hedyotis-salzmannii: heights, temperature and pH ranges, scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after hedyotis-salzmannii (continue in file order).
