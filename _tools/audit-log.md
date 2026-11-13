@@ -300,3 +300,9 @@ Next up: care_data3.py from the entry after cryptocoryne-varieties (continue in 
 NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
 - mexican-oak-leaf, willow-moss, orchid-plant-barclaya, selaginella-wallichii, ranalisma-rostratum, littorella-uniflora, myriophyllum-mattogrossense, hedyotis-salzmannii: heights, temperature and pH ranges, scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after hedyotis-salzmannii (continue in file order).
+
+## 2026-11-13 (8 entries; care_data3.py: eriocaulon-cinereum .. cobalt-afra-cichlid)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- lionhead-cichlid: "lacks a normal swim bladder" -> "has a reduced swim bladder" (more accurate).
+- eriocaulon-cinereum, bladder-snail, fathead-minnow, sailfin-tetra, splash-tetra, goby-cichlid, cobalt-afra-cichlid: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after cobalt-afra-cichlid (continue in file order).

@@ -146,3 +146,6 @@ Guides: 507 pages built (+9 today: glass bloodfin tetra, coral red pencilfish, h
 
 ## 2026-11-11 update
 Guides: 611 pages built (+6: Bengal loach, tiger botia, Congo puffer, striped panchax, filament barb, Lindernia rotundifolia). Catalog sitemap WebFetch still blocked (needs approval) and site: search returns nothing for petzonesd.com, so additions come from hobby staples; hobby staples are close to exhausted (many new ideas were already aliased into existing guides: Hengel's rasbora in glowlight-rasbora, bulldog pleco in rubber-lip-pleco, spiky moss in christmas-moss). Further growth needs the real Pet Zone product list; if Roger can allow WebFetch of petzonesd.com/xmlsitemap.php or paste the species list, coverage can be matched exactly.
+
+## 2026-11-13 update
+Guides: 627 pages built (+7: dwarf pencilfish, three-lined pencilfish, orange bushfish, tequila splitfin, whitei splitfin, Popondetta rainbowfish, eyespot rasbora). Sitemap WebFetch still blocked (permission prompt unanswered, unattended). Hobby staples are essentially exhausted (checked ~300 genus/common names against existing data); further growth needs the real Pet Zone product list. Not added: snakeheads (illegal in CA), payara and other very large predators.
