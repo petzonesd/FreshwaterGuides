@@ -306,3 +306,10 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - lionhead-cichlid: "lacks a normal swim bladder" -> "has a reduced swim bladder" (more accurate).
 - eriocaulon-cinereum, bladder-snail, fathead-minnow, sailfin-tetra, splash-tetra, goby-cichlid, cobalt-afra-cichlid: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after cobalt-afra-cichlid (continue in file order).
+
+## 2026-11-14 (8 entries; care_data3.py: kadango-red-fin .. red-empress-cichlid)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- african-lungfish: size 12-30 -> 18-36 in (P. annectens reaches about 3 ft); min tank 125 -> 180 gal.
+- kadango-red-fin: min tank 55 -> 75 gal (a group with one male needs room; males squabble).
+- emerald-cichlid, vesuvius-sword, jaguar-cichlid, african-tigerfish, indian-glassfish, red-empress-cichlid: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after red-empress-cichlid (continue in file order).
