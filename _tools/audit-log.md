@@ -313,3 +313,10 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - kadango-red-fin: min tank 55 -> 75 gal (a group with one male needs room; males squabble).
 - emerald-cichlid, vesuvius-sword, jaguar-cichlid, african-tigerfish, indian-glassfish, red-empress-cichlid: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after red-empress-cichlid (continue in file order).
+
+## 2026-11-15 (8 entries; care_data3.py: ocellatus-shell-dweller .. african-brown-knifefish)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- african-brown-knifefish: size 8-9 -> 10-12 in (adults reach about a foot); min tank 55 -> 75 gal.
+- ocellatus-shell-dweller: size 2-2.5 -> 2-3 in (males reach about 3 in).
+- egyptian-mouthbrooder, iodotropheus-rusty, scrapermouth-mbuna, ticto-barb, banded-gourami, red-line-rasbora: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after african-brown-knifefish (continue in file order).

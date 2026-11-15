@@ -281,7 +281,7 @@ HUBS = [
  ("rainbowfish-killifish-medaka", "Rainbowfish, Killifish and Medaka Care", "Rainbowfish, Killifish and Medaka Care Guides", "Care facts for rainbowfish, killifish and medaka: tank size, temperature, pH, jumping risk and tankmates.",
   "These fish sit in different families but share needs a store customer should know: they like open top-level swimming space, many are jumpers, and each group has a preferred water type. Rainbowfish want hard, alkaline water and long tanks, killifish are often short-lived and prefer live or frozen foods, and medaka tolerate cool, unheated tanks.",
   ["Use a lid; most of these fish jump.","Rainbowfish do best in groups in harder water.","Check the exact killifish species before buying; needs vary."],
-  lambda e: e["family"] in ("Melanotaeniidae","Telmatherinidae","Aplocheilidae","Procatopodidae","Adrianichthyidae","Nothobranchiidae","Pseudomugilidae","Eleotridae","Cyprinodontidae","Bedotiidae","Fundulidae")),
+  lambda e: e["family"] in ("Melanotaeniidae","Telmatherinidae","Aplocheilidae","Procatopodidae","Adrianichthyidae","Nothobranchiidae","Pseudomugilidae","Eleotridae","Cyprinodontidae","Bedotiidae","Fundulidae","Rivulidae")),
  ("livebearers", "Livebearer Care Guides", "Livebearer Care Guides: Guppy, Platy, Molly, Swordtail", "Care facts for guppies, platies, mollies, swordtails and Endler's livebearers: tank size, water needs and how to avoid overcrowding.",
   "Livebearers give birth to free-swimming young, so a small group can become a large population quickly. They like harder, alkaline water than many tropical fish and do well with plants and hiding spots for fry. Keep the sex ratio in mind: several females per male reduces constant chasing.",
   ["Keep more females than males.","Choose harder water over very soft water.","Plan what you will do with extra fry."],
@@ -378,6 +378,7 @@ def page_lastmod(p):
 
 _MOD_ISO_RE = re.compile(r'"dateModified": "\d{4}-\d{2}-\d{2}"')
 _MOD_LONG_RE = re.compile(r'Updated [A-Z][a-z]+ \d{1,2}, \d{4}')
+_PUB_RE = re.compile(r'"datePublished": "\d{4}-\d{2}-\d{2}"')
 
 def write(path, content):
     """Write a file. Pages carry @@MODISO@@/@@MODLONG@@ markers: when the page is
@@ -390,7 +391,8 @@ def write(path, content):
         if os.path.exists(full):
             old = open(full, encoding="utf-8").read()
             norm = _MOD_LONG_RE.sub("Updated @@MODLONG@@", _MOD_ISO_RE.sub('"dateModified": "@@MODISO@@"', old))
-            if norm == content:
+            # a corrected datePublished alone is not a content change
+            if _PUB_RE.sub('"datePublished": "X"', norm) == _PUB_RE.sub('"datePublished": "X"', content):
                 m1 = _MOD_ISO_RE.search(old); m2 = _MOD_LONG_RE.search(old)
                 if m1:
                     iso = m1.group(0).split('"')[3]
