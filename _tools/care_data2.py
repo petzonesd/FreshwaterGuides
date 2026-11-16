@@ -99,7 +99,7 @@ MORE_ANIMALS = [
   ["Keep a group of six or more."],aka=["black ruby barb"]),
  A("gold-barb","Gold Barb","Barbodes semifasciolatus","fish","Cyprinidae","Southern China","3 in",(64,75),(6.0,8.0),20,"Active, peaceful","Schooling, keep 6+","Mid","Beginner","Omnivore: flakes, pellets, vegetables","4-6 years",
   "A hardy, golden barb that tolerates cooler water. Good for unheated or lightly heated community tanks.",
-  ["Keep a group of six or more."],aka=["golden barb","dwarf golden barb","green barb"]),
+  ["Keep a group of six or more."],aka=["golden barb","green barb"]),
  A("denison-barb","Denison Barb","Sahyadria denisonii","fish","Cyprinidae","Western Ghats, India","4-6 in",(65,77),(6.5,7.8),55,"Active, peaceful","Schooling, keep 6+","Mid to upper","Intermediate","Omnivore: flakes, pellets, frozen foods","5-8 years",
   "A fast, bright torpedo-shaped barb that likes a long tank with a current and plenty of oxygen.",
   ["Give it a long tank and good flow.","Keep a group of six or more."],aka=["roseline shark","denison barb","torpedo barb","roseline"]),

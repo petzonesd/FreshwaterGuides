@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-16 update
+Guides: 645 (+5: golden dwarf barb (Pethia gelius; fixes the old "Golden Dwarf Barb" -> Gold Barb mismatch), rainbow tetra (Nematobrycon lacortei), Tanganyika dwarf catfish, freshwater needlefish; plant caldesia). Claroteidae added to the catfish hub, Belonidae to the large/specialty hub. Petzonesd sitemap WebFetch still needs approval unattended; genus scan says staples are saturated, so no padding. Still missing (rare/uncertain): Gymnarchus (African knifefish, huge), Hydrolycus payara, Chiloglanis, Mylossoma, Hemiodontichthys, Luciocephalus, Ompok. Real photos: 27 of 645. data.json ~600 KB raw.
+
 ## 2026-11-15 update
 Guides: 640 (+4: butterfly pleco L168, mangrove killifish, black morpho tetra, Tanganyika killifish; aliases: Yamato shrimp -> amano-shrimp, giant duckweed/Spirodela -> duckweed). Fewer than 10 because a genus/binomial scan shows hobby staples saturated and the petzonesd sitemap still needs WebFetch approval unattended; no padding with unverified entries. Hubs: Rivulidae -> killifish, Crenuchidae art shape added. Held for Roger (CA status unsure): alligator gar and spotted gar (Lepisosteus/Atractosteus). Skipped as uncertain data: leopard frog pleco (L-number/species), Prochilodus, Ctenolucius hujeta, Austrolebias, Ricciocarpos, Elatine, Hymenocallis. Build fix: shallow clones gave wrong datePublished (fetch --unshallow); build now ignores datePublished corrections when deciding whether to re-stamp "Updated". Real photos: 27 of 640.
 

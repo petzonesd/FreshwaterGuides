@@ -320,3 +320,10 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - ocellatus-shell-dweller: size 2-2.5 -> 2-3 in (males reach about 3 in).
 - egyptian-mouthbrooder, iodotropheus-rusty, scrapermouth-mbuna, ticto-barb, banded-gourami, red-line-rasbora: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after african-brown-knifefish (continue in file order).
+
+## 2026-11-16 (8 entries; care_data3.py: chinese-high-fin-banded-shark .. arulius-barb)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- chinese-high-fin-banded-shark: min tank 125 -> 250 gal (a 2-3 ft fish).
+- blue-gularis: size 4-5 -> 5-6 in (males reach about 6 in); min tank 20 -> 30 gal.
+- cape-lopez-lyretail, nicaragua-cichlid, leopard-bush-fish, amazon-leaf-fish, adolfos-cory, arulius-barb: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after arulius-barb (continue in file order).
