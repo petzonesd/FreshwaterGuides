@@ -826,7 +826,7 @@ MORE_ANIMALS += [
  A("golden-wonder-killifish","Golden Wonder Killifish","Aplocheilus lineatus","fish","Aplocheilidae","India and Sri Lanka","4-4.5 in",(72,79),(6.0,8.0),20,"Predatory toward small fish; males squabble","Pair or small group","Top","Intermediate","Carnivore: live and frozen foods, some pellets","3-4 years",
   "A golden, striped surface hunter from India and Sri Lanka that is big enough to swallow neon-sized fish. It is a jumper that stays at the top, so it needs a very secure lid and tankmates that are much too large to eat.",
   ["Use a tight lid; it is a strong jumper.","Do not keep with small fish or shrimp.","Floating plants give it cover and calm males."],aka=["golden wonder killifish","golden wonder killi","aplocheilus lineatus","striped panchax"]),
- A("striped-headstander","Striped Headstander","Anostomus anostomus","fish","Anostomidae","Guianas, Orinoco and Amazon basins, South America","6 in",(75,82),(5.5,7.0),75,"Active, territorial with its own kind","Keep 6+ or a single fish","Mid to upper","Intermediate","Omnivore: flakes, pellets, algae wafers, blanched vegetables, frozen foods","5-8 years",
+ A("striped-headstander","Striped Headstander","Anostomus anostomus","fish","Anostomidae","Guianas, Orinoco and Amazon basins, South America","6-7 in",(75,82),(5.5,7.0),75,"Active, territorial with its own kind","Keep 6+ or a single fish","Mid to upper","Intermediate","Omnivore: flakes, pellets, algae wafers, blanched vegetables, frozen foods","5-8 years",
   "A slim red-and-white striped fish that likes to angle head-down among plants and wood. It can bicker with its own kind, so keep it either alone or in a larger group with lots of cover, give it a long tank, and expect it to nibble soft plants.",
   ["Use a tight lid; headstanders jump.","Provide wood, rocks and tall plants for territories.","Offer vegetable matter regularly."],aka=["striped headstander","striped anostomus","anostomus anostomus","striped head stander"]),
  A("malawi-eye-biter","Malawi Eye-Biter","Dimidiochromis compressiceps","fish","Cichlidae","Lake Malawi, Africa","10 in",(76,82),(7.5,8.6),125,"Ambush predator that eats fish that fit in its mouth","Solitary or a pair in a very large tank","Mid","Advanced","Carnivore: large pellets, frozen fish and shrimp, some live foods","8-10 years",
@@ -1530,3 +1530,21 @@ MORE_PLANTS += [
   "A graceful bright-green plant with rounded, heart-shaped leaves on long stalks that can spread across a mid-sized or large tank. It does best with good light, rich substrate and steady nutrients and will grow tall and send leaves to the surface.",
   ["Plant in nutrient-rich substrate and add root tabs.","Trim long leaf stalks to keep the tank open.","Give moderate to strong light and steady nutrients."],aka=["caldesia","caldesia parnassifolia","parnassus-leaved caldesia","heart leaf caldesia"]),
 ]
+
+# Batch 2026-11-17
+MORE_ANIMALS += [
+ A("pygmy-swordtail","Pygmy Swordtail","Xiphophorus pygmaeus","fish","Poeciliidae","Rio Panuco basin, eastern Mexico","1.25-1.75 in",(68,78),(7.0,8.2),10,"Peaceful, active","Groups with more females than males","Mid to upper","Beginner","Omnivore: micro pellets, flakes, baby brine shrimp, small frozen foods","2-3 years",
+  "A tiny livebearer with a pale body, a dark side stripe and, on males, a short yellow sword. It is far smaller than the common swordtail, fits a 10 gallon tank, and breeds readily, so plan for fry.",
+  ["Keep more females than males so males do not harass them.","Do not use the common swordtail tank size or tankmates; this one is tiny.","Hard, slightly alkaline water suits it; use a lid."],aka=["pygmy swordtails","dwarf swordtail","xiphophorus pygmaeus","pygmaeus swordtail"]),
+ A("yucatan-sailfin-molly","Yucatan Sailfin Molly","Poecilia velifera","fish","Poeciliidae","Yucatan Peninsula, Mexico","4-6 in",(75,82),(7.5,8.5),55,"Peaceful, males squabble and chase females","Groups with more females than males","Mid to upper","Intermediate","Omnivore: spirulina flakes, algae wafers, blanched vegetables, frozen foods","3-5 years",
+  "A larger, tall-finned molly that does best in hard, alkaline water with a little aquarium salt and plenty of vegetable food. Males can reach about 5 to 6 inches with a big sail, so it needs a roomier tank than ordinary mollies.",
+  ["Give it 55 gallons or more and hard, alkaline water.","Offer algae and vegetables daily.","Keep several females per male to spread out chasing."],aka=["yucatan sailfin molly","yucatan molly","giant sailfin molly","poecilia velifera","velifera molly","yucatan sailfin"]),
+ A("grass-tetra","Grass Tetra","Hyphessobrycon elachys","fish","Characidae","Paraguay River basin, South America","1-1.25 in",(73,80),(5.5,7.5),15,"Peaceful, small","Schooling, keep 8+","Mid","Intermediate","Micro pellets, crushed flakes, baby brine shrimp, microworms","2-3 years",
+  "A tiny, delicate tetra with a faint blue-green line and a dark spot near the tail base. It is easily outcompeted at feeding time, so keep it in a calm planted tank with only small, gentle tankmates.",
+  ["Keep a group of eight or more.","Choose very small, calm tankmates only.","Feed tiny foods; large pellets are ignored."],aka=["grass tetras","hyphessobrycon elachys","elachys tetra"]),
+]
+ALIAS_INTO.setdefault("platy", []).extend(["moon platy","wagtail platy","marigold platy","tuxedo platy","red wagtail platy"])
+ALIAS_INTO.setdefault("swordtail", []).extend(["green swordtail","lyretail swordtail"])
+ALIAS_INTO.setdefault("paradise-fish", []).extend(["blue paradise fish","black paradise fish","albino paradise fish"])
+ALIAS_INTO.setdefault("marsilea", []).extend(["water clover","four leaf clover plant"])
+ALIAS_INTO.setdefault("pogostemon-stellatus", []).extend(["eusteralis stellata","eusteralis"])

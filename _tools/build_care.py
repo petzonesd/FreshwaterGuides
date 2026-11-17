@@ -244,6 +244,7 @@ def index_page(by_slug):
            '<h1>Aquarium Care Guides</h1>',
            f'<p class="byline"><span>By Pet Zone SD Team</span><span>Updated @@MODLONG@@</span><span>{len(by_slug)} guides</span></p>',
            '<p class="lede-line"><strong>Quick, honest care facts for the fish, shrimp, snails, frogs, newts and plants we see most at Pet Zone.</strong> Each guide gives tank size, temperature, pH, temperament and difficulty, plus how the species fits San Diego tap water. Scan the QR code on any Pet Zone tank label to land on the matching guide.</p>',
+           '<p>Planning a community tank? Try the <a href="/care/compare/">fish compatibility fit check</a>.</p>',
            '<label class="care-search"><span>Search the guides</span><input id="care-q" type="search" placeholder="Try neon, betta, java fern…" autocomplete="off"></label>',
            '<p id="care-none" class="care-none" hidden>No guides match that search yet. Ask us in store and we will add it.</p>']
     groups = [("fish", "Fish"), ("invert", "Shrimp, snails and crabs"), ("amphibian", "Frogs and newts"), ("plant", "Plants")]
@@ -452,7 +453,8 @@ def main():
     sm_path = os.path.join(ROOT, "sitemap.xml")
     sm = open(sm_path, encoding="utf-8").read()
     sm = re.sub(r"<url><loc>https://freshwaterguides\.com/care/.*?</url>\n?", "", sm)
-    new = [("/care/", "0.8")] + [(f"/care/{h[0]}/", "0.7") for h in HUBS] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
+    write_compare()
+    new = [("/care/", "0.8"), ("/care/compare/", "0.6")] + [(f"/care/{h[0]}/", "0.7") for h in HUBS] + [(f"/care/{e['slug']}/", "0.6") for e in ALL]
     block = "".join(f"<url><loc>{BASE}{p}</loc><lastmod>{page_lastmod(p)}</lastmod><changefreq>monthly</changefreq><priority>{pr}</priority></url>\n" for p, pr in new)
     sm = sm.replace("</urlset>", block + "</urlset>")
     open(sm_path, "w", encoding="utf-8").write(sm)
@@ -463,11 +465,86 @@ def main():
     ll = re.split(r"\n## Care guides\n", ll)[0].rstrip("\n") + "\n"
     ll += "\n## Care guides\n\n"
     ll += f"- [Care Guides index]({BASE}/care/): Quick care facts (tank size, temperature, pH, temperament, difficulty) for {len(ALL)} common freshwater fish, shrimp, snails and plants.\n"
+    ll += f"- [Fish compatibility fit check]({BASE}/care/compare/): Pick two or more species and see shared temperature and pH ranges, tank size and tankmate warnings.\n"
     ll += f"- [Care label printer]({BASE}/labels/): A free tool for aquarium stores to print tank labels and take-home care sheets with QR codes to the care guides.\n"
     ll += f"- [Care facts embed]({BASE}/embed/): A free snippet that adds species care facts to fish, shrimp and plant product pages, with a link back to the full guide.\n"
     ll += f"- [Aquarium service toolkit]({BASE}/service/): A free in-browser tool for aquarium service businesses: client tanks, water test logs, maintenance reminders, visit reports and invoices with shareable links.\n"
     open(lp, "w", encoding="utf-8").write(ll)
     print(f"built {len(ALL)} care pages")
+
+COMPARE_JS = r"""
+(function(){
+var items=[],picked=[],q=document.getElementById('cmp-q'),dl=document.getElementById('cmp-list'),out=document.getElementById('cmp-out'),chips=document.getElementById('cmp-chips');
+function num(x){var m=String(x).match(/[0-9.]+/g);return m?parseFloat(m[m.length-1]):0}
+function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function find(v){v=v.trim().toLowerCase();if(!v)return null;for(var i=0;i<items.length;i++){if((items[i].name+' ('+items[i].sci+')').toLowerCase()===v||items[i].name.toLowerCase()===v)return items[i]}return null}
+function draw(){
+ chips.innerHTML=picked.map(function(x,i){return '<li><span>'+esc(x.name)+'</span> <button type="button" data-i="'+i+'" aria-label="Remove '+esc(x.name)+'">Remove</button></li>'}).join('');
+ if(picked.length<2){out.innerHTML='<p>Pick at least two species to see the overlap.</p>';return}
+ var tl=Math.max.apply(0,picked.map(function(x){return x.temp[0]})),th=Math.min.apply(0,picked.map(function(x){return x.temp[1]}));
+ var pl=Math.max.apply(0,picked.map(function(x){return x.ph[0]})),ph=Math.min.apply(0,picked.map(function(x){return x.ph[1]}));
+ var tank=Math.max.apply(0,picked.map(function(x){return x.tank}));
+ var warn=[],ok=[];
+ if(th>=tl)ok.push('Shared temperature range: '+tl+'-'+th+'\u00b0F.');else warn.push('No shared temperature range (highest low is '+tl+'\u00b0F, lowest high is '+th+'\u00b0F).');
+ if(ph>=pl-0.0001)ok.push('Shared pH range: '+pl.toFixed(1)+'-'+ph.toFixed(1)+'.');else warn.push('No shared pH range (highest low is '+pl.toFixed(1)+', lowest high is '+ph.toFixed(1)+').');
+ ok.push('Start from a tank of at least '+tank+' gallons (the largest minimum in the group). A bigger group or more fish needs more.');
+ var kinds={};picked.forEach(function(x){kinds[x.kind]=1});
+ if(kinds.fish&&(kinds.invert)){warn.push('Fish may eat shrimp, snails and other small inverts; check each guide.')}
+ var big=picked.slice().sort(function(a,b){return num(b.size)-num(a.size)})[0],small=picked.slice().sort(function(a,b){return num(a.size)-num(b.size)})[0];
+ picked.forEach(function(x){if(/predat|eats|aggressive/i.test(x.temperament)&&x.kind==='fish'){var tiny=picked.filter(function(y){return y!==x&&y.kind!=='plant'&&num(y.size)*2.5<=num(x.size)});if(tiny.length)warn.push(esc(x.name)+' ('+esc(x.temperament.toLowerCase())+') may eat or bully '+tiny.map(function(y){return esc(y.name)}).join(', ')+'.')}});
+ if(num(big.size)>=4*Math.max(num(small.size),0.5)&&big.kind==='fish'&&small.kind==='fish')warn.push('Big size gap: '+esc(big.name)+' grows to '+esc(big.size)+' while '+esc(small.name)+' stays about '+esc(small.size)+'.');
+ var tight=(th>=tl)&&(pl<=ph+0.0001);
+ var head=warn.length?'<p class="cmp-verdict cmp-warn"><strong>Check before you buy.</strong> The ranges and notes below show possible problems.</p>':'<p class="cmp-verdict cmp-ok"><strong>Looks workable on paper.</strong> Ranges overlap and nothing obvious clashes.</p>';
+ out.innerHTML=head+(warn.length?'<h3>Watch out</h3><ul>'+warn.map(function(w){return '<li>'+w+'</li>'}).join('')+'</ul>':'')+'<h3>What fits</h3><ul>'+ok.map(function(w){return '<li>'+w+'</li>'}).join('')+'</ul>'+'<p>Guides: '+picked.map(function(x){return '<a href="/care/'+x.slug+'/">'+esc(x.name)+'</a>'}).join(', ')+'.</p>';
+}
+function add(){var x=find(q.value);if(!x){out.innerHTML='<p>Choose a species from the list.</p>';return}if(picked.indexOf(x)<0&&picked.length<8)picked.push(x);q.value='';draw()}
+document.getElementById('cmp-add').addEventListener('click',add);
+q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();add()}});
+chips.addEventListener('click',function(e){var b=e.target.closest('button');if(b){picked.splice(+b.dataset.i,1);draw()}});
+fetch('/care/data.json').then(function(r){return r.json()}).then(function(d){items=d.items;dl.innerHTML=items.filter(function(x){return x.kind!=='plant'||true}).map(function(x){return '<option value="'+esc(x.name)+'"></option>'}).join('');
+ var m=location.hash.match(/s=([^&]+)/);if(m){m[1].split(',').forEach(function(s){items.forEach(function(x){if(x.slug===s&&picked.indexOf(x)<0&&picked.length<8)picked.push(x)})})}draw()}).catch(function(){out.innerHTML='<p>The species list could not load. Try again in a moment.</p>'});
+})();
+"""
+
+def write_compare():
+    idx = open(os.path.join(ROOT, "care", "index.html"), encoding="utf-8").read()
+    head, rest = idx.split('<main id="main">', 1)
+    foot = rest.split("</main>", 1)[1]
+    title = "Aquarium Fish Compatibility Fit Check"
+    desc = "Pick two or more fish, shrimp or plants and see the shared temperature range, shared pH range, tank size and size or temperament warnings."
+    url = BASE + "/care/compare/"
+    head = re.sub(r"<title>.*?</title>", f"<title>{E(title)}</title>", head)
+    head = re.sub(r'(<meta name="description" content=")[^"]*', lambda m: m.group(1) + E(desc), head)
+    head = re.sub(r'(<link rel="canonical" href=")[^"]*', lambda m: m.group(1) + url, head)
+    head = re.sub(r'(<meta property="og:title" content=")[^"]*', lambda m: m.group(1) + E(title), head)
+    head = re.sub(r'(<meta property="og:description" content=")[^"]*', lambda m: m.group(1) + E(desc), head)
+    head = re.sub(r'(<meta property="og:url" content=")[^"]*', lambda m: m.group(1) + url, head)
+    head = re.sub(r'(<meta property="og:type" content=")[^"]*', lambda m: m.group(1) + "website", head)
+    head = re.sub(r'<script type="application/ld\+json">.*?</script>\n?', "", head, flags=re.S)
+    ld = {"@context": "https://schema.org", "@type": "WebApplication", "name": title, "description": desc, "url": url,
+          "applicationCategory": "UtilitiesApplication", "operatingSystem": "Any",
+          "publisher": {"@type": "Organization", "name": "Freshwater Guides", "url": BASE + "/"}}
+    bc = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Care Guides", "item": BASE + "/care/"},
+        {"@type": "ListItem", "position": 3, "name": title, "item": url}]}
+    head = head.replace("</head>", '<script type="application/ld+json">' + json.dumps(ld) + '</script>\n<script type="application/ld+json">' + json.dumps(bc) + "</script>\n</head>")
+    body = f"""<main id="main">
+<div class="container article">
+<p class="breadcrumb"><a href="/">Home</a> / <a href="/care/">Care Guides</a> / Fit check</p>
+<h1>{E(title)}</h1>
+<p class="byline"><span>By Pet Zone SD Team</span></p>
+<p class="lede-line"><strong>Thinking of putting these together?</strong> Add two or more species and this tool shows where their temperature and pH ranges overlap, the biggest minimum tank size, and simple warnings about predators and big size gaps. It is a first check from our guides, not a guarantee: individual fish vary, so confirm with our staff.</p>
+<p><label for="cmp-q"><strong>Add a species</strong></label><br><input id="cmp-q" list="cmp-list" autocomplete="off" placeholder="Start typing, e.g. Neon Tetra" style="padding:.5rem;min-width:min(100%,20rem)"> <button type="button" id="cmp-add" class="btn">Add</button></p>
+<datalist id="cmp-list"></datalist>
+<ul id="cmp-chips" class="cmp-chips" style="list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:.5rem"></ul>
+<div id="cmp-out" aria-live="polite"><p>Pick at least two species to see the overlap.</p></div>
+<div class="callout"><strong>Ready to set up?</strong> Read our <a href="/guides/freshwater-fish-compatibility/">compatibility guide</a>, check <a href="/san-diego/tap-water/">San Diego tap water</a> notes, or <a href="/labels/">print care labels</a> for the fish you choose.</div>
+</div>
+<script>{COMPARE_JS}</script>
+"""
+    os.makedirs(os.path.join(ROOT, "care", "compare"), exist_ok=True)
+    open(os.path.join(ROOT, "care", "compare", "index.html"), "w", encoding="utf-8").write(head + body + "</main>" + foot)
 
 if __name__ == "__main__":
     main()

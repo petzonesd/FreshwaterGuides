@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-17 update
+Guides: 648 (+3: pygmy swordtail, Yucatan sailfin molly, grass tetra). Aliases added: moon/wagtail/marigold/tuxedo platy -> platy, green/lyretail swordtail, blue/black/albino paradise fish, water clover -> marsilea, Eusteralis -> Pogostemon stellatus. Gap scan by ~250 genus names and ~120 store-style names found hobby staples saturated; Petzonesd sitemap WebFetch still needs approval unattended, so no padding. Held (CA status/data unsure): marbled crayfish/Marmorkrebs, pea/Asian clam (Corbicula), Chinese mystery snail. Still missing (rare): hora/leptobotia loaches, Hypoptopoma, Chiloglanis, Brachyrhaphis, Ompok. Real photos: 27 of 648.
+
 ## 2026-11-16 update
 Guides: 645 (+5: golden dwarf barb (Pethia gelius; fixes the old "Golden Dwarf Barb" -> Gold Barb mismatch), rainbow tetra (Nematobrycon lacortei), Tanganyika dwarf catfish, freshwater needlefish; plant caldesia). Claroteidae added to the catfish hub, Belonidae to the large/specialty hub. Petzonesd sitemap WebFetch still needs approval unattended; genus scan says staples are saturated, so no padding. Still missing (rare/uncertain): Gymnarchus (African knifefish, huge), Hydrolycus payara, Chiloglanis, Mylossoma, Hemiodontichthys, Luciocephalus, Ompok. Real photos: 27 of 645. data.json ~600 KB raw.
 

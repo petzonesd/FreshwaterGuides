@@ -327,3 +327,9 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - blue-gularis: size 4-5 -> 5-6 in (males reach about 6 in); min tank 20 -> 30 gal.
 - cape-lopez-lyretail, nicaragua-cichlid, leopard-bush-fish, amazon-leaf-fish, adolfos-cory, arulius-barb: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after arulius-barb (continue in file order).
+
+## 2026-11-17 (8 entries; care_data3.py: peaceful-betta .. orange-fin-loach)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- striped-headstander: size 6 -> 6-7 in (adults reach about 7 in).
+- peaceful-betta, golden-wonder-killifish, malawi-eye-biter, least-killifish, madagascar-rainbowfish, elongatus-mbuna, orange-fin-loach: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after orange-fin-loach (continue in file order: giant-baby-tears ...).
