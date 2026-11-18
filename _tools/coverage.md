@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-18 update
+Guides: 648 (+0; aliases only: pompadour discus, polka dot synodontis, freshwater crawfish). Genus/common-name scan of ~150 staples found only copper tetra (naming unsure), splash tetra, pompadour and crawfish uncovered. Petzonesd sitemap and site: search still unreachable unattended, so no padding. Real photos: 27 of 648.
+
 ## 2026-11-17 update
 Guides: 648 (+3: pygmy swordtail, Yucatan sailfin molly, grass tetra). Aliases added: moon/wagtail/marigold/tuxedo platy -> platy, green/lyretail swordtail, blue/black/albino paradise fish, water clover -> marsilea, Eusteralis -> Pogostemon stellatus. Gap scan by ~250 genus names and ~120 store-style names found hobby staples saturated; Petzonesd sitemap WebFetch still needs approval unattended, so no padding. Held (CA status/data unsure): marbled crayfish/Marmorkrebs, pea/Asian clam (Corbicula), Chinese mystery snail. Still missing (rare): hora/leptobotia loaches, Hypoptopoma, Chiloglanis, Brachyrhaphis, Ompok. Real photos: 27 of 648.
 

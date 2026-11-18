@@ -333,3 +333,10 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - striped-headstander: size 6 -> 6-7 in (adults reach about 7 in).
 - peaceful-betta, golden-wonder-killifish, malawi-eye-biter, least-killifish, madagascar-rainbowfish, elongatus-mbuna, orange-fin-loach: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after orange-fin-loach (continue in file order: giant-baby-tears ...).
+
+## 2026-11-18 (8 entries; care_data3.py: giant-baby-tears .. mayan-cichlid)
+NOTE: no fetched care sources (WebFetch needs approval unattended); checks from general hobby knowledge.
+- tire-track-eel: size 20-30 -> 24-36 in (large adults exceed 30 in); min tank 150 -> 180 gal.
+- mayan-cichlid: size 10-12 -> 10-14 in; min tank 75 -> 125 gal (big, aggressive adult).
+- giant-baby-tears, spotted-blue-eye, spanner-barb, cumings-barb, jellybean-tetra, emerald-betta: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after mayan-cichlid (continue in file order).
