@@ -340,3 +340,11 @@ NOTE: no fetched care sources (WebFetch needs approval unattended); checks from 
 - mayan-cichlid: size 10-12 -> 10-14 in; min tank 75 -> 125 gal (big, aggressive adult).
 - giant-baby-tears, spotted-blue-eye, spanner-barb, cumings-barb, jellybean-tetra, emerald-betta: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after mayan-cichlid (continue in file order).
+
+## 2026-11-19 (8 entries; care_data3.py: banded-rainbowfish .. electra-hap)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- banded-rainbowfish: size 4-5 -> 5-6 in; min tank 55 -> 75 gal (active, grows to about 6 in).
+- blue-badis: size 2 -> 2-2.5 in. amazon-puffer: size 3-3.5 -> 3.5-4 in. wolf-cichlid: size 24-28 -> 24-30 in. flier-cichlid: 5-6 -> 5-7 in. electra-hap: 6-7 -> 6-8 in.
+- t-bar-cichlid, tropheops-red-cheek: ranges, scientific names checked, OK.
+- FLAG: existing guide brilliant-rasbora is filed under Rasbora borapetensis (2-2.5 in). In the hobby "brilliant rasbora" most often means R. einthovenii (about 4 in) while borapetensis is the blackline/red-tail rasbora. Left as is (Roger/staff to confirm which fish Pet Zone sells).
+Next up: care_data3.py from the entry after electra-hap.

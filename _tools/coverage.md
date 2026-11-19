@@ -164,3 +164,6 @@ Guides: 611 pages built (+6: Bengal loach, tiger botia, Congo puffer, striped pa
 
 ## 2026-11-13 update
 Guides: 627 pages built (+7: dwarf pencilfish, three-lined pencilfish, orange bushfish, tequila splitfin, whitei splitfin, Popondetta rainbowfish, eyespot rasbora). Sitemap WebFetch still blocked (permission prompt unanswered, unattended). Hobby staples are essentially exhausted (checked ~300 genus/common names against existing data); further growth needs the real Pet Zone product list. Not added: snakeheads (illegal in CA), payara and other very large predators.
+
+## 2026-11-19 update
+Guides: 651 pages (+3: demon eartheater, twospot rasbora, coffee bean tetra; aliases: white skirt tetra, panda moor, jewel tetra, hockey stick tetra). Sitemap WebFetch still blocked unattended and site: search returns nothing for petzonesd.com. Checked ~600 genus/common names against the catalog; hobby staples are exhausted. Considered but skipped: walking catfish, snakeheads, piranhas, tilapia (illegal/restricted in CA); orfe/tench/rudd and umbee cichlid (CA status or ID unclear). Next real growth needs the actual Pet Zone product list.
