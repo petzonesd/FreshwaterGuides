@@ -193,6 +193,21 @@ h1 em{font-style:normal}
 .related ul{padding-left:1.2rem;margin:0}
 .related a{font-weight:600}
 
+/* Inline calculator widget (e.g. heater wattage) */
+.calc{background:#fff;border:2px solid var(--ink);border-radius:6px;padding:1.3rem 1.5rem 1.5rem;margin:1.8rem 0}
+.calc h3{font-size:1.05rem;margin:0 0 .9rem}
+.calc-row{display:flex;flex-wrap:wrap;gap:1rem 1.2rem;margin-bottom:1.1rem}
+.calc-field{display:flex;flex-direction:column;gap:.3rem;flex:1 1 130px;min-width:110px}
+.calc-field label{font-size:.82rem;font-weight:600;color:var(--ink-soft)}
+.calc-field input{padding:.5rem .6rem;border:2px solid var(--line);border-radius:4px;font:inherit;font-size:1rem;background:var(--glass);color:var(--ink);width:100%}
+.calc-field input:focus-visible{outline:3px solid var(--focus);outline-offset:1px}
+.calc .button{cursor:pointer}
+.calc-out{margin-top:1rem;padding:.95rem 1.1rem;background:var(--foam);border-radius:4px;border-left:6px solid var(--lime)}
+.calc-out.calc-warn{border-left-color:var(--coral)}
+.calc-out p{margin:.35rem 0;font-size:.97rem}
+.calc-out p:first-child{margin-top:0}
+.calc-out strong{font-family:var(--head)}
+
 /* Glossary: term column + definition column */
 .glossary{width:min(980px,calc(100% - 48px))}
 .glossary{display:grid;grid-template-columns:minmax(150px,230px) minmax(0,1fr);column-gap:2.5rem}
