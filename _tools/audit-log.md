@@ -348,3 +348,8 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - t-bar-cichlid, tropheops-red-cheek: ranges, scientific names checked, OK.
 - FLAG: existing guide brilliant-rasbora is filed under Rasbora borapetensis (2-2.5 in). In the hobby "brilliant rasbora" most often means R. einthovenii (about 4 in) while borapetensis is the blackline/red-tail rasbora. Left as is (Roger/staff to confirm which fish Pet Zone sells).
 Next up: care_data3.py from the entry after electra-hap.
+
+## 2026-11-20 (8 entries; care_data3.py: featherfin-cichlid .. telmatochromis)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- featherfin-cichlid, checkerboard-cichlid, nothobranchius-killifish, sagittaria-platyphylla, queen-arabesque-pleco, blue-neon-cichlid, xenotilapia, telmatochromis: ranges, origin and scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after telmatochromis.

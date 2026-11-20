@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-20 update
+Guides: 648 (+0). Re-scanned ~50 candidate staples (splash tetra, ember, kuhli, hillstream, nerite, bamboo shrimp, puffers, gouramis, barbs, Tanganyikans): all already covered. Petzonesd sitemap still unreachable unattended; no padding. QA suite (validate, match, embed, labels, service, mobile, compare) all pass, no overflow at 390px. Real photos: 27 of 648.
+
 ## 2026-11-18 update
 Guides: 648 (+0; aliases only: pompadour discus, polka dot synodontis, freshwater crawfish). Genus/common-name scan of ~150 staples found only copper tetra (naming unsure), splash tetra, pompadour and crawfish uncovered. Petzonesd sitemap and site: search still unreachable unattended, so no padding. Real photos: 27 of 648.
 
