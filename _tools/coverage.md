@@ -170,3 +170,6 @@ Guides: 627 pages built (+7: dwarf pencilfish, three-lined pencilfish, orange bu
 
 ## 2026-11-19 update
 Guides: 651 pages (+3: demon eartheater, twospot rasbora, coffee bean tetra; aliases: white skirt tetra, panda moor, jewel tetra, hockey stick tetra). Sitemap WebFetch still blocked unattended and site: search returns nothing for petzonesd.com. Checked ~600 genus/common names against the catalog; hobby staples are exhausted. Considered but skipped: walking catfish, snakeheads, piranhas, tilapia (illegal/restricted in CA); orfe/tench/rudd and umbee cichlid (CA status or ID unclear). Next real growth needs the actual Pet Zone product list.
+
+## 2026-11-21 update
+Guides: 652 (+1: Sierra Leone dwarf tetra). Sitemap WebFetch still blocked unattended (PROVENANCE_REQUIRED). Re-checked ~450 genus/common names against data.json: only rare/specialist species remain (Thoracocharax, Characidium, Micralestes, Lebiasina, Balitora/Beaufortia hillstream types, rare Tanganyika/Malawi genera, Caquetaia/umbee which has unclear CA status). No padding added. Needs the real Pet Zone product list to grow further.

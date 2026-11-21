@@ -353,3 +353,9 @@ Next up: care_data3.py from the entry after electra-hap.
 NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
 - featherfin-cichlid, checkerboard-cichlid, nothobranchius-killifish, sagittaria-platyphylla, queen-arabesque-pleco, blue-neon-cichlid, xenotilapia, telmatochromis: ranges, origin and scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after telmatochromis.
+
+## 2026-11-21 (8 entries; care_data3.py: banded-jewel-cichlid .. four-eyed-fish)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- banded-jewel-cichlid: min tank 75 -> 100 gal (10-12 in, aggressive pair). trimac-cichlid: 100 -> 125 gal. green-chromide: 75 -> 100 gal (brackish, ~12 in). four-eyed-fish: 100 -> 125 gal (up to ~12 in, needs wide surface area).
+- flag-tetra, cryptocoryne-nevillii, malayan-combtail, porthole-catfish: ranges, scientific names checked, OK; no changes.
+Next up: care_data3.py from the entry after four-eyed-fish (violet-goby).
