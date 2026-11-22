@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-22 update
+Guides: 654 (+2: golden pencilfish, giraffe catfish). Genus scan of ~230 genera: hobby staples saturated; remaining gaps are rare (Aphanius, Balitora, Homaloptera, Characidium, Pollimyrus, Marcusenius, Hemisorubim, Glyptothorax). Petzonesd sitemap still not fetchable unattended. Real photos: 27 of 654.
+
 ## 2026-11-20 update
 Guides: 648 (+0). Re-scanned ~50 candidate staples (splash tetra, ember, kuhli, hillstream, nerite, bamboo shrimp, puffers, gouramis, barbs, Tanganyikans): all already covered. Petzonesd sitemap still unreachable unattended; no padding. QA suite (validate, match, embed, labels, service, mobile, compare) all pass, no overflow at 390px. Real photos: 27 of 648.
 

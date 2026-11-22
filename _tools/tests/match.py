@@ -15,7 +15,7 @@ CASES=[
 ("Spined Loach","spined-loach"),("Dwarf Sweet Flag","dwarf-sweet-flag"),("Dwarf Sweet Flag Fertilizer",None),("Cupid Cichlid Sinking Pellets",None),("Marble Goby Food",None),("Spined Loach Wafers",None),("Barbatus Cory Wafers",None),
 ("Panda Cory Catfish","ANY"),("Bronze Cory","bronze-corydoras"),("Kuhli Loach","kuhli-loach"),("Clown Loach","clown-loach"),
 ("Glass Bloodfin Tetra","glass-bloodfin-tetra"),("Bloodfin Tetra","bloodfin-tetra"),("Glass Bloodfin Tetra Flakes",None),
-("Coral Red Pencilfish","coral-red-pencilfish"),("Pencilfish Golden","pencilfish"),("Hognose Brochis","hognose-brochis"),("Emerald Green Cory Brochis Splendens","emerald-catfish"),
+("Coral Red Pencilfish","coral-red-pencilfish"),("Pencilfish Golden","golden-pencilfish"),("Hognose Brochis","hognose-brochis"),("Emerald Green Cory Brochis Splendens","emerald-catfish"),
 ("Bengal Danio","bengal-danio"),("Zebra Danio","zebra-danio"),("Danio Flakes",None),("Knife Livebearer Alfaro Cultratus","knife-livebearer"),
 ("Spotted Headstander Chilodus","spotted-headstander"),("Striped Headstander","striped-headstander"),
 ("Riccia Fluitans on Stone","ANY"),("Riccia Fluitans Tissue Culture","riccia-fluitans"),("Lucky Bamboo Stalk","lucky-bamboo"),("Lucky Bamboo Fertilizer",None),

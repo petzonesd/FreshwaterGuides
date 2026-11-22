@@ -359,3 +359,10 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - banded-jewel-cichlid: min tank 75 -> 100 gal (10-12 in, aggressive pair). trimac-cichlid: 100 -> 125 gal. green-chromide: 75 -> 100 gal (brackish, ~12 in). four-eyed-fish: 100 -> 125 gal (up to ~12 in, needs wide surface area).
 - flag-tetra, cryptocoryne-nevillii, malayan-combtail, porthole-catfish: ranges, scientific names checked, OK; no changes.
 Next up: care_data3.py from the entry after four-eyed-fish (violet-goby).
+
+## 2026-11-22 (8 entries; care_data3.py: violet-goby .. anubias-gracilis)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- violet-goby: size 12-20 -> 12-24 in (wild adults reach about 2 ft). parotocinclus-jumbo: size 2 -> 2-2.5 in; min tank 10 -> 20 gal (group of 4+).
+- burtons-mouthbrooder, kyathit-danio, cryptocoryne-affinis, cryptocoryne-beckettii, nitella: ranges, origin and scientific names checked, OK.
+- anubias-gracilis: OK; leaf height range (8-12 in) could run higher in some tanks, left as is.
+Next up: care_data3.py from the entry after anubias-gracilis (emerald-eye-rasbora).
