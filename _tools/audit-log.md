@@ -366,3 +366,10 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - burtons-mouthbrooder, kyathit-danio, cryptocoryne-affinis, cryptocoryne-beckettii, nitella: ranges, origin and scientific names checked, OK.
 - anubias-gracilis: OK; leaf height range (8-12 in) could run higher in some tanks, left as is.
 Next up: care_data3.py from the entry after anubias-gracilis (emerald-eye-rasbora).
+
+## 2026-11-23 (8 entries; care_data3.py: emerald-eye-rasbora .. gardners-killifish)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- brown-ghost-knifefish: size 10-14 -> 12-16 in; min tank 75 -> 100 gal (long, nocturnal, adults often exceed 14 in). five-bar-cichlid: size 5-6 -> 5-6.5 in; min tank 55 -> 75 gal (aggressive, territorial pair).
+- emerald-eye-rasbora, dwarf-cory, elegant-cory, blue-panchax, red-nose-shrimp, gardners-killifish: ranges, scientific names checked, OK; no changes.
+- raphael-catfish: removed "spotted raphael" alias (spotted raphael is Agamyxis pectinifrons, now its own guide).
+Next up: care_data3.py from the entry after gardners-killifish (glass-bloodfin-tetra).

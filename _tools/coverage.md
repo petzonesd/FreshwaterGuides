@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-23 update
+Guides: 655 (+1: spotted raphael catfish, Agamyxis pectinifrons; its alias moved off the striped raphael guide). Re-scanned ~400 genera: staples saturated, remaining gaps rare. site:petzonesd.com search returns only other retailers; sitemap not reachable unattended, so no padding. Held for Roger (CA status): Mozambique tilapia (Oreochromis), tilapia generally. Real photos: 27 of 655.
+
 ## 2026-11-22 update
 Guides: 654 (+2: golden pencilfish, giraffe catfish). Genus scan of ~230 genera: hobby staples saturated; remaining gaps are rare (Aphanius, Balitora, Homaloptera, Characidium, Pollimyrus, Marcusenius, Hemisorubim, Glyptothorax). Petzonesd sitemap still not fetchable unattended. Real photos: 27 of 654.
 

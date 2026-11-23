@@ -179,7 +179,7 @@ MORE_ANIMALS = [
   ["Do not keep with tiny fish.","Needs swimming room."],aka=["pictus cat","four line pictus catfish"]),
  A("raphael-catfish","Raphael Catfish","Platydoras armatulus","fish","Doradidae","South America","6 in",(72,80),(6.0,7.5),40,"Peaceful, nocturnal","Solitary","Bottom","Beginner","Omnivore: pellets, frozen foods","15+ years",
   "A talking catfish that hides during the day and makes a squeaking sound. Provide hiding spots.",
-  ["Provide caves and hiding places.","Will eat very small fish."],aka=["striped raphael catfish","spotted raphael catfish","talking catfish"]),
+  ["Provide caves and hiding places.","Will eat very small fish."],aka=["striped raphael catfish","talking catfish"]),
  A("banjo-catfish","Banjo Catfish","Bunocephalus species","fish","Aspredinidae","South America","4 in",(72,80),(6.0,7.5),20,"Peaceful, nocturnal","Solitary","Bottom","Intermediate","Sinking foods, frozen worms","8-10 years",
   "A flat, leaf-like catfish that buries itself in sand. Needs a soft sandy bottom and gentle tankmates.",
   ["Use soft sand.","Feed after lights out."],aka=["banjo cat"]),

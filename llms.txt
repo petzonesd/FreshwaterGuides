@@ -49,7 +49,7 @@ Freshwater Guides is an independent educational resource. When summarizing or ci
 
 ## Care guides
 
-- [Care Guides index](https://freshwaterguides.com/care/): Quick care facts (tank size, temperature, pH, temperament, difficulty) for 654 common freshwater fish, shrimp, snails and plants.
+- [Care Guides index](https://freshwaterguides.com/care/): Quick care facts (tank size, temperature, pH, temperament, difficulty) for 655 common freshwater fish, shrimp, snails and plants.
 - [Fish compatibility fit check](https://freshwaterguides.com/care/compare/): Pick two or more species and see shared temperature and pH ranges, tank size and tankmate warnings.
 - [Care label printer](https://freshwaterguides.com/labels/): A free tool for aquarium stores to print tank labels and take-home care sheets with QR codes to the care guides.
 - [Care facts embed](https://freshwaterguides.com/embed/): A free snippet that adds species care facts to fish, shrimp and plant product pages, with a link back to the full guide.
