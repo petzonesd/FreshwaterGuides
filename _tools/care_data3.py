@@ -643,6 +643,7 @@ MORE_ANIMALS += [
 
 ALIAS_INTO = {
  "kuhli-loach": ["coolie loach","coolie loaches"],
+ "hillstream-loach": ["butterfly loach","butterfly loaches"],
  "comet-goldfish": ["shubunkin","shubunkin goldfish"],
  "hygrophila": ["hygrophila polysperma sunset","sunset hygro"],
  "cryptocoryne-wendtii": ["cryptocoryne wendtii bronze","cryptocoryne wendtii brown","cryptocoryne wendtii green gecko","cryptocoryne wendtii red","cryptocoryne wendtii sindoor","cryptocoryne wendtii tropica","cryptocoryne wendtii green","cryptocoryne wendtii bronze crypt"],
@@ -1034,13 +1035,13 @@ MORE_ANIMALS += [
  A("coral-red-pencilfish","Coral Red Pencilfish","Nannostomus mortenthaleri","fish","Lebiasinidae","Upper Amazon basin, Peru","1.25 in",(75,82),(5.5,7.0),10,"Peaceful, shy","Schooling, keep 8+","Upper to mid","Intermediate","Micro pellets, baby brine shrimp, tiny frozen foods","2-4 years",
   "A tiny pencilfish with a bright red belly and a gold stripe. It is shy and does best in a calm, planted tank with dim light, floating plants and only very gentle tankmates.",
   ["Keep eight or more.","Feed tiny foods; large pellets are ignored.","Do not add to a new, unstable tank."],aka=["coral red pencilfish","coral pencilfish","nannostomus mortenthaleri","red pencilfish coral"]),
- A("hognose-brochis","Hognose Brochis","Brochis multiradiatus","fish","Callichthyidae","Upper Amazon basin, South America","3.5-4 in",(72,79),(6.0,7.5),30,"Peaceful","Groups of 5+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","8-10 years",
+ A("hognose-brochis","Hognose Brochis","Brochis multiradiatus","fish","Callichthyidae","Upper Amazon basin, South America","3.5-4.5 in",(72,79),(6.0,7.5),40,"Peaceful","Groups of 5+","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods","8-10 years",
   "A long-snouted armored catfish with a tall dorsal fin, closely related to corydoras but larger. Keep a group on soft sand and feed foods that sink.",
   ["Keep five or more together.","Use sand or smooth gravel.","Needs more room than small corydoras."],aka=["hognose brochis","hog nose brochis","hog nose catfish","brochis multiradiatus","hognose catfish brochis"]),
- A("bengal-danio","Bengal Danio","Devario devario","fish","Danionidae","India, Nepal and Bangladesh","3.5-4 in",(65,78),(6.5,8.0),30,"Peaceful, very active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","4-5 years",
+ A("bengal-danio","Bengal Danio","Devario devario","fish","Danionidae","India, Nepal and Bangladesh","3.5-4 in",(65,78),(6.5,8.0),40,"Peaceful, very active","Schooling, keep 6+","Upper to mid","Beginner","Omnivore: flakes, micro pellets, frozen foods","4-5 years",
   "A fast, hardy danio with a silvery body and faint stripes. It is larger than a zebra danio and does well in cooler tropical water with a lid and plenty of swimming space.",
   ["Keep a group of six or more.","Use a tight lid; danios jump.","Choose a tank at least three feet long for a full school."],aka=["bengal danios","devario devario","sind danio","hora danio"]),
- A("knife-livebearer","Knife Livebearer","Alfaro cultratus","fish","Poeciliidae","Costa Rica and Panama","2-3.5 in",(72,82),(7.0,8.0),20,"Peaceful, may eat tiny fry","Small groups, females larger","Upper to mid","Intermediate","Omnivore: flakes, micro pellets, live and frozen foods","3-4 years",
+ A("knife-livebearer","Knife Livebearer","Alfaro cultratus","fish","Poeciliidae","Costa Rica and Panama","2-3.5 in",(72,82),(7.0,8.0),30,"Peaceful, may eat tiny fry","Small groups, females larger","Upper to mid","Intermediate","Omnivore: flakes, micro pellets, live and frozen foods","3-4 years",
   "A slim, gold-bodied livebearer whose females grow noticeably larger than the males. It likes hard, clean water and a planted tank with floating cover, and it may eat its own fry.",
   ["Keep one male with several females.","Use hard, slightly alkaline water.","Provide floating plants for fry."],aka=["knife livebearers","alfaro cultratus","knifefish livebearer","knife live bearer"]),
  A("spotted-headstander","Spotted Headstander","Chilodus punctatus","fish","Chilodontidae","Guianas and northern Amazon basin, South America","3-3.5 in",(73,82),(5.5,7.0),30,"Peaceful, may squabble in small groups","Groups of 5+","Mid","Intermediate","Omnivore: flakes, micro pellets, frozen foods, blanched vegetables","5-8 years",
@@ -1061,7 +1062,7 @@ MORE_PLANTS += [
 
 # ---- 2026-11-03 batch ----
 MORE_ANIMALS += [
- A("flying-barb","Flying Barb","Esomus danrica","fish","Danionidae","South Asia (India, Bangladesh, Sri Lanka)","3.5-4 in",(70,80),(6.0,8.0),20,"Peaceful, very active","Schooling, keep 6+","Top","Beginner","Omnivore: floating flakes, micro pellets, small live and frozen foods, insects","3-5 years",
+ A("flying-barb","Flying Barb","Esomus danrica","fish","Danionidae","South Asia (India, Bangladesh, Sri Lanka)","3.5-4 in",(70,80),(6.0,8.0),30,"Peaceful, very active","Schooling, keep 6+","Top","Beginner","Omnivore: floating flakes, micro pellets, small live and frozen foods, insects","3-5 years",
   "A slim, silvery surface-dweller with a dark stripe and a pair of long barbels at the mouth. It is a fast swimmer and a champion jumper, so it needs a long tank and a snug lid.",
   ["Use a tight lid; it leaps readily.","Keep a school of six or more.","Pair with other small, fast fish."],aka=["flying barbs","flying barb danrica","esomus danrica","esomus danricus","indian flying barb"]),
  A("purple-spotted-gudgeon","Purple-Spotted Gudgeon","Mogurnda adspersa","fish","Eleotridae","Eastern Australia","4-5 in",(64,79),(6.5,7.8),30,"Territorial ambush predator; eats small fish and shrimp","Single or a pair; males squabble","Bottom to mid","Intermediate","Carnivore: live and frozen foods; many accept sinking pellets","5-8 years",
@@ -1593,4 +1594,20 @@ MORE_ANIMALS += [
  A("spotted-raphael","Spotted Raphael Catfish","Agamyxis pectinifrons","fish","Doradidae","Upper Amazon basin, Peru and Ecuador","5-6 in",(73,79),(6.0,7.5),55,"Peaceful, will eat small fish","Solitary or small group","Bottom","Beginner","Omnivore: sinking pellets and wafers, frozen foods, worms","15-20 years",
   "A stout, nocturnal armored catfish with dark brown skin and rows of white spots. It hides in caves by day and comes out after lights-out to scavenge, and it lives a very long time. It is a different species from the striped raphael, but care is similar.",
   ["Provide caves or driftwood to hide in.","Keep away from small fish that fit in its mouth.","Handle with care: the sharp spines can tangle in nets."],aka=["spotted raphael","spotted raphael catfish","white barred raphael","whitebarred raphael","white-barred raphael","agamyxis pectinifrons","agamyxis","dotted raphael catfish"]),
+]
+
+# ---- Batch 2026-11-24 ----
+MORE_ANIMALS += [
+ A("swordtail-characin","Swordtail Characin","Corynopoma riisei","fish","Characidae","Trinidad, Venezuela and Colombia","2-3 in",(72,80),(6.0,7.8),20,"Peaceful, active","Schooling, keep 6+ with more females than males","Upper","Beginner","Omnivore: flakes, micro pellets, small live and frozen foods","4-5 years",
+  "A slender, active tetra relative. Males grow a long, paddle-tipped extension on the gill cover that they show off to females, and it has nothing to do with swordtail livebearers. Keep a group in a tank with floating plants and a tight lid.",
+  ["Keep more females than males so males spread their display out.","Use a tight lid; they jump.","Choose calm tankmates that will not nip the males' extensions."],aka=["swordtail characins","corynopoma riisei","sword tail characin","paddle tetra"]),
+ A("ripsaw-catfish","Ripsaw Catfish","Oxydoras niger","fish","Doradidae","Amazon, Orinoco and Paraguay-Parana basins, South America","30-40 in",(72,82),(6.0,7.5),600,"Peaceful but will eat anything it can swallow","Solitary or a very large group","Bottom","Advanced","Omnivore: sinking pellets, shrimp, chopped seafood, vegetables","15-20+ years",
+  "A giant, nocturnal armored catfish with a row of sharp plates down each side. Young ones look small and calm in a store tank, but adults reach about three feet and need a pond-sized setup, so this is a fish for public aquariums and very large private tanks.",
+  ["Plan for several hundred gallons of floor space before buying.","Handle with care; the plates and spines are sharp.","Do not keep with fish small enough to be swallowed."],aka=["ripsaw catfish","ripsaw cat","oxydoras niger","ripsaw catfish oxydoras niger","black ripsaw catfish","niger catfish"]),
+ A("krausii-cichlid","Krausii Cichlid","Caquetaia kraussii","fish","Cichlidae","Venezuela and Colombia, northern South America","10-12 in",(75,82),(6.5,7.8),125,"Predatory, semi-aggressive; will eat small fish","Solitary or a mated pair","Bottom to mid","Intermediate","Carnivore: cichlid pellets, shrimp, whole fish pieces, earthworms","8-12 years",
+  "A big, stocky cichlid with a jaw that shoots forward to snap up prey. It is calmer than many Central American cichlids but will swallow anything that fits, so tankmates must be large and robust.",
+  ["Do not keep with small fish.","Use a large tank and strong filtration.","Add hiding spots and avoid very boisterous tankmates."],aka=["kraussii cichlid","krausii cichlid","kraussi cichlid","krausii","caquetaia kraussii","caquetaia kraussi","krausii cichlid caquetaia kraussii"]),
+ A("cyathochromis-obliquidens","Cyathochromis (Malawi Obliquidens)","Cyathochromis obliquidens","fish","Cichlidae","Lake Malawi, Africa","5-6 in",(76,82),(7.8,8.6),55,"Semi-aggressive, males territorial","One male with several females","Mid to bottom","Intermediate","Omnivore: spirulina flakes, cichlid pellets, frozen foods","6-8 years",
+  "A Lake Malawi rock-and-sand cichlid. Males turn blue with dark bars and defend a territory, so keep one male with several females in a tank with rockwork and hard, alkaline water.",
+  ["Keep one male with several females to spread out aggression.","Stack rock into caves with open swimming space.","Use hard, alkaline water and avoid soft, acidic setups."],aka=["cyathochromis","cyathochromis obliquidens","obliquidens cichlid","malawi obliquidens"]),
 ]

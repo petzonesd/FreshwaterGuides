@@ -373,3 +373,10 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - emerald-eye-rasbora, dwarf-cory, elegant-cory, blue-panchax, red-nose-shrimp, gardners-killifish: ranges, scientific names checked, OK; no changes.
 - raphael-catfish: removed "spotted raphael" alias (spotted raphael is Agamyxis pectinifrons, now its own guide).
 Next up: care_data3.py from the entry after gardners-killifish (glass-bloodfin-tetra).
+
+## 2026-11-24 (8 entries; care_data3.py: glass-bloodfin-tetra .. purple-spotted-gudgeon)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- hognose-brochis: size 3.5-4 -> 3.5-4.5 in; min tank 30 -> 40 gal (group of 5+). bengal-danio: 30 -> 40 gal. knife-livebearer: 20 -> 30 gal. flying-barb: 20 -> 30 gal (very active school).
+- glass-bloodfin-tetra, coral-red-pencilfish, spotted-headstander, purple-spotted-gudgeon: ranges, scientific names checked, OK.
+- FLAG: flying-barb adult size (3.5-4 in) unverified; some sources say about 3 in. Left as is.
+Next up: care_data3.py from the entry after purple-spotted-gudgeon (ornate-rainbowfish).

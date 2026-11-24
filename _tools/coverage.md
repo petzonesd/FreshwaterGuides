@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-24 update
+Guides: 659 (+4: swordtail characin, ripsaw catfish, krausii cichlid, Cyathochromis obliquidens; alias butterfly loach -> hillstream loach). Scan of ~500 genus/common names: staples saturated; petzonesd sitemap still not fetchable unattended. Skipped (rare/uncertain): Hepsetus, Hephaestus, Jenynsia, Brachyrhaphis, Priapella, Mimagoniates, Leiarius, Rhamdia. Held (CA status): snakeheads (Channa), piranhas (Pygocentrus/Serrasalmus), tilapia. Real photos: 27 of 659.
+
 ## 2026-11-23 update
 Guides: 655 (+1: spotted raphael catfish, Agamyxis pectinifrons; its alias moved off the striped raphael guide). Re-scanned ~400 genera: staples saturated, remaining gaps rare. site:petzonesd.com search returns only other retailers; sitemap not reachable unattended, so no padding. Held for Roger (CA status): Mozambique tilapia (Oreochromis), tilapia generally. Real photos: 27 of 655.
 
