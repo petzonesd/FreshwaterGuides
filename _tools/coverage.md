@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-25 update
+Guides: 659 (+0). Re-scanned ~230 staple names against data.json: only copper tetra, pipefish, Aphanius, Ompok, Hypoptopoma, Leptobotia, Gymnarchus, payara, Mylossoma, freshwater eels (Anguilla) and medusa snail are absent; all rare or uncertain, so no padding. Petzonesd sitemap still unreachable unattended. Real photos: 27 of 659. data.json ~620 KB raw (over the 400 KB line).
+
 ## 2026-11-24 update
 Guides: 659 (+4: swordtail characin, ripsaw catfish, krausii cichlid, Cyathochromis obliquidens; alias butterfly loach -> hillstream loach). Scan of ~500 genus/common names: staples saturated; petzonesd sitemap still not fetchable unattended. Skipped (rare/uncertain): Hepsetus, Hephaestus, Jenynsia, Brachyrhaphis, Priapella, Mimagoniates, Leiarius, Rhamdia. Held (CA status): snakeheads (Channa), piranhas (Pygocentrus/Serrasalmus), tilapia. Real photos: 27 of 659.
 

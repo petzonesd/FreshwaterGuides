@@ -380,3 +380,9 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - glass-bloodfin-tetra, coral-red-pencilfish, spotted-headstander, purple-spotted-gudgeon: ranges, scientific names checked, OK.
 - FLAG: flying-barb adult size (3.5-4 in) unverified; some sources say about 3 in. Left as is.
 Next up: care_data3.py from the entry after purple-spotted-gudgeon (ornate-rainbowfish).
+
+## 2026-11-25 (8 entries; care_data3.py: ornate-rainbowfish .. barbatus-cory)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- chameleon-cichlid: min tank 55 -> 75 gal (digging, territorial pair). paraguay-eartheater: size 6-8 -> 7-9 in; min tank 55 -> 75 gal. cupid-cichlid: size 5-6 -> 4-5 in. barbatus-cory: size 3.5-4 -> 3.5-4.5 in; min tank 20 -> 30 gal (group of 6+, cool and oxygenated).
+- ornate-rainbowfish, red-eyed-characin, one-striped-african-characin, makobe-island-cichlid: ranges, origin and scientific names checked, OK.
+Next up: care_data3.py from the entry after barbatus-cory (marble-goby).
