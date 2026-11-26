@@ -1,5 +1,8 @@
 # Coverage: species Pet Zone sells that still lack a guide
 
+## 2026-11-26 update
+Guides: 661 (+2: zig-zag eel, porthole livebearer; alias Crenicara filamentosa -> checkerboard cichlid). Re-scanned ~600 genus names plus plants: staples saturated; plant list fully covered (water hyacinth never: noxious weed). Petzonesd sitemap still unreachable unattended, so no padding. Still missing (rare): Hemirhamphodon, Apistogrammoides, Hoplias, Leptobarbus, Osteochilus, Quintana, Characidium. Real photos: 27 of 661.
+
 ## 2026-11-25 update
 Guides: 659 (+0). Re-scanned ~230 staple names against data.json: only copper tetra, pipefish, Aphanius, Ompok, Hypoptopoma, Leptobotia, Gymnarchus, payara, Mylossoma, freshwater eels (Anguilla) and medusa snail are absent; all rare or uncertain, so no padding. Petzonesd sitemap still unreachable unattended. Real photos: 27 of 659. data.json ~620 KB raw (over the 400 KB line).
 

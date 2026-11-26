@@ -386,3 +386,9 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - chameleon-cichlid: min tank 55 -> 75 gal (digging, territorial pair). paraguay-eartheater: size 6-8 -> 7-9 in; min tank 55 -> 75 gal. cupid-cichlid: size 5-6 -> 4-5 in. barbatus-cory: size 3.5-4 -> 3.5-4.5 in; min tank 20 -> 30 gal (group of 6+, cool and oxygenated).
 - ornate-rainbowfish, red-eyed-characin, one-striped-african-characin, makobe-island-cichlid: ranges, origin and scientific names checked, OK.
 Next up: care_data3.py from the entry after barbatus-cory (marble-goby).
+
+## 2026-11-26 (8 entries; care_data3.py: marble-goby .. playfairs-panchax)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- spined-loach: size 3-4 -> 3-5 in. metallic-livebearer: size 2.5-3 -> 2-3.5 in (females larger). blackfin-goodea: size 4-5 -> 4-6 in; min tank 40 -> 55 gal. celebes-halfbeak: size 3-4 -> 3-4.5 in; min tank 20 -> 30 gal (long tank).
+- marble-goby, one-spot-livebearer, golden-skiffia, playfairs-panchax: ranges, scientific names checked, OK.
+Next up: care_data3.py from the entry after playfairs-panchax (knight-goby).
