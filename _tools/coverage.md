@@ -188,3 +188,6 @@ Guides: 651 pages (+3: demon eartheater, twospot rasbora, coffee bean tetra; ali
 
 ## 2026-11-21 update
 Guides: 652 (+1: Sierra Leone dwarf tetra). Sitemap WebFetch still blocked unattended (PROVENANCE_REQUIRED). Re-checked ~450 genus/common names against data.json: only rare/specialist species remain (Thoracocharax, Characidium, Micralestes, Lebiasina, Balitora/Beaufortia hillstream types, rare Tanganyika/Malawi genera, Caquetaia/umbee which has unclear CA status). No padding added. Needs the real Pet Zone product list to grow further.
+
+## 2026-11-27 update
+Guides: 661 (+0). Petzonesd sitemap still unreachable unattended; staples saturated, remaining gaps rare/uncertain (Hemirhamphodon, Aphanius, Apistogrammoides, Hoplias), so no padding. Real photos: 27 of 661. data.json ~620 KB raw (over 400 KB line). Note: clone must be unshallowed (git fetch --unshallow) or build_care.py writes wrong datePublished into ~530 pages.

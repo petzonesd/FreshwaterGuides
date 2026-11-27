@@ -392,3 +392,10 @@ NOTE: no fetched care sources (WebFetch blocked unattended); checks from general
 - spined-loach: size 3-4 -> 3-5 in. metallic-livebearer: size 2.5-3 -> 2-3.5 in (females larger). blackfin-goodea: size 4-5 -> 4-6 in; min tank 40 -> 55 gal. celebes-halfbeak: size 3-4 -> 3-4.5 in; min tank 20 -> 30 gal (long tank).
 - marble-goby, one-spot-livebearer, golden-skiffia, playfairs-panchax: ranges, scientific names checked, OK.
 Next up: care_data3.py from the entry after playfairs-panchax (knight-goby).
+
+## 2026-11-27 (8 entries; care_data3.py: knight-goby .. bowfin)
+NOTE: no fetched care sources (WebFetch blocked unattended); checks from general hobby knowledge.
+- slender-lamprologus: size 5-6 -> 5-7 in; min tank 55 -> 75 gal. rostratus-cichlid: size 10-12 -> 10-14 in; min tank 125 -> 180 gal (very large sand-sifter). trewavasae-petrochromis: size 7-9 -> 8-10 in; min tank 125 -> 180 gal; removed bare genus alias "petrochromis" (would hijack other Petrochromis species). pike-livebearer: min tank 55 -> 75 gal (females reach 8 in).
+- knight-goby, spotfin-goby-cichlid, mosquitofish, bowfin: ranges and scientific names checked, OK.
+- FLAG for Roger: California legality of bowfin (Amia calva) and pike livebearer (Belonesox belizanus) is unverified; check CDFW restricted list (Title 14 CCR 671) and remove if listed.
+Next up: care_data3.py from tambaqui.
